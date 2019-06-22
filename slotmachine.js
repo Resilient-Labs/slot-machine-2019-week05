@@ -49,38 +49,3 @@ function bankBalance(){
 
 document.getElementById("fiveDollarBet").onclick=bankBalance;
 document.getElementById("fiftyDollarBet").onclick=bankBalance;
-
-
-
-
-
-
-//
-//
-//
-//
-//
-// We need to create 3 functions.
-//
-// Score FUNCTION 1 -
-// *We are going to use a range BETWEEN min and max.
-// *We are going to start at $1000 (variable will be "balance").
-// *loss = balance - bet
-// *win = balance - bet + (bet*10)
-//
-// Parent FUNCTION
-// *If Reel 1 === Reel 2 === Reel 3, then WIN.
-// *every else is a loss.
-// -->return (send this to Output Function)
-//
-// Reels (child FUNCTION 2) -
-// *Measure the outcomes of each reel.
-// *We will focus on 1 reel (and then do a loop to create 3 reels)
-// *Each reel has its own result
-// -->return (send to Parent)
-//
-// FUNCTION - Output to HTML
-// We need to connect the input & output between the Dom and JS
-// -Create the HTML.
-// -Add appropriate tags to link input to JS.
-// -Also use tags to report output to HTML.
