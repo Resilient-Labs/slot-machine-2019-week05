@@ -1,19 +1,5 @@
-// // Slot Machine Instructions-
-// Build a simple slot Machine
-// Minimum 5 items / reel
-// 3 reels
-// users can BET -  Min or Max
-// Total (amoutn $) won or loss
-// Min Bet = $5
-// Max Bet = $50
-// Matches of 3 wheels is A WIN.
-// WIN is 10x BET.
 
 
-// Parent FUNCTION
-// *If Reel 1 === Reel 2 === Reel 3, then WIN.
-// *every else is a loss.
-// -->return (send this to Output Function)
 function reelSpin (){
   let result=Math.ceil(Math.random()*5)
   if (result<=1){
