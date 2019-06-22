@@ -1,0 +1,42 @@
+body {
+  padding: 2% 10%;
+  text-align: center;
+}
+
+
+.reel {
+  float: left;
+  width: 28%;
+  height: 200px;
+  margin-left: 5%;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  font-size: 50px;
+  padding-top: 130px;
+}
+
+.reel:first-of-type {
+  margin-left: 2%;
+}
+
+button{
+  clear:both;
+  display: block;
+  width: 28%;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+button {
+  margin-left: 35.2%;
+}
+
+#outcome {
+  font-size: 30px;
+  color: red;
+}
+
+div p {
+  font-size: 20px;
+  color: black;
+}
