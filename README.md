@@ -1,4 +1,4 @@
-#Project: Slot Machine
+# Project: Slot Machine
 A simple slot machine with 3 reels, 5 items per reel, a bank, and two bet options.
 
 **View project in browser:** https://endev-slotmachine.netlify.com
