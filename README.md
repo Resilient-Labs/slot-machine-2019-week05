@@ -1,5 +1,5 @@
 # My Project
-I collaborated with a group of 3 other people to construct a slot machine. The slot machine has 3 reels with 5 choices. The user starts with $1000 total and can only bet $5 or $50. A match of 3 of the same choices is a win and the user earns 10X their betting money. No matches equals a loss of their bet from their total.
+I collaborated with a group of 3 other people to construct a slot machine. The slot machine has 3 reels with 5 choices. The user starts with $1000 total and can only bet $5 or $50. A match of 3 of the same choices is a win and the user earns 10x their betting money. No matches equals a loss of their bet from their total.
 
 **Link to project:** https://admiring-joliot-0f8630.netlify.com
 
