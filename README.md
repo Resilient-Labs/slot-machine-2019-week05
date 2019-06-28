@@ -3,9 +3,6 @@ I collaborated with a group of 3 other people to construct a slot machine. The s
 
 **Link to project:** https://admiring-joliot-0f8630.netlify.com
 
-![alt tag](s1.png)
-
-
 ## How It's Made:
 
 **Tech used:** JavaScript
