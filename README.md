@@ -1,24 +1,13 @@
-# 🎰 Week05 Bootcamp2019b Project: Slot Machine
+#Project: Slot Machine
+A simple slot machine with 3 reels, 5 items per reel, a bank, and two bet options.
 
-### Goal: Build a Simple Slot Machine
+**View project in browser:** https://endev-slotmachine.netlify.com
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![alt tag](slot.png)
 
-### How to submit your code for review:
+## Design and Development:
+**Skills Used** HTML, CSS, JavaScript:
+I built this slot machine by breaking down its various components and what pseudo-coding they would do. i.e; the reels display 5 randomized options, the bank is a formula that is ("balance" - "bet") for losses or ("balance" + "bet" x 10) for wins. Doing so made it easier to program functions in JavaScript.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned
+Biggest lesson was that DRY code will come with time and practice. In the beginning I started writing in JS by how I knew and after laying the bulk of the foundation, I was able to optimize to achieve clean code. 
