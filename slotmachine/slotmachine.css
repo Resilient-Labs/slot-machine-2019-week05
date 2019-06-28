@@ -1,0 +1,64 @@
+body {
+  padding: 2% 10%;
+  color: #fff;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  background-image: url('slotbg.png');
+}
+
+
+.reel, div {
+  float: left;
+  width: 28%;
+  margin-left: 5%;
+}
+
+.reel {
+  height: 200px;
+  margin-bottom: 50px;
+  padding-top: 130px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-size: 50px;
+}
+
+div {
+  padding: 0;
+}
+
+
+button{
+  float:left;
+  display: block;
+  width: 30%;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-left: 2%;
+  border: 1px solid #E0A5A8;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Georgia', serif;
+  background-color: #CDB5C6;
+}
+
+#fiveDollarBet {
+  margin-left: 18%;
+}
+
+h1 {
+  margin: 30px 0 50px 5%;
+}
+h1, h2 {
+  font-weight: normal;
+}
+
+.money span {
+  font-size: 50px;
+}
+
+#outcome {
+  font-size: 35px;
+  letter-spacing: .3em;
+  margin-left: 4%;
+}
