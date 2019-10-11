@@ -1,0 +1,56 @@
+body {
+  font-family: verdana;
+  background-image: url(https://s3.envato.com/files/246903643/Preview%20Image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+}
+section.box  {
+  display: inline-block;
+  width: 20%;
+  height: 300px;
+  margin: 6% 6%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://d2qk001qea2413.cloudfront.net/tsogosun.com-146798522/cms/cache/v2/596334ad77c3d.jpg/310x190/fit/80/b9327d7a3aaa7818e2368ac54ccb766f.jpg);
+}
+h1 {
+  border: 2px solid white;
+  line-height: 2;
+  animation: blinker 1s linear infinite;
+  width:75%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+h2 {
+  color: beige;
+}
+h2, h1 {
+  text-align: center;
+}
+button {
+  padding: 2% 4%;
+  border-radius: 50%;
+  width: 20%;
+  margin-left: 18%;
+  font-size: 28px;
+  font-family: verdana;
+  color: white;
+}
+button:first-of-type {
+  background-color: maroon;
+}
+button:last-of-type {
+  background-color: #36991d;
+}
+button:hover {
+  background-color: white;
+  color: purple;
+}
