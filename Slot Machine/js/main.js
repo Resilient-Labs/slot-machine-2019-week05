@@ -2,6 +2,7 @@
 // lose their bet money $50
 
 let bank = 1000;
+
 let wheel1 = 0,
   wheel2 = 1,
   wheel3 = 2;
