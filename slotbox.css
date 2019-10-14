@@ -1,0 +1,13 @@
+.reel{
+  margin-top: 5%;
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  display: inline-flex;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  display: inline-flex;
+}
