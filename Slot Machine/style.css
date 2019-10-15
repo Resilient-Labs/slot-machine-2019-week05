@@ -1,0 +1,89 @@
+body {
+  height: 100vh;
+  font-family: courier;
+}
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  font-size: 40px;
+}
+#bet {
+  height: 50px;
+  margin-left: 20px;
+  background-color: royalblue;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: courier;
+}
+.score button {
+  height: 50px;
+  margin-left: 15px;
+  background-color: lightblue;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-family: courier;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: 0;
+}
+.score button:focus {
+  background-color: blue;
+}
+.machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reelOne {
+  height: 20vh;
+  width: 20%;
+  margin: 0 20px 0 20px;
+  border: 2px solid black;
+  background-color: grey;
+}
+.reelTwo {
+  height: 20vh;
+  width: 20%;
+  margin: 0 20px 0 20px;
+  border: 2px solid black;
+  background-color: grey;
+}
+.reelThree {
+  height: 20vh;
+  width: 20%;
+  margin: 0 20px 0 20px;
+  border: 2px solid black;
+  background-color: grey;
+}
+#spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 15vw;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.reelItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #0000;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
