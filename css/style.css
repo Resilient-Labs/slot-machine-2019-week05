@@ -6,16 +6,17 @@ body{
   font-size: 10px;
   font-family: 'Fascinate Inline', cursive;
   font-family: 'Notable', sans-serif;
-  background-color: yellow;
   background-image: 'url("css/the-office-characters/theoffice.jpg")';
 }
 h1 {
-  font-family: 'Notable', sans-serif;
-  font-size: 4rem;
-  color: red;
+  font-family: 'Ewert', cursive;
+  font-size: 5rem;
+  color: rgb( 37, 31, 71);
+  margin-bottom: 0;
 }
 p{
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: grey;
 }
 .reel {
   height: 300px;
@@ -34,9 +35,9 @@ p{
 }
 
 button{
-  font-family: 'Fascinate Inline', cursive;
+  font-family: 'Ewert', cursive;
   font-size: 2rem;
   font-weight: bold;
   margin: 1%;
-  color: red;
+  color: rgb( 37, 31, 71);
 }
