@@ -8,3 +8,4 @@ This project is a slot machine that spins three reels and updates the bank amoun
 
 Link to Project: https://5da9b5eef8a9b497b8852282--heuristic-noyce-bfa3cb.netlify.com/
 
+![](Slot%20Machine/img/cherries.png)
