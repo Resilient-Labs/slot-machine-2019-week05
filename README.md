@@ -9,3 +9,4 @@ Welcome to my Marvel Slot Machine! Make a bet and press go, then try your best t
 https://musing-pike-54879c.netlify.com
 
 
+![](images/blackpanther.jpg)
