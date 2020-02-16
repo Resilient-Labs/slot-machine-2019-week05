@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  background-image: url(../images/slotmachine.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size:  ;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+body{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box {
+  border: 1px solid black;
+  height: 100px;
+  width: 20%;
+  float: left;
+  margin: 10px;
+}
+.button{
+  width: 5%;
+  height: 20px;
+  background-color: green;
+}
+
+.fruits {
+  display: none;
+  height: 40px;
+  width: 10%;
+}
