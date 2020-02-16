@@ -1,0 +1,44 @@
+*{
+  box-sizing:border-box;
+}
+
+html{
+  width: 100%;
+  background: rgb(152,251,152);
+}
+.boxes{
+  border: 2px solid grey;
+  overflow: hidden;
+	width: 100px;
+	height: 100px;
+
+}
+img {
+  width: 100%;
+}
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 4rem;
+  color: rgb(255, 12, 161);
+  text-align: center;
+}
+.hero {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.allSlots {
+  display: flex;
+  background: url("../images/screen.png") no-repeat;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  height: 375px;
+  width: 36%;
+}
+
+#displayBet {
+  border: 2px solid black;
+  margin: 10px;
+}

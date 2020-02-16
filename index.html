@@ -1,0 +1,40 @@
+<!-- //Create three boxes in your HTML / CSS
+//Click on a box and have it rotate (45+ degrees each click)
+//On the third click of each box change the color of the other two boxes
+//On a click of a box, turn that box into a circle and have it move to the right
+//Pseudo Code and Wireframes: Build a simple slot machine with minimum 5 items per reel
+//and 3 reels - user should be able to bet min or max and have their total update
+// aka how much money they have won or lost. Min bet does $5 and Max bet does $50.
+//They should start with $1000. Matches of the three wheels = a win just like a
+// normal slot machine and they win 10x their bet -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|IBM+Plex+Mono|Monoton|Press+Start+2P|Tomorrow|Unica+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Slot Machine</h1>
+    <section class="hero">
+      <section id="displayMessage">Play Slots!</section>
+      <section class="allSlots">
+        <section class="boxes"><img id="slot1"></section>
+
+        <section class="boxes"><img id="slot2"></section>
+
+        <section class="boxes"><img id="slot3"></section>
+      </section>
+      <form class="" action="index.html" method="post">
+        <input id="displayBet"type="text" name="" value="" min="5" max="50">
+      </form>
+    <section>
+      <button type="button" name="button" id="playSlots">SPIN</button>
+    </section>
+    <section id="balance"></section>
+    </section>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
