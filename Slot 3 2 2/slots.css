@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+
+
+header{
+  height:300px;
+  width:100%;
+  border: 1px solid green;
+  background-color: black;
+  background-image: url("casino.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+main{
+  background-color: black;
+height: 700px;
+}
+
+
+
+.slots {
+  width: 15%;
+  height: 200px;
+  border: 2px solid red;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5%;
+  float: left;
+  border-radius: 25%;
+}
+
+.left {
+  border: 2px solid black;
+  width: 33.33%;
+  float: left;
+  height: 100px;
+  text-align: center;
+}
+
+.center {
+  border: 2px solid black;
+  width: 33.33%;
+  float: left;
+  height: 100px;
+  text-align: center;
+}
+
+.right {
+  border: 2px solid black;
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+
+.slots1 {
+height: 100px;
+width: 10%;
+border: 2px solid border;
+
+}
+
+
+.slots2 {
+height: 100px;
+width: 10%;
+border: 2px solid border;
+}
+
+.slots3 {
+height: 100px;
+width: 10%;
+border: 2px solid border;
+}
+
+
+.balance{
+  font-family: sans-serif;
+  font-size: 22px;
+  height: 100px;
+  width: 33.33%;
+  border: 2px solid border;
+  color: red;
+}
+
+.update{
+  height: 100px;
+  width: 33.33%;
+  border: 2px solid border;
+}
+
+.go{
+  width: 33.33%;
+  border: 2px solid border;
+  padding: 1%;
+  color: #dc143c;
+  background-color: #00fa9a;
+  margin: center;
+  font-family: sans-serif;
+  font-size: 22px;
+    border-radius: 20%;
+}
+
+.mainSec{
+  height: 100px;
+  width: 33.33%;
+  border: 2px solid border;
+  margin: auto;
+  clear: both;
+      margin-left: 44%;
+}
+
+img{
+width: 70%;
+height: auto;
+margin: 50%;
+
+}
+#slot1{
+margin-left: 24%;
+}
+#bet-input{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: red;
+}
+label{
+  font-family: sans-serif;
+  font-size: 22px;
+    color: red;
+}
