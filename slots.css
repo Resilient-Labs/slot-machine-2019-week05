@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+header{
+  height:300px;
+  width:100%;
+  border: 1px solid green;
+  background-color: black;
+  background-image: url(casino.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+
+.slots {
+  width: 15%;
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5%;
+  float: left;
+}
+#slot1{
+
+}
+#slot2{
+
+}
+#slot3{
+margin-left: auto;
+}
+.left {
+  border: 2px solid black;
+  width: 33.33%;
+  float: left;
+  height: 100px;
+  text-align: center;
+}
+
+.center {
+  border: 2px solid black;
+  width: 33.33%;
+  float: left;
+  height: 100px;
+  text-align: center;
+}
+
+.right {
+  border: 2px solid black;
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+
+.slots1 {
+height: 100px;
+width: 10%;
+border: 2px solid border;
+/* display: flex;
+flex-direction: row; */
+}
+
+
+.slots2 {
+height: 100px;
+width: 10%;
+border: 2px solid border;
+/* display: flex;
+flex-direction: row; */
+
+}
+
+.slots3 {
+height: 100px;
+width: 10%;
+border: 2px solid border;
+}
+
+
+.Balance{
+  height: 100px;
+  width: 33.33%;
+  border: 2px solid border;
+}
+
+.update{
+  height: 100px;
+  width: 33.33%;
+  border: 2px solid border;
+}
+
+.go{
+  width: 45.33%;
+  border: 2px solid border;
+  padding: 1%;
+  color: #dc143c;
+  background-color: #00fa9a;
+  margin: center;
+  border-radius: 15px;
+}
+
+.mainSec{
+  height: 100px;
+  width: 33.33%;
+  border: 2px solid border;
+  margin: auto;
+  clear: both;
+      margin-left: 44%;
+}
+
+img{
+width: 70%;
+height: auto;
+margin: 50%;
+
+}
+#slot1{
+margin-left: 24%;
+}
+body{
+  /* background-color: beige; */
+  background-image: url(coins.png);
+}
+.slots{
+  background-color: black;
+}

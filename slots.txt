@@ -1,0 +1,130 @@
+Pseudo Code and Wireframes:
+1. Build a simple slot machine with
+minimum 5 items per reel and 3 reels -
+2.  user should be able to
+bet min or max
+3. and have their total update aka how much money
+they have won or lost.
+4. Min bet does $5 and Max bet does $50.
+
+5. They should start with $1000.
+6.Matches of the three wheels = a
+win just like a normal slot machine and they win 10x their bet
+
+
+
+Parameters:
+3 wheels (reels) [wheelL, wheelC, wheelR]
+5 options (per reels) [A,B,C,D,E] (same each wheel)
+$1000 = variable (starting cash balance)
+(wager)
+
+Results:
+(what does the user do)
+bet $X [1,50]($5-50), ring the slot, expecting win 3 wheels with SAME letter, receive (10 * $1000-X )
+bet $X [1,50], ring the slot, expecting loss 3 wheels WITHOUT same letter, receive $0.
+[all cases, updated cash balance, $1000-X]
+(what does the user see)
+
+/// !!!
+USING MATH RANDOM, TO PICK RANDOM INDEX WITHIN A DECLARED ARRAY ...
+TO CHOOSE RANDOMIZED SLOT PICTURE OPTIONS // !!!
+
+function getRandomSlotItem(){
+  itemSelected= Math.floor(Math.random()*5) // pick whole numbers between 1 and 5
+  var slotSelect = ["A","B","C","D","E"] //array of possible options for slot
+    return slotSelect[itemSelected]
+ }
+
+
+(what does the user expect)
+The user expects a win
+
+
+Examples:
+bet $30, ring , win (all same item), receive $300 .... updated balance $1,300
+bet $45, ring, loose(not all same), receive $0 .... updated is $955
+
+Pseudocode
+Function balance ()
+subtracting how much you are willing to bet
+.onclickbutton = function
+
+function = starts the wheels using Math.random for all wheels
+1. After the values are picked
+2. Condition= if match winner gets 10x their bet
+3. else if loser (don't match) no update (loses bet)
+
+function balanceUpdate()
+  let startingBalance = 1000
+  if win = true
+    (balance = startingBalance + (10 * wager))
+  if win = false
+    (balance = startingBalance + 0 ) .... not needed perhaps
+
+
+
+
+-------------  FROM html (comments)
+
+// function getRandomSlotItem(){
+//   var itemSelected= Math.floor(Math.random()*5) // pick whole numbers between 1 and 5
+//   var slotSelect = ["A","B","C","D","E"] //array of possible options for slot
+//     return slotSelect[itemSelected]
+//  }
+
+ // function calcBalance(bet){
+ //   var shownBalance = document.querySelector(".update").innerHTML
+ //   var shownBalance = shownBalance-bet
+ //      return(shownBalance)
+ //  // bet = startingBalance-bet
+ // }
+
+
+
+// alert("hi")
+//
+// // document.querySelector(".go").addEventListener("click", onClick )
+//
+//
+// // .onClick()
+// //   console.log ("I got pressed")
+// // function getRandomSlotItem(){
+// //   itemSelected= Math.floor(Math.random()*5) // pick whole numbers between 1 and 5
+// //   var slotSelect = ["A","B","C","D","E"] //array of possible options for slot
+// //     return slotSelect[itemSelected]
+// //  }
+// function Slot(el, max, step) {
+//      this.speed = 0; //speed of the slot at any point of time
+//      this.step = step; //speed will increase at this rate
+//      this.si = null; //holds setInterval object for the given slot
+//      this.el = el; //dom element of the slot
+//      this.maxSpeed = max; //max speed this slot can have
+//
+// var bet = 30
+// var startingBalance = 1000;
+// document.querySelector(".go").addEventListener("click", onClick )
+//
+//
+// function onClick(){
+// var  slotLetter1 = getRandomSlotItem()
+// var  slotLetter2 = getRandomSlotItem()
+// var  slotLetter3 = getRandomSlotItem()
+// document.querySelector("#slot1").innerHTML = slotLetter1
+// document.querySelector("#slot2").innerHTML = slotLetter2
+// document.querySelector("#slot3").innerHTML = slotLetter3
+//
+// if ((slotLetter1 === slotLetter2)||(slotLetter1 === slotLetter3)||(slotLetter2 === slotLetter3)){
+//   var finalBalance= startingBalance + (10 * bet)
+// document.querySelector(".update").innerHTML = finalBalance
+//
+// }else{
+//   document.querySelector(".update").innerHTML = " You lost the bet"
+// }
+// }
+//
+// function getRandomSlotItem(){
+//   itemSelected= Math.floor(Math.random()*5) // pick whole numbers between 1 and 5
+//   var slotSelect = ["A","B","C","D","E"] //array of possible options for slot
+//     return slotSelect[itemSelected]
+//  }
