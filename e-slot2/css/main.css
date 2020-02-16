@@ -1,0 +1,160 @@
+/* Colaborated with Elmer, Vanessa, Finnesse, Nyah and Josh */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+background-image: url(casino.png);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 1rem;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  border: 3px solid white;
+  text-align:center;
+  color:Red;
+  font-size: 2rem;
+}
+
+legend {
+    background-color: red;
+    color: #fff;
+    padding: 3px 6px;
+}
+/* #betField{
+  margin-left: 50%;
+
+} */
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+color:red;
+}
+section{
+  height: 200px;
+  width: 15%;
+  border:4px solid gold;
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius:50px;
+  background-color: black;
+  color: gold;
+
+}
+#leftSlot, #middleSlot, #rightSlot{
+  font-size: 10rem;
+  text-align: center;
+}
+#leftSlot{
+  margin-left: 22%;
+}
+#wallet{
+  border: 3px solid white;
+  height: 50px;
+  width: 10%;
+  background-color: black;
+  text-align: center;
+  color:gold;
+  margin-left: 46.5%;
+  font-size: 2rem;
+}
+#leftBox{
+  margin-left: 300px;
+
+}
+form{
+  width:20%;
+  text-align:center;
+  margin-left: 600px;
+}
+.buttonSec{
+  height: 20px;
+  width: auto;
+  border:1px solid white;
+  text-align: center;
+  /* margin-left: 690px; */
+  clear: both;
+}
+@media screen and (max-width: 1450px){
+  #leftSlot, #middleSlot, #rightSlot{
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 18;
+    height: 100px;
+    font-size: 4rem;
+  }
+  #leftslot{
+    margin-left: 18%;
+  }
+  form{
+    float: left;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 40%;
+  }
+  #wallet{
+    height:83;
+    width: 22%;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 38%;
+    font-size: 4rem;
+}
+}
+@media screen and (max-width: 950px){
+  #leftSlot, #middleSlot, #rightSlot{
+    margin: 0;
+    margin-left: 13%;
+    margin-top: 12;
+    height: 100px;
+    font-size: 4rem;
+  }
+  form{
+    float: left;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 38%;
+  }
+  #wallet{
+    height:83;
+    width: 22%;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 37%;
+    font-size: 2.75rem;
+}
+}
+@media only screen and (max-width:600px){
+  #leftSlot, #middleSlot, #rightSlot{
+    margin: 0;
+    margin-left: 11%;
+    margin-top: 10;
+    height: 100px;
+    font-size: 4rem;
+  }
+  form{
+    float: left;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 33%;
+  }
+  #wallet{
+    height:83;
+    width: 33%;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-left: 27%;
+}
+}
