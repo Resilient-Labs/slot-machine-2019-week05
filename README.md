@@ -5,7 +5,7 @@ Build a simple slot machine with minimum 5 items per reel and 3 reels - user sho
 ## Link to Project:
 https://zikreslotmachine.netlify.com/
 
-![slot machine](css/slotss.png)
+![slot machine](slotss.png)
 
 ## How It's Made:
 
