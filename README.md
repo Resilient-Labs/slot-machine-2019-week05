@@ -2,7 +2,7 @@
 
  Built a three slot machine.
 
-**Link to project:** TBA
+**Link to project:** https://zahmirjakedev.com/slots_final/index.html
 
 ![](project_img/jackpotslotsSITE.JPG)
 
