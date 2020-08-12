@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Super Mario 256";
+  src: url("../marioFont/Super Mario 256/Super Mario 256.otf");
+}
+*{
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Super Mario 256";
+}
+body {
+  background-image: url("../img/back.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header {
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  text-shadow: 5px 5px #ff0000;
+}
+h2 {
+  font-size: 2rem;
+  text-shadow: 5px 5px #ff0000;
+}
+
+
+.bigSec {
+  /* background-image:url("../img/bigBack.png"); */
+  /* border: 3px solid black; */
+  /* background-position: center; */
+  overflow: auto;
+
+}
+.reelContain{
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  /* border: 1px solid blue; */
+  margin-left: 10%;
+
+}
+.leftReel, .midReel, .rightReel{
+  width: 30%;
+  /* border: 2px solid red; */
+  height: 400px;
+  margin: 50px 1%;
+}
+
+.pull {
+  float: left;
+  width: 20%;
+}
+#lever5, #lever50 {
+  border-radius: 100%;
+  padding: 80px 20%;
+  margin-top: 30px;
+  margin-left: 20%;
+  font-size: 1.5rem;
+  background-color: #2CB01A;
+  border: none;
+}
+
+
+.result {
+  /* border: 1px solid yellow; */
+  float: left;
+  width: 60%;
+  height: 200px;
+  margin-left: 10%;
+}
+#winOrLose {
+  text-align: center;
+  font-size: 4rem;
+
+}
+.remainingContain{
+  display: flex;
+  justify-content: center;
+  float: left;
+  width: 30%;
+}
+.remaining {
+  /* border: 1px solid black; */
+  width: 100%;
+  text-align: center;
+}
+.remaining p, .remaining span {
+  font-size: 1.8rem;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+  margin-top: 50px;
+}
+#imagesSec1, #imagesSec2, #imagesSec3 {
+  width: 100%;
+}
