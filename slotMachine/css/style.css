@@ -99,3 +99,50 @@ img {
 #imagesSec1, #imagesSec2, #imagesSec3 {
   width: 100%;
 }
+
+@media only screen and (max-width: 500px) {
+.bigSec .reelContain {
+  width: 100%;
+  margin: 0;
+  height: 200px;
+}
+.bigSec .pull{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1rem;
+}
+.leftReel, .midReel, .rightReel{
+  width: 30%;
+  overflow: auto;
+}
+img {
+  margin: 0px;
+}
+#lever5, #lever50 {
+  padding: 40px 2%;
+  margin-top: 30px;
+  margin-left: 2%;
+  font-size: 1rem;
+}
+.result {
+  width: 50%;
+  margin: 0;margin-top: 20px;
+}
+.result #winOrLose{
+  font-size: 1.8rem;
+}
+.remainingContain{
+  width: 50%;
+}
+
+.remaining p, .remaining span {
+  font-size: 1.5rem;
+}
+
+}
