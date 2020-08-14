@@ -1,0 +1,104 @@
+/***********************************
+setup
+***********************************/
+
+/* Box Model Hack */
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+       -moz-box-sizing: border-box; /* Firexfox */
+            box-sizing: border-box; /* IE */
+}
+
+.rndCorner{
+    border-radius: .3rem;
+}
+
+/***********************************
+personal code
+***********************************/
+
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: #424651;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wheelContainer, .betContainer{
+    display: flex;
+    height: 20rem;
+    margin: auto 1rem;
+    border: 2px solid #EE6C4D;
+}
+
+.betContainer{
+    flex-direction: column;
+}
+
+.betDisplay{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 1rem 1rem auto 1rem;
+    padding-right: .2rem;
+    height: 3rem;
+    background-color: #EE6C4D;
+    border: 2px solid #EE6C4D;
+}
+
+.wheel, .betBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    background-color: #EE6C4D;
+    border: 2px solid #EE6C4D;
+}
+
+.wheel{
+    font-size: 4rem;
+    margin: auto 1rem;
+    transition: all .2s ease;
+}
+
+.betBtn{
+    font-family: 'Mulish', sans-serif;
+    cursor: pointer;
+}
+
+.betBtn:hover{
+    transform: scale(1.05);
+    background-color: #8ED081;
+    box-shadow: 8px 8px 20px grey;
+}
+
+.win{
+    transform: scale(1.1);
+    background-color: #8ED081;
+    box-shadow: 0 0 20px #BCE7FD;
+}
+
+/***********************************
+media query
+***********************************/
+
+@media screen and (min-width: 1441px) { /*big screen*/
+
+}
+
+@media only screen and (max-width: 768px) { /*tablet*/
+
+}
+
+@media only screen and (max-width: 425px) { /*phone*/
+
+}
