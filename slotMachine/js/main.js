@@ -15,12 +15,12 @@ function startSpin() {
   if (spinSlotOne === spinSlotTwo && spinSlotTwo === spinSlotThree) {
     newAmount += range.value * 10;
     cash.innerHTML = `${newAmount}`;
-    firstReel.innerHTML = `${spinSlotOne} - ${spinSlotTwo} - ${spinSlotTwo}`;
+    firstReel.innerHTML = `${spinSlotOne} - ${spinSlotTwo} - ${spinSlotThree}`;
     result.innerHTML = "You Won!";
   } else {
     newAmount -= range.value;
     cash.innerHTML = `${newAmount}`;
-    firstReel.innerHTML = `${spinSlotOne} - ${spinSlotTwo} - ${spinSlotTwo}`;
+    firstReel.innerHTML = `${spinSlotOne} - ${spinSlotTwo} - ${spinSlotThree}`;
     result.innerHTML = "You Lost!";
     negative();
     return;
