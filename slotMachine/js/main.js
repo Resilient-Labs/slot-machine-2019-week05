@@ -2,6 +2,7 @@ play = document.getElementById("play").onclick = startSpin;
 var firstReel = document.getElementById("firstReel");
 var secondReel = document.getElementById("secondReel");
 var thirdReel = document.getElementById("thirdReel");
+var result = document.getElementById("result");
 
 var cash = document.getElementById("cash");
 newAmount = 1000;
@@ -11,14 +12,17 @@ function startSpin() {
   spinSlotOne = items[Math.floor(Math.random() * items.length)];
   spinSlotTwo = items[Math.floor(Math.random() * items.length)];
   spinSlotThree = items[Math.floor(Math.random() * items.length)];
-  if (spinSlotOne == spinSlotTwo && spinSlotThree) {
+  if (spinSlotOne === spinSlotTwo && spinSlotTwo === spinSlotThree) {
     newAmount += range.value * 10;
     cash.innerHTML = `${newAmount}`;
-    firstReel.innerHTML = `You won ${spinSlotOne} - ${spinSlotTwo} - ${spinSlotTwo}`;
+    firstReel.innerHTML = `${spinSlotOne} - ${spinSlotTwo} - ${spinSlotTwo}`;
+    result.innerHTML = "You Won!";
   } else {
     newAmount -= range.value;
     cash.innerHTML = `${newAmount}`;
-    firstReel.innerHTML = `You Lost ${spinSlotOne} - ${spinSlotTwo} - ${spinSlotTwo}`;
+    firstReel.innerHTML = `${spinSlotOne} - ${spinSlotTwo} - ${spinSlotTwo}`;
+    result.innerHTML = "You Lost!";
+    negative();
     return;
   }
 }
@@ -31,3 +35,11 @@ currentBet.innerHTML = range.value;
 range.oninput = function () {
   currentBet.innerHTML = `${this.value}`;
 };
+
+function negative() {
+  if (newAmount <= 0) {
+    alert("You lost all your money! Go Home");
+
+    newAmount = 1050;
+  }
+}

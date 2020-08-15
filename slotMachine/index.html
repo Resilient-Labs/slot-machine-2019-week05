@@ -7,19 +7,22 @@
     <title>Play Slot Machine</title>
   </head>
   <body>
-    <section id="firstReel"></section>
-
-    <section id="SecondReel"></section>
-
-    <section id="ThirdReel"></section>
-
-    <section><button id="play">Play</button></section>
-    <p>How much are you willing to bet</p>
-    <input type="range" min="5" max="50" value="50" id="range" />
-    <p>Value: $<span id="currentBet"></span></p>
-    <section>Your starting cash</section>
-    <section><span>$</span><span id="cash">1000</span> Dollars</section>
-
+    <div class="container">
+      <h1>Play the Slot Machine</h1>
+      <div class="images">
+        <span>
+          <item id="firstReel"></item><iten id="secondReel"></iten
+          ><item id="thirdReel"></item
+        ></span>
+      </div>
+      <h1 id="result"></h1>
+      <section><button id="play">Play</button></section>
+      <p>How much are you willing to bet</p>
+      <input type="range" min="5" max="50" value="50" id="range" />
+      <p>Value: $<item id="currentBet"></item></p>
+      <section>Your starting cash</section>
+      <section><item>$</item><item id="cash">1000</item> Dollars</section>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>
