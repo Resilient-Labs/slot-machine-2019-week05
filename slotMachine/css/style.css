@@ -1,0 +1,80 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+body{
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+  background-color: rgb(0,5,7);
+
+}
+
+.outputSec{
+  padding: 100px;
+  /* padding-left: 280px; */
+  /* float: left; */
+  padding: 200px;
+  padding-bottom: 10px;
+  padding-top: 120px;
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+}
+.outputLeft{
+  /* border: 1px solid white; */
+  height: 200px;
+  width: 26%;
+  display: inline-block;
+  /* float: left; */
+  background-color: transparent;
+  color: black;
+
+}
+.outputMiddle{
+  /* border: 1px solid white; */
+  height: 200px;
+  width: 26%;
+  /* display: inline-block; */
+  /* margin-left: 45px; */
+  /* float: left; */
+  background-color: transparent;
+  color: black;
+
+}
+.outputRight{
+  /* border: 1px solid white; */
+  height: 200px;
+  width: 26%;
+  /* display: inline-block; */
+  /* margin-left: 45px;
+  float: left; */
+  background-color: transparent;
+  color: black;
+}
+.outputBottom{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.buttonSec{
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+
+.inputButtons{
+  margin-top: 80px;
+  padding: 13px;
+  margin-left: 20px;
+  background-color: rgb(0,65,22);
+  color: white;
+}
+.hi{
+  max-width: 100%;
+  max-height: 100%;
+}
