@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  font-family: "Lucida Console", Courier, monospace;
+}
+body{
+  background-image: url("bckgrnd.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1{
+  margin-top: 3%;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.theMoney, .buttons{
+  text-align: center;
+}
+.button{
+  outline: none;
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+}
+#minBet, #maxBet{
+  background-color: rgb(225,183,53);
+  margin-top: 3%;
+  border-radius: 5px;
+  height: 50px;
+  width: 10%;
+}
+#minBet{
+  margin-right: 8%;
+}
+#maxBet{
+  margin-left: 8%;
+}
+.theReels{
+  height: 350px;
+  width: 70%;
+  margin-left: 15%;
+  clear: both;
+}
+#reelLeft, #reelMid, #reelRight{
+  border: 3px solid black;
+  border-radius: 8px;
+  height: 350px;
+  width: 33.3333%;
+  float: left;
+}
+#reelPicLeft, #reelPicMid, #reelPicRight{
+  height: 300px;
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+#congratsWin{
+  font-size: 2em;
+}
+h2, #congratsWin, #yourTotalAmount{
+  color: white;
+}
