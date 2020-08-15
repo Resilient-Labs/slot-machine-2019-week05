@@ -1,0 +1,105 @@
+h1{
+  text-align: center;
+  color:white;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+ul{
+  list-style-type: none;
+}
+body{
+  background-color:rgb(245,245,220);
+}
+#inputField, #clearComplete,#clearAll,#addTolist{
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+            border-radius: 25px;
+            color: black;
+            font-size: 18px;
+
+}
+#inputField:hover, #clearComplete:hover, #clearAll:hover,#addTolist:hover{
+  background-color: white;
+}
+#inputField{
+  margin-left: 40%;
+  margin-top: 35%;
+  border-radius: 25px;
+
+  /* height:3em; */
+}
+#todoList{
+  margin-left: 40%;
+  width:4%;
+  margin-bottom: 1%;
+  color:white;
+}
+
+#clearComplete{
+  margin-left: 40%;
+  border-radius: 25px;
+  margin-bottom: 1%;
+
+}
+,#clearAll{
+  margin-left: 40%;
+  margin-bottom: 1%;
+  border-radius: 25px;
+
+}
+
+.to-do-list{
+  width:70%;
+  background-color: gray;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 4%;
+  margin-left: auto;
+  /* credit to Jonnathan Fonseca*/
+  background-image: url("https://images.unsplash.com/photo-1555911599-e70784b1e21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+background-repeat: no-repeat;
+background-size: cover;
+height: 40em;
+
+}
+.menu{
+  display: none;
+}
+
+
+/* mobile */
+@media screen and (max-width: 561px)
+{
+  
+  #clearAll,#clearComplete,#addTolist,#inputField{
+    width: 97%;
+    margin: 0;
+
+  }
+  .menu{
+  display:contents;
+  font-size: 30px;
+  }
+}
+
+
+
+/*tablet */
+@media only screen and (min-width:562px)
+and (max-width: 768px)
+{
+
+  #clearAll,#clearComplete,#addTolist,#inputField{
+    width: 97%;
+    margin: 0;
+
+  }
+  .menu{
+  display:contents;
+  font-size: 30px;
+  }
+
+
+}
