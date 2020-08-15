@@ -1,0 +1,67 @@
+*{
+  text-align: -webkit-center;
+}
+
+body{
+
+  background-image: url("https://i.pinimg.com/originals/1a/05/d2/1a05d2cc22ba7e3993982b43b6282551.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:fantasy;
+  /* font-size: 50px; */
+  color: gold;
+}
+
+#jackpot{
+  display: inline-block;
+
+}
+
+.amount{
+    height: 292px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly
+}
+ul{
+
+  margin-right: 36px;
+  width: 56%;
+}
+img{
+  height: 100px;
+  width: 88px;
+}
+
+li{
+
+  height: 200px;
+  width: 31.33%;
+  display: inline-block;
+  background-color: rgb(140 123 123 / 55%);
+}
+.play{
+  display:inline-block;
+  cursor:pointer;
+  font-family:fantasy;
+  border-radius:18px;
+  font-weight:bold;
+  font-size:19px;
+  background-color: #631919;
+  color: gold;
+  padding:7px 23px;
+  margin-top: 1%;
+  outline: none;
+
+}
+span{
+  margin-top: 105px;
+
+}
+#jackpot{
+  font-size: 44px;
+}
+#inputs{
+  font-size: 24px;
+}
