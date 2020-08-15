@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.reelContainer{
+  display: flex;
+  margin: 180px auto 0;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.logo{
+  position: absolute;
+  width: 34%;
+  left: 33%;
+  top: -175px;
+  z-index: 1;
+}
+
+.frameImg{
+  position: absolute;
+  width: 70%;
+  /* left: 42px; */
+  top: -176px;
+  right: 15%;
+  z-index: -1;
+  /* transform: translate(24px, 10px); */
+}
+
+
+#reelTop, #reelMid, #reelBtm{
+  float: left;
+  padding: 1rem;
+  width: 230px;
+  height: 200px;
+  background-color: #37013B;
+  border: 7px double #d4ad15;
+  border-radius: 6px;
+}
+
+.betting{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  height: 100px;
+}
+
+/* images for slots */
+#imgSlot1, #imgSlot2, #imgSlot3{
+  width: 70%;
+  transform: translate(36px, 19px);
+}
+
+/* betting input and spin button */
+#bet{
+  width: 105px;
+  height: 30px;
+  border: 2px solid #e0459e;
+  color: #e0459e;
+  margin-right: 50px;
+  border-radius: 7px;
+}
+
+#spinBtn{
+  height: 35px;
+  border-radius: 7px;
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #e0459e;
+  background: radial-gradient(circle, rgba(224,69,158,1) 0%, rgba(162,41,151,1) 100%);
+}
+
+ /* total counter amount  */
+.balance{
+  clear: both;
+  padding-top: 35px;
+  font-size: 70px;
+  font-family: fantasy;
+  -webkit-text-stroke: 2px #ffeabd;
+  color: #EDA102;
+  text-align: center;
+}
+
+/* main bg */
+body{
+  position: relative;
+  background-image: url('../imgs/cloud1.png'), url('../imgs/bg3.jpg');
+  background-position-y: 132px , 0;
+  background-size:  cover;
+  background-repeat: no-repeat;
+}
+
+ /* background with frame and logo */
+.frame{
+  margin-top: 25px;
+   z-index: 2;
+  /*z-index can affect the buttons bc they can be at diff levels 1 being farthest and 1 > closer to "top"*/
+}
