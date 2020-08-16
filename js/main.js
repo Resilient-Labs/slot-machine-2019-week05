@@ -66,7 +66,7 @@ function incWinnings(betAmount){
 
 function decWinnings(betAmount){
   var money = parseInt(currentWinnings.innerHTML);
-  if(money==0){
+  if((money-betAmount)<0){
     document.getElementById("msg").style.display="block";
     document.getElementById("msg").innerHTML="Oh No! You've run out of money!";
   }else{
