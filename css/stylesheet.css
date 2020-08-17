@@ -35,7 +35,7 @@ body{
 
 }
 #msg{
-    font-size: 4rem;
+    font-size: 2rem;
     color: yellow;
     animation: shake 0.2s;
     animation-iteration-count: 2;
@@ -129,6 +129,12 @@ button:hover{
     .reels{
       flex-direction: row;
       align-items: flex-end;
+    }
+    #msg{
+        font-size: 4rem;
+        color: yellow;
+        animation: shake 0.2s;
+        animation-iteration-count: 2;
     }
     .box{
       width:29.5%;
