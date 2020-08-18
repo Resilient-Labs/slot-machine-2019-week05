@@ -2,6 +2,8 @@
 
 ### Goal: Build a Simple Slot Machine
 
+![alt text](SlotSS.png)
+
 <h1>My Simple Slot Machine</h1>
 
 Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
