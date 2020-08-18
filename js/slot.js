@@ -1,8 +1,8 @@
  // Slot machine with 3 different reels. With 5 items per reel.
 // Press lever button to play the game. After pressing button, there will
-// be a result of random items. Three lists with five items each. The lists are the options. Min of 5 & max of 50 to bet. 
+// be a result of random items. Three lists with five items each. The lists are the options. Min of 5 & max of 50 to bet.
 
-const slotItems = ["images/prisonmike.jpg", "images/narddog.jpg", "images/kevin.jpg", "images/office.jpg", "images/schrute.jpg"];
+const slotItems = ["images/prisonmike.jpg", "images/narddog.jpg", "images/kevin.jpg", "images/office1.jpg", "images/schrute.jpg"];
 let reel1;
 let reel2;
 let reel3;
