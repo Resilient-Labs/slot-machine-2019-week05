@@ -5,6 +5,8 @@ Build a simple slot machine with minimum 5 items per reel and 3 reels - user sho
 
 ![alt tag](https://i.imgur.com/i3K7ctC.png)
 
+![alt tag](https://slot-machine-jm.netlify.app/)
+
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Photoshop
