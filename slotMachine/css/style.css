@@ -1,11 +1,9 @@
-@font-face {
-  font-family: "Super Mario 256";
-  src: url("../marioFont/Super Mario 256/Super Mario 256.otf");
-}
+
 *{
   box-sizing: border-box;
   font-size: 16px;
-  font-family: "Super Mario 256";
+  font-family: sans-serif;
+  font-weight: 900;
 }
 body {
   background-image: url("../img/back.jpg");
@@ -20,15 +18,12 @@ h1 {
   text-shadow: 5px 5px #ff0000;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-shadow: 5px 5px #ff0000;
 }
 
 
 .bigSec {
-  /* background-image:url("../img/bigBack.png"); */
-  /* border: 3px solid black; */
-  /* background-position: center; */
   overflow: auto;
 
 }
@@ -57,7 +52,7 @@ h2 {
   padding: 80px 20%;
   margin-top: 30px;
   margin-left: 20%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-color: #2CB01A;
   border: none;
 }
@@ -87,7 +82,7 @@ h2 {
   text-align: center;
 }
 .remaining p, .remaining span {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 img {
@@ -125,22 +120,24 @@ img {
   margin: 0px;
 }
 #lever5, #lever50 {
-  padding: 40px 2%;
+  padding: 40px 3%;
   margin-top: 30px;
-  margin-left: 2%;
+  margin-left: 5%;
+  width: 30%;
   font-size: 1rem;
 }
 .result {
   width: 50%;
-  margin: 0;margin-top: 20px;
+  margin: 0;
+  margin-top: 8px;
 }
 .result #winOrLose{
   font-size: 1.8rem;
 }
 .remainingContain{
   width: 50%;
+  margin-top: 15px;
 }
-
 .remaining p, .remaining span {
   font-size: 1.5rem;
 }
