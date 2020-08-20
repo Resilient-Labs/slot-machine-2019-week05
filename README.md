@@ -11,6 +11,8 @@ I built a slot machine using just HTML,CSS and Javascript.
 
 This project involved using Javascript to manipluate the dom and make the website interactive.
 
+I used grid and flexbox to make this website reponsive on all devices.
+
 My next goal for this project to is make the actual slot machine animations work with spinning images.
 
 link to Slot Machine
