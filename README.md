@@ -22,3 +22,9 @@ Organization and writing comments within my code helped me to have a better unde
 Take a look at these couple examples that I have in my own portfolio:
 
 To-Do List: https://github.com/Kim-Flores/todo-list-2019-week05/tree/answer
+
+Horoscope: https://github.com/Kim-Flores/Horoscope
+
+Calculator: https://github.com/Kim-Flores/Simple-Calculator
+
+Parchment Stone or Blade: https://github.com/Kim-Flores/Parchment-Stone-Blade
