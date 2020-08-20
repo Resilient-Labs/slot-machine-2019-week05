@@ -22,3 +22,4 @@ I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
 ```
+ ![Alt Text](https://github.com/JohnbelMDev/Slot-Machine/blob/master/Slotmachine.gif)
