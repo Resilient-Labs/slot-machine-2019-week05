@@ -15,7 +15,7 @@ I had alot of fun with this one, maybe because I enjoyed playing the game or may
 
 ## Optimizations
 
-I added in some alerts when you reach certain amounts of dollars.
+I added in some alerts when you reach certain amounts of dollars. Soon i'd like to implement a fun reward system after so many completed tasks that I'm actually able to gameify being productive!
 
 ## Lessons Learned:
 
