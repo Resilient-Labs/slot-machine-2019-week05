@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  width: auto;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://i.pinimg.com/736x/cd/45/35/cd4535bc9561e95a71bb047e2063e7c0.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.container{
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 5px solid #1deee7;
+    //120px 80px 40px 20px #0ff;
+    box-shadow:
+    0 0 40px 30px #fff,
+       0 0 70px 60px #f0f,
+       0 0 100px 90px #0ff;
+    display: grid;
+    grid-template-rows: 0.4fr 2fr 1fr 0.5fr;
+}
+.name{
+  text-align: center;
+}
+.name h1{
+  padding: 1rem;
+  font-size: 2rem;
+  color: rgb(19,45,182);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+#msg{
+    font-size: 2rem;
+    color: yellow;
+    animation: shake 0.2s;
+    animation-iteration-count: 2;
+}
+
+.reels{
+    width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box{
+  height:16rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 25px;
+}
+.box img{
+  height: 100%;
+  width: 100%;
+}
+.betButtons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 1rem;
+  border-radius: 15px;
+  font-size: 2rem;
+  border:10px solid #ef233c;
+  color: #ef233c;
+  outline: none;
+  font-weight: bold;
+}
+button:hover{
+  border: 10px solid yellow;
+
+}
+.winnings{
+  text-align: center;
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+.winnings h2{
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+#winningsAmount{
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  @media (min-width: 600px){
+    body{
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images2.alphacoders.com/983/thumb-1920-983963.jpg") center no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+    }
+    .container{
+        width: 77%;
+        height: 100vh;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 0.25fr 2fr 1fr 0.5fr;
+    }
+    .reels{
+      flex-direction: row;
+      align-items: flex-end;
+    }
+    #msg{
+        font-size: 4rem;
+        color: yellow;
+        animation: shake 0.2s;
+        animation-iteration-count: 2;
+    }
+    .box{
+      width:29.5%;
+    }
+  }
