@@ -1,6 +1,6 @@
-### Goal: Build a Simple Slot Machine
+### Goal: Build a Slot Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+Building a simple slot machine with 5 items per reel and 3 reels - user should be able to bet min or max and have their total update while winning big if all 3 reels match up.
 
 
 ![alt tag](https://i.imgur.com/i3K7ctC.png)
