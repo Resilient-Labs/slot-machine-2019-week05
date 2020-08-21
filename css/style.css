@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  text-align: center;
+  background-image: url("https://i.redd.it/ua66qc428wo41.jpg");
+}
+
+h1{
+  font-family: American Typewriter;
+  color: white;
+
+}
+
+p{
+  font-size: 20px;
+  font-family: American Typewriter;
+  color: floralwhite;
+}
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+h3{
+  font-family: American Typewriter;
+    color: white;
+}
+
+.Container{
+  display: grid;
+  background: rgb(235,196,39);
+  padding: 5% 40px 5% 40px;
+  border-top: 20px solid black;
+  border-bottom: 20px solid black;
+  border-left: 50px solid black;
+  border-right: 50px solid black;
+  margin: 0 10% 0 10%;
+}
+
+
+img {
+  width:30%;
+  height:200px;
+  border: 10px solid goldenrod;
+}
+
+button {
+  background-color: cornflowerblue;
+  border: none;
+  height:50px;
+  width: 115px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: 0.35s;
+  font-family: American Typewriter;
+}
+}
+
+}

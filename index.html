@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>the slot machine</h1>
+      <p> May the odds be in your favor! </p>
+    </header>
+
+    <section class="container">
+      <section class="displayReels">
+        <section id="reel1"><img id="one" src="images/prisonmike.jpg" alt="">
+        </section>
+        <section id="reel2"><img id="two" src="images/narddog.jpg" alt=""></section>
+        <section id="reel3"><img id="three" src="images/office1.jpg" alt=""></section>
+      </section>
+
+      <section class="winOrLose"><p id="alert"></p></section>
+
+
+      <section class="buttonsBet">
+          <button class="run" value="5" id="minBet" type="button" name="button">Bet minimum: $5</button>
+          <button class="run" value="50" id="maxBet" type="button" name="button">Bet maximum: $50</button>
+      </section>
+
+      <section class="player">
+        <h3>BALANCE:</h3>
+        <h2><span id="money">$1000</span></h2>
+      </section>
+    </section>
+    <script type="text/javascript" src="js/slot.js"></script>
+  </body>
+</html>
