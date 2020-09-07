@@ -1,24 +1,19 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Star Casino
+## My Slot Machine App
+ This is a slot machine app made with a Super Mario theme to reminisce of old-school Mario minigames!
 
-### Goal: Build a Simple Slot Machine
+Link to project: https://mario-slot-machine.netlify.app/
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![slot-preview](https://user-images.githubusercontent.com/69063941/90574999-64baff80-e188-11ea-9f60-daff494e27e4.png)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+### Tech used: HTML, CSS, JavaScript, Framework of choice
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This is a slot machine app made with 3 reels, 5 items, a minimum bet of $% and a maximum bet of $50. The user presses the button corresponding to the bet they want to make, and if they line up three of the same item they get their bet back * 10, if not, they lose. If the remaining money count hits $0, the user will get alerted to stop because they're out of money. Likewise, if the remaining money count hits a negative number, the user will get alerted that they are now in debt, as a negative amount means they owe money.
+
+This project is fully responsive and uses HTML5, CSS3 and Javascript as its languages.
+
+
+## What I Learned:
+In this project I learned a way to utilize arrays for randomization in JavaScript, and how to accommodate images to always appear in a set place no matter the device width.
