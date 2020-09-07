@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+		<meta name"viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/3011de5ccf.js" crossorigin="anonymous"></script>
+		<title>Jackpot Mountain! - Slot Machine</title>
+	</head>
+	<body>
+		<header>
+			<img src="media\Jackpot Mountain.png" alt="">
+		</header>
+		<section class="reels">
+			<section id="reel1"></section>
+			<section id="reel2"></section>
+			<section id="reel3"></section>
+		</section>
+
+		<section class="clearfix"></section>
+
+		<section id="outcome"></section>
+
+		<section class="allMoney">
+			<h3>$<span id='moneyAndBet'>1000</span></h3>
+		</section>
+
+
+		<section class="moneyButtons">
+			<button type="button" name="button" onclick="roll5(),  roll()">Min Bet($5)</button>
+			<button type="button"  name="button" onclick="roll50(), roll()">Max Bet($50)</button>
+		</section>
+	<script src="js/main.js"></script>
+	</body>
+</html>
