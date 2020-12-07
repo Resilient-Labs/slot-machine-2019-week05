@@ -1,24 +1,30 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Week05 Project: Slot Machine 💌
 
-### Goal: Build a Simple Slot Machine
+Live Code: https://kimflores-slotmachine.netlify.app
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+# How It's Made:
+### Tech used: 
+**HTML, CSS & JavaScript**. 
 
-### How to submit your code for review:
+Wrote up pseudo code and had to think about the layout of the HTML and how it would interact with the JS. Selected variables from the HTML, from there were able to reference them to the main function in the JS.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![Slot Machine Final](slotsimg.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+# Lessons Learned:
+Organization and writing comments within my code helped me to have a better understanding of all the moving parts within the JS. I noticed how Math.floor() and Math.random() together are very powerful and provided me with the aid I needed to randomize the images in the reel array. During that process, I also learned how to apply an array of images from JS to the DOM.  
+
+
+# Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+To-Do List: https://github.com/Kim-Flores/todo-list-2019-week05/tree/answer
+
+Horoscope: https://github.com/Kim-Flores/Horoscope
+
+Calculator: https://github.com/Kim-Flores/Simple-Calculator
+
+Parchment Stone or Blade: https://github.com/Kim-Flores/Parchment-Stone-Blade

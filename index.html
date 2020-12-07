@@ -1,0 +1,45 @@
+<!-- user should be able to select bet.
+bets will be from min $5 and max $50
+the user will start with $1000 and the bet will be subtracted from start total
+once button is pressed reels with spin and randomize 5 images
+array -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <img class="logo" src="imgs/lovelosslogo.png" alt="">
+    <img class="frameImg" src="imgs/frame2.png" alt="">
+    <div class="frame">
+      <section class="reelContainer">
+        <section id="reelTop" class="reels">
+          <img id="imgSlot1" src="imgs/slots/brokenheart.png" alt="">
+        </section>
+        <section id="reelMid" class="reels">
+          <img id="imgSlot2" src="imgs/slots/brokenheart.png" alt="">
+        </section>
+        <section id="reelBtm" class="reels">
+          <img id="imgSlot3" src="imgs/slots/brokenheart.png" alt="">
+        </section>
+      </section>
+      <p class="balance"></p>
+
+      <section class="betting">
+        <select id="bet">
+          <option value="5">$5</option>
+          <option value="15">$15</option>
+          <option value="35">$35</option>
+          <option value="50">$50</option>
+        </select>
+      <button id="spinBtn" type="button" name="button">Feeling Lucky?</button>
+    </section>
+    <script src="js/main.js">
+    </script>
+  </div>
+  </body>
+</html>
