@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/three.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+h1 {
+  color: #C71585;
+  text-align: center;
+  font-family: Apple Chancery, cursive, serif;
+  word-spacing: 1em;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  color: #0000CD;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  color: #D8BFD8;
+  background-color: #6495ED;
+}
+
+#betInput {
+  font-size: 15px;
+  margin-top: 10px;
+  background-color: #DDA0DD;
+}
+
+#moneyLabel {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.one {
+  margin-left: 28%;
+  margin-top: 5%;
+}
+
+.two {
+  margin-left: 30%;
+}
+
+.box {
+  border: 1px solid black;
+  height: 100px;
+  width: 20%;
+  float: left;
+  margin: 10px;
+}
+
+.button {
+  width: 5%;
+  height: 20px;
+  background-color: green;
+}
+
+#box1, #box2, #box3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  height: 150px;
+  background-color: #B0C4DE;
+  font-size: 40px;
+  color: #DB7093;
+}
