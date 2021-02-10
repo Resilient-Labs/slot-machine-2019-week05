@@ -31,8 +31,8 @@ function spin() {
       reel1.style.backgroundImage = `url(${fruits[fruitNumber]})`
       reel2.style.backgroundImage = `url(${fruits[fruitNumber]})`
       reel3.style.backgroundImage = `url(${fruits[fruitNumber]})`
-      cash.innerText = Number(document.querySelector('.cash-amount').innerText) + bet*10
-      winnings.innerText = Number(document.querySelector('.winnings').innerText) + bet*10
+      cash.innerText = Number(cash.innerText) + bet*10
+      winnings.innerText = Number(winnings.innerText) + bet*10
     } else {
       console.log('loser')
       let reel1num = Math.floor(Math.random() * 5 )
@@ -52,7 +52,6 @@ function spin() {
     console.log('bad bet');
     bad.style.visibility = 'visible'
   }
-
 }
 
 document.querySelector('.min-bet').addEventListener('click', minBet)
