@@ -1,0 +1,232 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*clearfix*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #9869ff;
+}
+
+/**
+Flex classes
+**/
+
+.flex-container {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-xy-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-stretch {
+  align-items: stretch;
+}
+
+/*
+
+Custom Below
+
+ */
+
+h1{
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+
+.amount-to-bet, .bet-amount {
+  border: none;
+  /* height: 3rem; */
+  margin: 0 0;
+  text-align: left;
+  font-size: 2rem;
+  color: grey;
+  background: none;
+}
+
+.bet-amount {
+  background-color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: .15rem solid grey;
+}
+
+.amount-to-bet:active{
+  border:none;
+  outline: none;
+}
+
+.amount-to-bet:focus{
+  border:none;
+  outline: none;
+}
+
+.bet {
+  min-height: 3rem;
+  min-width: 3rem;
+  margin: .5rem .5rem;
+  border: none;
+  background-color: white;
+  border-radius: 5%;
+  cursor: pointer;
+  padding: .5rem 1rem;
+  box-shadow: rgb(235 235 235) 0px 6px 0px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+button:active{
+  outline: none;
+  box-shadow: none;
+  border: none;
+  transition: color 0.5s ease-in-out 0s;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+button:focus{
+  outline: none;
+
+  border: none;
+}
+
+
+
+.bet-set {
+  margin: .5rem 0;
+}
+
+.display-sides {
+  text-align:  center;
+  width: 20%;
+}
+
+.inputs {
+  background-color: #ff5252;
+  padding: 2rem 0;
+  color: white;
+  border-radius: 5px;
+  border: .5rem solid grey;
+}
+
+.lever {
+  background-color: #ff5252;
+  border: .3rem solid grey;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+.lever:active, .lever:focus {
+  border: .3rem solid grey;
+}
+
+.min-max-buttons {
+
+}
+
+.min-bet {
+  color: #d7a498;
+}
+
+.max-bet {
+  color: #d7a498;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 10vh;
+
+}
+
+.main > section {
+  margin: 0 1rem;
+}
+
+.pocket {
+  margin-bottom: 1rem;
+}
+
+.readable-width {
+  max-width: 1200px;
+}
+/* .reel-1{
+  background-image: url(../img/apple.png);
+} */
+
+.reel {
+  width: 10rem;
+  height: 10rem;
+  background-color: grey;
+}
+
+.reel + .reel {
+  margin-left: 2rem;
+}
+
+.reel-display {
+  background-color: rgba(255, 255, 255, .3);
+  padding: 5rem 2rem;
+  border-radius: 1rem;
+  border: 1rem double rgba(255, 82, 82, .4);
+
+}
+
+.stacks {
+  margin-top: 2rem;
+  text-align: center;
+  color: red;
+
+}
+
+#bad {
+  font-size: 7rem;
+  visibility: hidden;
+}
+
+.title {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 5vh;
+  font-family: 'Bangers', cursive;
+}
+
+.winnings-display {
+  margin-top: 2rem;
+}
