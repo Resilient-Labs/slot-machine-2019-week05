@@ -1,0 +1,85 @@
+.slot{
+  border: 3px solid gray;
+  height: 300px;
+  margin: 10px;
+  width:221px;
+ float:left;
+}
+
+.slot div {
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+}
+
+.shoes {
+  background-image: url('https://icons.iconarchive.com/icons/kirei-kaze/kikis-delivery-service/256/shoes-icon.png')
+ } 
+ 
+
+.cage {
+  background-image: url('https://icons.iconarchive.com/icons/kirei-kaze/kikis-delivery-service/256/kiki-recycle-empty-icon.png')
+}
+.broom {
+  background-image: url('https://icons.iconarchive.com/icons/kirei-kaze/kikis-delivery-service/256/kiki-broom-radio-icon.png')
+}
+
+.mirror {
+  background-image: url('https://icons.iconarchive.com/icons/kirei-kaze/kikis-delivery-service/256/kiki-computer-icon.png')
+}
+.purse {
+  background-image: url('https://icons.iconarchive.com/icons/kirei-kaze/kikis-delivery-service/256/kiki-bag-jiji-icon.png')
+ } 
+
+
+div h2 {
+  margin-top: 20px;
+  display: block;
+}
+
+body{
+  background-image:url('https://wallpaperaccess.com/full/496168.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  width:60%;
+
+}
+
+button{
+  background-color:rgba(33, 101, 160, 0.884);
+  color:white;
+  font-size: 20px;
+  position: relative;
+  left:-45%;
+  top:-120px;
+  font-weight: bolder;
+
+}
+
+img {
+  position: relative;
+  left:14%;
+  height:120px;
+  width:100%;
+}
+
+
+#standing {
+  position: relative;
+  left:50%;
+  color:white;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+
+.smallW{
+  position: relative;
+  left:45%;
+  font-size: 15px;
+  color:white;
+  font-weight: bold;
+}
