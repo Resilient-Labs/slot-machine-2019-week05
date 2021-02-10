@@ -56,7 +56,7 @@ function spin() {
       setTimeout(function(){currentStrip.style.animation = 'spin ease-out'},timer)
 
     }
-
+  
     setTimeout(function(){
       if(win) {
         cash.innerText = Number(cash.innerText) + bet*10
