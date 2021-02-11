@@ -1,0 +1,101 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Frijole', cursive;
+     background: url(../dese.gif);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section{
+  text-align: center;
+}
+div{
+  height: 300px;
+  width: 16%;
+  border: 1px solid black;
+  display: inline-block;
+    transition: 1.5s ease-in-out;
+}
+h1{
+  text-align: center;
+  color: #4b6968;
+  font-size: 3rem;
+}
+h3{
+  text-align: center;
+  color: #4b6968;
+  font-size: 1.5rem;
+}
+#balance{
+  width: 16%;
+  height: 65px;
+  border: 1px solid gray;
+  margin: 12px auto;
+  background: white;
+  font-size: 2rem;
+  border-radius: 8px;
+}
+
+img{
+  height: 300px;
+  width: 100%;
+  /* transform: rotateX(360deg); */
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+button{
+  height: 2.4rem;
+    margin: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+}
+#money{
+  height: 2.4rem;
+font-size: 1.1rem;
+}
