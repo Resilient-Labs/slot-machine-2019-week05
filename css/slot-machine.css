@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #f6eacf;
+  font-family: 'Fredoka One', cursive;
+}
+
+.slot {
+  color: #ffac33;
+}
+
+.machine {
+  color: #4ab7a1;
+  line-height: 0;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.row-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  width: 30%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-right: 30px;
+  background-color: peachpuff;
+}
+
+.info-row {
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+img {
+  height: 300px;
+}
+
+#play {
+  line-height: 36px;
+  padding: 20px;
+}
+
+#bet-money {
+  padding: 6px 0 20px 20px;
+}
