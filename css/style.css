@@ -1,0 +1,103 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  background: url(pinkslot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.one{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 95px;
+  margin-bottom: 2%;
+}
+
+.two{
+  display: inline-block;
+  float: right;
+  width: 50%;
+  height: 95px;
+  margin-bottom: 2%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1{
+  font-size: 3rem;
+  color: #ffe3fa;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+h2{
+  color: black;
+  font-size: 1.5rem;
+}
+h3{
+  color: green;
+  margin: 0;
+}
+.two h2{
+  margin-right: 3%;
+}
+#items{
+  font-size: 2rem;
+  margin: 5% 0 2% 0;
+  color: #fe13e4;
+}
+#container {
+  /* border: 3px solid pink; */
+  clear: both;
+}
+#minBet{
+  margin-right: 7%;
+  background-color: #fe13e4;
+  color: white;
+}
+#maxBet{
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: #fe13e4;
+  color: white;
+}
+#slot1 {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: -104px;
+}
+ #slot2{
+   display: inline-block;
+   position: relative;
+   top: 0;
+   left: 0;
+ }
+ #slot3{
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 104px;
+}
+#outcome{
+  margin-top: 5%;
+  color: black;
+  font-size: 3rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
