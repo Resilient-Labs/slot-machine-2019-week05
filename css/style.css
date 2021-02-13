@@ -1,0 +1,143 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 12px;
+}
+body {
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+
+  background-image: url('../assets/bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main{
+
+  height: 100vh;
+  padding: 5%;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+  font-size: 5rem;
+  /* border: 1px solid black; */
+  font-family: 'Fredoka One', Arial, sans-serif;
+  color: rgba(232, 200, 68, 1);
+}
+h2{
+  /* border: 1px solid black; */
+  font-size: 3rem;
+  padding-top: 0.1%;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+.mainSec{
+  /* background-color: black; */
+}
+section{
+  height: 100%;
+  overflow: auto;
+  border: 15px solid black;
+  border-style: dotted;
+}
+.reels{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  /* border: 1px solid black; */
+  /* background-color: black; */
+}
+
+.reels section{
+  height: 200px;
+  width: 15%;
+  border: 7px dotted rgba(232, 200, 68, 1);
+  border-style: dotted;
+}
+.userBet{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-size: 2rem;
+  /* border: 1px solid black; */
+}
+label{
+  color: white;
+}
+
+.money{
+  text-align: center;
+  font-size: 4rem;
+  /* border: 1px solid black; */
+  margin-top: 2%;
+}
+
+span{
+  border: 5px solid red;
+  color: rgba(232, 200, 68, 1)
+}
+
+#handle{
+  position: absolute;
+  left: 86%;
+  top: 19%;
+}
+
+section > img{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+.hidden{
+  display: none;
+}
+
+.anim{
+  animation: slide ease 0.1s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translatey(-100px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
