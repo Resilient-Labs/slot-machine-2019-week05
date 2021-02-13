@@ -1,0 +1,520 @@
+@media only screen and (max-width: 500px){
+  .container {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 2.8rem;
+  }
+  
+  .slotMachine {
+    display: none;
+  }
+ .slotMachine img {
+   display: none;
+ }
+ .accumulated button {
+   width: 70px;
+ }
+ .customBet button  {
+  width: 80px;
+  font-size: 1.8rem;
+ }
+ .currentAmount, .currentAccumulated{
+   width: 100px;
+   height: 60px;
+ }
+
+  .currentAmount h2, .currentAccumulated h2 {
+      font-size: 2.5rem;
+  }
+
+ 
+  .dollarSign {
+    font-size: 2rem;
+  }
+  .betHundred, .betFive {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+
+  .winText {
+    display: none;
+  }
+
+
+  .lossText {
+    display: none;
+  }
+
+ .box img {
+    width: 120px;
+    border: 4px solid goldenrod
+  }
+
+  .reelSpin {
+    align-items: center;
+    flex-direction: column;
+    width: 235px;
+  }
+
+  .middleSection {
+    width:0;
+    position: static;
+    margin-top: 30px;
+  }
+
+  .mainAreaTwo {
+    width: 55%;
+  }
+
+  .sameColumn {
+    width: 25%;
+  }
+
+  #gamble {
+    width: 100px;
+    font-size: 3rem;
+  }
+
+  .customBet h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 645px){
+  .container {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 2.8rem;
+  }
+  
+  .slotMachine {
+    display: none;
+  }
+ .slotMachine img {
+   display: none;
+ }
+ .accumulated button {
+   width: 70px;
+ }
+ .customBet button  {
+  width: 80px;
+  font-size: 1.8rem;
+ }
+ .currentAmount, .currentAccumulated{
+   width: 100px;
+   height: 60px;
+ }
+
+  .currentAmount h2, .currentAccumulated h2 {
+      font-size: 2.5rem;
+  }
+
+ 
+  .dollarSign {
+    font-size: 2rem;
+  }
+  .betHundred, .betFive {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+
+  .winText {
+    display: none;
+  }
+
+
+  .lossText {
+    display: none;
+  }
+
+ .box img {
+    width: 120px;
+    border: 4px solid goldenrod;
+    margin: 0 auto;
+  }
+
+  .reelSpin {
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .middleSection {
+    width:0;
+    position: static;
+    margin-top: 30px;
+  }
+
+  .mainAreaTwo {
+    width: 55%;
+  }
+
+  .sameColumn {
+    width: 25%;
+  }
+
+  #gamble {
+    width: 100px;
+    font-size: 3rem;
+  }
+
+  .customBet h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 646px) and (max-width: 800px){
+  .container {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 2.8rem;
+  }
+  
+  .slotMachine {
+    display: none;
+  }
+ .slotMachine img {
+   display: none;
+ }
+ .accumulated button {
+   width: 70px;
+ }
+ .customBet button  {
+  width: 80px;
+  font-size: 1.8rem;
+ }
+ .currentAmount, .currentAccumulated{
+   width: 100px;
+   height: 60px;
+ }
+
+  .currentAmount h2, .currentAccumulated h2 {
+      font-size: 2.5rem;
+  }
+
+  .dollarSign {
+    font-size: 2rem;
+  }
+  .betHundred, .betFive  {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+
+ .box img {
+    width: 120px;
+    border: 4px solid goldenrod;
+  }
+
+  .reelSpin {
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+    margin: 0 auto;
+  }
+
+  .middleSection {
+    width:0;
+    position: static;
+    margin-top: 30px;
+  }
+
+  .mainAreaTwo {
+    width: 55%;
+  }
+
+  .sameColumn {
+    width: 25%;
+  }
+
+  #gamble {
+    width: 100px;
+    font-size: 3rem;
+  }
+
+  .customBet h3 {
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 801px) and (max-width: 950px){
+  .container {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 3.5rem;
+  }
+  
+  .slotMachine {
+    display: none;
+  }
+ .slotMachine img {
+   display: none;
+ }
+ .accumulated button {
+   width: 110px;
+ }
+ .customBet button  {
+    width: 100px;
+    font-size: 1.8rem;
+  }
+ .currentAmount, .currentAccumulated{
+   width: 120px;
+   height: 80px;
+ }
+
+  .currentAmount h2, .currentAccumulated h2 {
+      font-size: 3rem;
+  }
+
+  .dollarSign {
+    font-size: 2rem;
+  }
+  .betHundred, .betFive {
+    width: 110px;
+    height: 80px;
+    font-size: 2rem;
+  }
+
+  .winText {
+    /* display: none; */
+  }
+
+
+  .lossText {
+    /* display: none; */
+  }
+
+ .box img {
+    width: 130px;
+    border: 4px solid goldenrod;
+  }
+
+  .reelSpin {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    margin: 10px auto;
+  }
+
+  .middleSection {
+    width:0;
+    position: static;
+    margin-top: 30px;
+  }
+
+  .mainAreaTwo {
+    width: 55%;
+  }
+
+  .sameColumn {
+    width: 25%;
+  }
+
+  #gamble {
+    width: 100px;
+    font-size: 3.2rem;
+  }
+
+  .customBet h3 {
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 951px) and (max-width: 1060px){
+  .container {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 3.8rem;
+  }
+  
+  .slotMachine {
+    display: none;
+  }
+ .slotMachine img {
+   display: none;
+ }
+ .accumulated button {
+   width: 110px;
+ }
+ .customBet button  {
+    width: 100px;
+    font-size: 1.8rem;
+  }
+ .currentAmount, .currentAccumulated{
+   width: 160px;
+   height: 80px;
+ }
+
+  .currentAmount h2, .currentAccumulated h2 {
+      font-size: 3rem;
+  }
+
+  .dollarSign {
+    font-size: 2rem;
+  }
+  .betHundred, .betFive {
+    width: 140px;
+    height: 80px;
+    font-size: 2.5rem;
+  }
+
+ .box img {
+    width: 130px;
+    border: 4px solid goldenrod;
+  }
+
+  .reelSpin {
+    align-items: center;
+    width: 480px;
+    margin: 10px auto;
+  }
+
+  .middleSection {
+    width:0;
+    position: static;
+    margin-top: 30px;
+  }
+
+  .mainAreaTwo {
+    width: 55%;
+  }
+
+  .sameColumn {
+    width: 25%;
+  }
+
+  #gamble {
+    width: 100px;
+    font-size: 3.2rem;
+  }
+
+  .customBet h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1061px) and (max-width: 1250px){
+  .container {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 4rem;
+  }
+  
+  .slotMachine {
+    display: none;
+  }
+ .slotMachine img {
+   display: none;
+ }
+ .accumulated button {
+   width: 120px;
+ }
+ .customBet button  {
+    width: 120px;
+    font-size: 1.8rem;
+  }
+ .currentAmount, .currentAccumulated{
+   width: 160px;
+   height: 80px;
+ }
+
+  .currentAmount h2, .currentAccumulated h2 {
+      font-size: 3rem;
+  }
+
+  .dollarSign {
+    font-size: 2rem;
+  }
+  .betHundred, .betFive {
+    width: 140px;
+    height: 80px;
+    font-size: 2.5rem;
+  }
+
+ .box img {
+    width: 130px;
+    border: 4px solid goldenrod;
+  }
+
+  .reelSpin {
+    align-items: center;
+    width: 480px;
+    margin: 10px auto;
+  }
+
+  .middleSection {
+    width:0;
+    position: static;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .mainAreaTwo {
+    width: 55%;
+  }
+
+  .sameColumn {
+    width: 25%;
+  }
+
+  #gamble {
+    width: 130px;
+    font-size: 3.2rem;
+  }
+
+  .customBet h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1350px){
+  .container {
+    width: 100%;
+  }
+  .slotMachine img {
+   width: 710px
+ }
+ .reelSpin {
+    /* align-items: center; */
+    width: 410px;
+    /* margin: 10px auto; */
+  }
+}
+
+@media (min-width: 1351px) and (max-width: 1420px){
+  .container {
+    width: 100%;
+  }
+  .slotMachine img {
+   width: 760px
+ }
+ .reelSpin {
+    width: 430px;
+  }
+}
+
+@media (min-width:1421px) and (max-width: 1515px){
+  .slotMachine img {
+    width: 735px;
+  }
+
+  .reelSpin {
+    width: 450px;
+  }
+
+  .box img {
+    width: 113px;
+  }
+}

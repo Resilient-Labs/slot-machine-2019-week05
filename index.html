@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <title>Slot Machine</title>
+</head>
+<body>
+  <main class="container">
+   <section class="mainAreaOne sameColumn">
+    <section class="currentPocket">
+      <h3>Current Chest</h3>
+      <section class="currentAmount">
+        <h2>1000</h2>
+      </section>
+    </section>
+    <section class="mainBets">
+      <button class="betFive pullLever">
+        <a href="#">
+          <h2><span class="dollarSign">$</span>5</h2>
+        </a>
+      </button>
+      <button class="betHundred pullLever">
+        <a href="#">
+          <h2><span class="dollarSign">$</span>50</h2>
+        </a>
+      </button>
+    </section>
+    <section class="overallGain">
+      <section class="winText">Winner!</section>
+    </section>
+   </section>
+   <div class="mainAreaTwo">
+    <section class="title">
+      <h1>One Piece Gold Rush</h1>
+    </section>
+    <section class="middleSection">
+      <div class="reelSpin">
+        <section class="imageAreaOne box">
+          <img id="imageOne" src="./images/luffy.jpg" alt="">
+        </section>
+        <section class="imageAreaTwo box">
+          <img id="imageTwo" src="./images/luffy.jpg" alt="">
+        </section>
+        <section class="imageAreaThree box">
+          <img id="imageThree" src="./images/luffy.jpg" alt="">
+        </section>
+      </div>
+    </section>
+    <section class="slotMachine">
+      <img src="./images/SlotMachineNew.png" alt="">
+    </section>
+   </div>
+   <div class="mainAreaThree sameColumn">
+    <section class="accumulated">
+      <h3>Bounty</h3>
+      <section class="currentAccumulated">
+        <h2>0</h2>
+      </section>
+      <button class="addToChest">Add To Chest</button>
+    </section>
+    <section class="customBet">
+      <h3>Are You A True Pirate!?</h3>
+      <form action="">
+        <input id="gamble" type="number"  value="0" min="0" max="500">
+      </form>
+      <button class="wager">Wager</button>
+    </section>
+    <section class="losses">
+      <section class="lossText">Loser!</section>
+    </section>
+   </div>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+</html>

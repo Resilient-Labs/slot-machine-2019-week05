@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: one-piece;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: one-piece;
+  src: url(../fonts/one\ piece\ font.ttf) format('truetype');
+}
+a:link,a:visited {
+  color: inherit;
+}
+button:focus {
+  outline: none;
+}
+
+body {
+  background: url(../images/backgroundImg.jpg) no-repeat right;
+  background-size: auto;
+}
+.container {
+  border: 1px solid black;
+  width: 90%;
+  height: 722px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #7e1a1dfa;
+  border: 4px solid rgb(165, 129, 39);
+  border-bottom: none;
+}
+
+/* OUTER COLUMN STYLING */
+.sameColumn{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+/* TOP ROW */
+.currentPocket, .accumulated {
+  width: 100%;
+  height: 220px;
+  box-shadow:inset -1em -1.5em 1.5em 0.5em #610b0f;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+  
+}
+.currentPocket h3, .accumulated h3{
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: rgb(165, 129, 39);;
+}
+.currentAmount, .currentAccumulated {
+  border: 8px solid rgb(165, 129, 39);
+  height: 110px;
+  width: 220px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.currentAmount h2, .currentAccumulated h2{
+  font-size: 5.5rem;
+}
+
+.accumulated button {
+  background-color: #F3B33F;
+  width: 150px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* SECOND ROW */
+.mainBets, .customBet {
+  border: 1px solid black;
+  width: 100%;
+  height: 300px;
+  box-shadow:inset -1em -1em 2.5em 0.5em #610b0f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.betFive {
+  background-color: #F3B33F;
+  height: 100px;
+  width: 200px;
+  font-size: 2.5rem;
+  border-radius: 15px;
+}
+.dollarSign {
+  font-size: 3.5rem;
+  margin-right: 5px;
+  vertical-align: text-top;
+}
+.betHundred {
+  background-color: #F3B33F;
+  height: 100px;
+  width: 200px;
+  font-size: 2.5rem;
+  border-radius: 15px;
+}
+.customBet {
+  display: flex;
+  flex-direction: column;
+}
+.customBet input {
+  height: 50px;
+  width: 200px;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 15px;
+  border: 5px solid goldenrod;
+  padding: 25px 0px;
+}
+.customBet input:focus {
+  outline: none;
+}
+.customBet h3{
+  font-size: 3rem;
+  color:rgb(199, 149, 24);
+  text-align: center;
+}
+
+.customBet button {
+  width: 110px;
+  height: 55px;
+  font-size: 2.2rem;
+  background-color: #F3B33F;
+  border-radius: 15px;
+}
+/* THIRD ROW */
+.overallGain, .losses {
+  border: 1px solid black;
+  width: 100%;
+  height: 220px;
+  box-shadow:inset -1em -1em 2.5em 0.5em #610b0f;
+}
+
+/* MAIN AREA TWO */
+.mainAreaTwo{
+  border:1px solid black;
+  width:60%;
+  display: flex;
+  flex-direction: column;
+  border-right: 5px solid goldenrod;
+  border-left: 5px solid goldenrod;
+}
+
+.title {
+  width: 100%;
+  height: 100px;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: .3rem;
+  color: rgb(216, 186, 19)
+}
+.middleSection {
+  /* border: 3px solid red; */
+  height: 165px;
+  position: absolute;
+  width: 480px;
+  z-index: 0;
+  top: 343px;
+  left: 34%;
+}
+
+.reelSpin {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+
+.reelSpin .box {
+  transform: translate3d(0, 0, 0);
+  /* animation: slideAnimation 1s linear infinite; */
+}
+
+/* @keyframes slideAnimation {
+ 0% {
+    top: 0rem;
+ }
+ 100% {
+    transform: translateY(200px);
+ }
+} */
+
+.slotMachine{
+  border: 3px solid rgb(165, 129, 39);
+  width: 100%;
+  height: 650px;
+  display: flex;
+  box-shadow:inset -1em -1em 2.5em 0.5em #610b0f;
+
+}
+
+.slotMachine img {
+  width: 800px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+/* ALL THREE IMAGES CLASS */
+.box {
+  /* border: 3px solid gold; */
+  width: 109px;
+}
+
+.box img {
+  width: 110px;
+}
+
+/* WIN/LOSS SECTION */
+.overallGain, .losses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Jollyroger.png) no-repeat center;
+  background-size: contain
+}
+.winText, .lossText {
+  border: 3px solid goldenrod;
+  background-color: black;
+  height: 90px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 4.5rem;
+  color: rgb(83, 81, 78);
+}
+
+.lossText {
+  color: rgb(83, 81, 78);
+}
+
+button:active { 
+  border-style: outset;
+  background: rgb(199, 149, 24);
+  -webkit-box-shadow: inset 0px 0px 5px #a7a1a1;
+     -moz-box-shadow: inset 0px 0px 5px #a7a1a1;
+          box-shadow: inset 0px 0px 5px #a7a1a1;
+}
+
+button {
+  box-shadow: inset -.2em -.2em rgb(173, 136, 40);
+}
+
+
