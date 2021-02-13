@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/aa1a2a1c33.js" crossorigin="anonymous"></script>
+
+		<title>Slot Machine</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<h1>JACKPOT</h1>
+			<section class="mainSec">
+				<h2 id="result" ></h2>
+				<div class="reels">
+					<img id="handle" src="assets/handleInitial.png" alt="Slot Machine Handle">
+					<section class="reel1">
+						<img class="money1" src="assets/initial.jpg" alt="">
+					</section>
+
+					<section class="reel2">
+						<img class="money2" src="assets/initial.jpg" alt="">
+					</section>
+					<section class="reel3">
+						<img class="money3" src="assets/initial.jpg" alt="">
+					</section>
+				</div>
+
+				<form class="userBet">
+					<label for="bet">Bet: </label>
+					<select id="bet">
+						<option value="5">$5</option>
+						<option value="10">$10</option>
+						<option value="25">$25</option>
+						<option value="50">$50</option>
+					</select>
+				</form>
+
+				<div class="money">
+					<span class="cash">$1000</span>
+				</div>
+				</section>
+
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
