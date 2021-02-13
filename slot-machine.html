@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This app is a slot machine game">
+  <meta name="keywords" content="slot-machine">
+
+  <title>Slot Machine</title>
+
+  <!-- external CSS link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slot-machine.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1 class="slot"> SLOT</h1>
+  <h1 class="machine">MACHINE</h1>
+
+  <section class="row-container">
+    <div class="column slot">
+      <div id="slot1">
+        <img src="img/cake.png" alt="cake">
+      </div>
+    </div>
+
+    <div class="column slot">
+      <div id="slot2">
+        <img src="img/cake.png" alt="cake">
+      </div>
+    </div>
+
+    <div class="column slot">
+      <div id="slot3">
+        <img src="img/cake.png" alt="cake">
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------->
+  <section>
+    <div class="info-row">
+      Credits: $ <span id="credits"> 1000</span>
+
+      <button id="play">PLAY</button>
+
+      <select id="bet-money">
+        <option value="5"> $5 </option>
+        <option value="15"> $15 </option>
+        <option value="25"> $25 </option>
+        <option value="45"> $45 </option>
+        <option value="50"> $50 </option>
+      </select>
+
+    </div>
+  </section>
+  <script type="text/javascript" src="js/slot-machine.js"></script>
+</body>
+
+</html>
