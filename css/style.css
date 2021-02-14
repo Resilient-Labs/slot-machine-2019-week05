@@ -1,0 +1,130 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html{
+  font-size: 62.5%;
+}
+body{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  margin-top:5rem;
+}
+h1{
+  font-size: 40px;
+  margin: 3rem;
+}
+h2{
+  font-size: 20px;
+  padding-top: 2rem;
+  margin-bottom:2rem;
+}
+#display{
+  /* background: white; */
+  width:60%;
+  margin:auto;
+  height: 10rem;
+  /* font-size: 40px; */
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+.machine{
+  padding-top: 1rem;
+  height: 40rem;
+  width: 40%;
+  margin:auto;
+  border-radius: 5px;
+  border-top-right-radius:40%;
+  border-top-left-radius:40%;
+  /* background-image: url(../img/machineBackground.jpg); */
+  background-color: black;
+  background-position: center;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 30px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+.alignment{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.slots{
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  display: flex;
+  height: 150px;
+  width:100px;
+  margin: 0 5px 40px 0;
+}
+#totalDisplay{
+  display: none;
+}
+button{
+  font-size: 16px;
+  height: 40px;
+  width: 100px;
+  border:0px;
+  border-radius: 7px;
+  background-color: black;
+  color:white;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7C28EC, 0 0 40px #e60073, 0 0 50px #7C28EC, 0 0 60px #e60073, 0 0 70px #7C28EC;
+  margin: 0 5px;
+
+}
+
+
+/*
+neon glow inspiration from:
+blue: https://www.tiny.cloud/blog/neon-fonts-and-glowing-text-get-started-in-two-steps/
+
+pink: https://codepen.io/FelixRilling/pen/qzfoc*/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
