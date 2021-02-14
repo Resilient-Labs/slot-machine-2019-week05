@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+    <meta charset="utf-8">
+		<title>Slot Machine</title>
+	</head>
+	<body>
+		<div class="container clearfix">
+			<header>
+					<h1>Slot Machine Name</h1>
+					<p id="bank">Bank Placeholder</p>
+			</header>
+			<section>
+				<section class="slotContainer">
+          <p id="slot1"></p>
+        </section>
+        <section class="slotContainer">
+          <p id="slot2"></p>
+        </section>
+        <section class="slotContainer">
+          <p id="slot3"></p>
+				</section>
+			</section>
+			<footer>
+        <button type="button" name="twentyfive" id="btn25" value="25">$25</button>
+        <button type="button" name="fifty" id="btn50" value="50">$50</button>
+        <button type="button" name="hunnid" id="btn100" value="100">$100</button>
+        <button type="button" name="twohunnidfifty" id="btn250" value="250">$250</button>
+
+        <section class="resultModal">
+					<div id="loserMsg">
+						<p>Bet <span>Your House</span> or <span>Your Spouse</span> if you want to keep playing.</p>
+					</div>
+					<div id="winnerMsg">
+						<img src="images/firework.gif">
+						<h1>MONEY MAGIC</h1>
+					</div>
+				</section>
+			</footer>
+		</div>
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>
