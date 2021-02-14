@@ -1,0 +1,107 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: monospace
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url('../img/meadow.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 36rem;
+}
+
+h1{
+  text-align: center;
+  font-size: 6rem;
+  color: rgb(255,255,255);
+  margin: 2px;
+}
+
+h2,
+h3{
+  text-align: right;
+  color: white;
+}
+
+.resultMessage{
+  text-align: center;
+}
+
+.betAmount{
+  margin-left: 40%;
+  margin-top: 5px;
+}
+
+.five,
+.fifty{
+  background-color: rgb(253, 135, 190);
+  color: rgba(255,255,255);
+  border-radius: 40px;
+}
+
+.machine{
+  display: flex;
+  justify-content: center;
+}
+.left,
+.middle,
+.right{
+  height: 220px;
+  width: 17%;
+  border: 2px solid black;
+  margin: 10px;
+  float: left;
+  padding-right: 2px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+
+
+.spin{
+  margin-left: 45%;
+  background-color: rgb(253, 135, 190);
+  color: rgba(255,255,255);
+  border-radius: 40px;
+  font-size: 1.5rem;
+  width: 6rem;
+
+}
+
+.moneySec{
+  text-align: left;
+  background-color: rgba(145, 161, 0,0.5);
+  width: 15%;
+  float: right;
+
+}
+
+@keyframes spin { /* animation help from juan*/
+  0%    { top: -120rem; }
+  100%  { top: 0; }
+}
+
+.pics{
+  height: 200px;
+  display: none;
+  width: 100%;
+
+}
+
+.item1{
+  display: initial;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
