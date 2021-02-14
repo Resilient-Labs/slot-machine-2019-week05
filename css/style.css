@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box
+  }
+  
+  .clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .alignright {
+    float: right;
+    padding: 0 0 10px 10px;
+  }
+  
+  .alignleft {
+    float: left;
+    padding: 0 0 10px 10px;
+  }
+  
+  body {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+
+.container {
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/philly.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-color: rgb(192, 31, 31);
+    border: 2px solid rebeccapurple; */
+}
+
+/* li {
+    list-style: none;
+} */
+
+
+/* This is the top Sec */
+
+.topSec {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid rosybrown ; */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    color: rgb(202, 52, 15);
+    background-color: rgb(180, 163, 167);
+}
+
+
+
+
+/* This is the middle section */
+
+.midSec {
+    width: 90%;
+    height: 400px;
+    /* background-color: rgb(57, 155, 122); */
+    /* border: 2px solid white; */
+    margin: 0 auto;
+    /* border-image: url(../images/money-frame-6995195.jpg); */
+}
+
+.images1 {
+    border: 15px red solid;
+}
+
+.leftReel, .midReel, .rightReel , .pullLever {
+    height: 397px;
+    width: 26%;
+    /* border: 2px ridge pink; */
+    float: left;
+    margin-right: 40px;
+}
+
+.pullLever {
+    width: 10%;
+    margin-left: 1px;
+}
+
+img {
+    /* float: left; */
+    width:  390px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#spin {
+    /* border: 2px solid black; */
+    width: 118px;
+    height: 397px;
+}
+ /* #aRealOne, #mentorship, #community {
+     display: flex;
+    width: 100%;
+    height: 100%;
+
+} */
+
+
+/* this is the bottom section */
+
+.bottomSec {
+    width: 50%;
+    height: 200px;
+    /* background-color: chocolate; */
+    display: flex;
+    margin: 0 auto;
+}
+
+/* h3 {
+    text-align: center;
+    margin-left: 190px;
+    float: left;
+
+} */
+
+#bet {
+    width: 15%;
+    background-color: rgb(24, 19, 20);
+    font-size: 35px;
+    color: rgb(182, 165, 165) ;
+    margin-top: 70px;
+    height: 45px;
+    float: left;
+}
+
+/* .bottomSec span {
+    font-size: 60px;
+    color: crimson;
+} */
+
+#total , #result , h3 {
+    font-size: 30px;
+    float: left;
+    /* border: 2px solid red; */
+    height: 45px;
+    color: white;
+    background-color: rgb(146, 31, 31);
+    margin: 0 auto;
+}
+
