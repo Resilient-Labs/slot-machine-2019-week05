@@ -1,0 +1,95 @@
+/* html{
+font-size: 62.5%;
+}
+
+.boxes {
+  border: 1rem solid black;
+  border-left:2rem solid rgb(241 85 255);
+  height: 10rem;
+  margin: 20rem auto;
+  width:30%;
+}
+
+.rotate{
+  transform: rotate(45deg);
+} */
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-image: url(../img/casinoBackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bungee Shade', helvetica, sans-serif;
+}
+button{
+  background: gold;
+  border: 1px solid gold;
+  border-radius: 2rem;
+  font-family: "Rammetto One";
+  margin-right:  1.5rem;
+  padding: 1.5rem;
+}
+
+div{
+  color: rgb(241 85 255);
+  font-size: 2rem;
+  height: 10rem;
+  margin: 30% auto;
+  position: relative;
+  text-align: center;
+  top: 2rem;
+  width: 60%;
+}
+
+
+.machine{
+  height: 30rem;
+  margin: 10% auto;
+  width: 50%;
+}
+.alignment{
+  display: flex;
+  justify-content: space-between;
+}
+
+.houseAlwaysWins{
+  background: black;
+  border: 1rem solid rgb(241 85 255);
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.slots{
+  background: rgb(250,250,250);
+  box-shadow:
+    inset goldenrod 0 0 0 1rem,
+    inset gold 0 0 0 2rem;
+  font-size: 2rem;
+  border: 1rem solid rgb(0,0,0);
+  display: flex;
+  height: 15rem;
+  width:30%;
+
+}
+
+#total{
+  background: rgb(241, 85, 255);
+  border: 1rem solid rgb(241, 85, 255);
+  border-radius: 2rem;
+  border-image:url(../img/light.png);
+  margin: 0 auto;
+  text-align: center;
+  width:45%;
+}
+
+#total h2{
+  background: rgb(100, 11,167);
+  color: gold;
+  padding: 1.5rem 0;
+}
+
+#betButtons{
+  padding: 3rem 0 0 0;
+}
