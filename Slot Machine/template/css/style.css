@@ -1,0 +1,247 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-image: url('jdm.png');
+     background-repeat: no-repeat;
+     background-size: 100% 950px;
+     padding: 0rem 6.6rem 0 7.5rem;
+}
+html{
+  font-size: 10px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.slots{
+  height: 350px;
+  float: left;
+  width: 100%;
+  background-image: url('casino.png');
+  background-repeat: no-repeat;
+  background-size: 96% 340px;
+  padding: 5.9rem 0 0 10.4rem;
+}
+h1{
+  height: 90px;
+  width: 100%;
+  float: left;
+  text-align:center;
+  font-size: 5rem;
+  font-family: 'Stalinist One',sans-serif;
+}
+
+}
+.box{
+  height: 210px;
+  float: left;
+  width: 26%;
+  margin: 0 0 0 4rem;
+  border: 1px solid black;
+}
+.hidden{
+  border-radius: 1rem;
+}
+
+.nsx{
+  background-image: url('nsx.png');
+  height: 225px;
+      width: 27.3%;
+      margin: 0px 13px 0 23px;
+      background-size: 99% 219px;
+      background-repeat: no-repeat;
+      float: left;
+      border: .5rem solid black;
+      border-radius: 37px;
+      transition-duration: 1s;
+}
+.skyline{
+  background-image: url('r32.png');
+  height: 225px;
+    width: 27.3%;
+    margin: 0px 13px 0 23px;
+    background-size: 99% 219px;
+    background-repeat: no-repeat;
+    float: left;
+    border: .5rem solid black;
+    border-radius: 37px;
+    transition-duration: 1s;
+}
+.mazda{
+  background-image: url('rx7.png');
+  height: 225px;
+      width: 27.3%;
+      margin: 0px 13px 0 23px;
+      background-size: 99% 219px;
+      background-repeat: no-repeat;
+      float: left;
+      border: .5rem solid black;
+      border-radius: 37px;
+      transition-duration: 1s;
+}
+.silvia{
+  background-image: url('s15.png');
+  height: 225px;
+  width: 27.3%;
+  margin: 0px 13px 0 23px;
+  background-size: 99% 303px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  float: left;
+  border: .5rem solid black;
+  border-radius: 37px;
+  transition-duration: 1s;
+}
+.nissanZ{
+  background-image: url('z31.png');
+  height: 225px;
+    width: 27.3%;
+    margin: 0px 13px 0 23px;
+    background-size: 99% 219px;
+    background-repeat: no-repeat;
+    float: left;
+    border: .5rem solid black;
+    border-radius: 37px;
+    transition-duration: 1s;
+}
+.buttons{
+  height: 175px;
+  width: 100%;
+  float: left;
+  display: flex;
+  float: left;
+  justify-content: space-evenly;
+}
+.buttons button{
+  display: flex;
+  width: 15%;
+  justify-content: center;
+  border-radius: 50%;
+  height: 255px;
+  font-size: 4rem;
+  padding-top: 7.7rem;
+
+  font-family: 'Stalinist One',sans-serif;
+  background-color: lavender;
+  margin-top: 10.18rem;
+  transition: color 1s;
+  cursor: pointer;
+  outline: none;
+}
+
+ button:hover{
+  color: crimson;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  /* animation: rotation 2s infinite linear; */
+  animation:rotation 3s infinite linear;
+  outline: none;
+}
+@keyframes rotation {
+  from {
+    background-image: url('bbs.png');
+    transform: rotate(0deg);
+  }
+  to {
+    background-image: url('bbs.png');
+    transform: rotate(359deg);
+  }
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+p{
+  width: 100%;
+  height: 100px;
+  margin-top: 10%;
+  font-size: 6rem;
+  font-weight: 700;
+  text-align: center;
+  float: left;
+  font-family: 'Stalinist One',sans-serif;
+}
+#min{
+  background-image: url('bbs.png');
+  background-size: 100% 100%;
+}
+#minTwo{
+  background-image: url('bbsTwo.png');
+  background-size: 100% 100%;
+}
+#max{
+  background-image: url('bbsthree.png');
+  background-size: 100% 100%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width:1500px){
+  .slots{
+    padding-left: 68px;
+  }
+}
+@media screen and (max-width:1650px){
+  .buttons button{
+    height: 220px;
+  }
+}
+@media screen and (max-width:1250px){
+  .nsx,.skyline,.silvia,.mazda,.nissanZ{
+    margin-left: 1.5rem
+  }
+  .buttons button{
+    height: 165px;
+    padding-top: 4.7rem;
+
+  }
+}
