@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+body{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: peachpuff;
+}
+.topCircle{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(204, 41, 190);
+    border-radius: 50%;
+    background-color: powderblue;
+}
+.bottomCircle{
+    height: 100px;
+    width:100px;
+    border: 1px solid palevioletred;
+    border-radius: 50%;
+    display: grid;
+    background-color: royalblue;
+}
+.screen{
+    height: 294px;
+    width: 49%;
+    border: 1px solid rebeccapurple;
+    background-image: url(houswivesbackdrop.jpg);
+    display: grid;
+    margin-left: 340px;
+    margin-top: -363px;
+}
+.pocket{
+    height: 50px;
+    width: 15%;
+    margin-top: -198px;
+    margin-left: 137px;
+    border: 1px solid rebeccapurple;
+    text-align: center;
+    font-size: 30px;
+    background-color: purple;
+}
+p{
+    text-align: center;
+}
+.bottomCircle p{
+  margin-top: 36px;
+}
+.amount{
+    height: 47px;
+    width: 11%;
+    margin-left: 168px;
+    border: 1px solid seagreen;
+    text-align: center;
+    font-size: 40px;
+}
+.custom{
+    height: 200px;
+    width: 11%;
+    margin-left: 168px;
+    border: 1px solid indianred;
+}
+.win{
+    height: 67px;
+    width: 11%;
+    margin-left: 168px;
+    border: 1px solid olive;
+}
+.lever{
+    height: 70px;
+    width: 24%;
+    margin-left: 513px;
+    margin-top: 4px;
+    border: 1px solid paleturquoise;
+}
+.pic0{
+    display: block;
+    margin-left: 75px;
+    margin-right: auto;
+    width: 22%;
+    margin-top: 76px;
+    float: left;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    margin-top: -170px;
+}
+.center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: 83px;
+    width: 23%;
+    margin-top: -198px;
+    float: right;
+}
+img{
+    width: 16.333%;
+    height: auto;
+}
+.spinPic1 .pic0{
+    float: left;
+}
+.spinPic2 .pic0{
+    margin-left: 234px;
+    margin-top: -110px;
+}
+.spinPic3 .pic0{
+    float: right;
+}
+.pic22{
+    display: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    margin-top: -170px;
+}
+.pic11{
+    display: none;
+    display: block;
+    margin-left: auto;
+    margin-right: 83px;
+    width: 23%;
+    margin-top: -198px;
+    float: right;
+}
+.pic3{
+    display: none;
+}
+.pic4{
+    display: none;
+}
