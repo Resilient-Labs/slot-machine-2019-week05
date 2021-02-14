@@ -63,6 +63,7 @@ function winLoseMin() {
   if(img1.src === img2.src && img2.src === img3.src) {
     let betTenTimes = betOne * 10
     money = money + betTenTimes
+    betTotal -= betTenTimes
     return 'You won ' + '$' + betTenTimes
   } else {
     money = money - betOne
@@ -74,7 +75,8 @@ function winLoseMax() {
   if(img1.src === img2.src && img2.src === img3.src) {
     let betTenTimes = (betTwo * 10)
     money = money + betTenTimes
-    return 'You won ' + '$' + betTenTimes 
+    betTotal -= betTenTimes
+    return 'You won ' + '$' + betTenTimes
   } else {
     money = money - betTwo
     betTotal += betTwo

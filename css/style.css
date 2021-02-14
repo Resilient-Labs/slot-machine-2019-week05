@@ -232,42 +232,45 @@ h3{
   }
 }
 @media only screen and (max-width: 500px) {
-  body{
+  body{s
     text-align: center;
     margin-left: 0%;
     margin-right: 0%;
     background: url(pinkslot2.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 118%;
+    background-size: 100% 109%;
     font-family: 'Noto Sans JP', sans-serif;
-    height: 1085px;
+    height: auto;
   }
   .mainHeader{
-    height: 185px;
+    height: 206px;
+    width: 90%;
+    margin-left: 5%;
   }
   h1{
     font-size: 35px;
     color: #ffe3fa;
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     margin-top: 1%;
   }
   .one{
-    width: 35%;
-    margin-bottom: 6%;
+    width: 100%;
+    margin-bottom: 0%;
 
   }
   h2{
     margin: 0%;
-    font-size: 30px;
+    font-size: 23px;
   }
   h3{
     margin: 2% 0% 0%;
     font-size: 25px;
   }
   .two{
-    width: 65%;
-    margin-bottom: 6%;
+    width: 100%;
+    margin-bottom: 11%;
+    margin-top: 2%;
   }
   .two h2{
     margin-right: 0%;
@@ -293,22 +296,26 @@ h3{
   }
   #container {
     height: 915px;
-    margin-top: 2%;
+    margin-top: 1%;
   }
   #slot1, #slot2 {
     display: block;
-    margin-bottom: 13%;
+    margin-bottom: 21%;
     top: 0;
     left: 0;
-    margin-top: 10%;
+    margin-top: 14%;
   }
   #slot3{
     display: block;
     top: 0;
     left: 0;
-    margin-top: 18%; 
+    margin-top: 2%;
   }
   img{
     width: 38%;
+  }
+  #outcome{
+    margin-top: 0;
+    font-size: 35px;
   }
 }
