@@ -1,0 +1,123 @@
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+  /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+  /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.angelBackground {
+  background-image: url(../pink-clouds.gif);
+  width: 100%;
+  height: 1200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.angelBackground {
+  border-style: solid;
+  border-width: 60px 60px 60px 60px;
+  -moz-border-image: url(../lights.jpg) 125 125 125 125 repeat repeat;
+  -webkit-border-image: url(../lights.jpg) 125 125 125 125 repeat repeat;
+  -o-border-image: url(../lights.jpg) 125 125 125 125 repeat repeat;
+  border-image: url(../lights.jpg) 125 125 125 125 repeat repeat;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section {
+  text-align: center;
+  padding: 39px 49px;
+  margin: 11px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 29px;
+}
+
+div {
+  height: 150px;
+  width: 12%;
+  border: 10px solid #fafad2;
+  display: inline-block;
+  padding: 48px 0px;
+  box-shadow: 3px 6px 9px 9px #ffff00;
+  background-color: white;
+}
+
+#balance {
+    width: 15%;
+    height: 65px;
+    border: 4px solid #fafad2;
+    margin: 58px auto;
+    padding: 11px 3px;
+    border-radius: 92px;
+    background-color: white;
+    box-shadow: 11px 4px 5px 13px #ffff00;
+}
+
+
+button {
+  border-radius: 92px;
+  border: 13px solid #ff69b4;
+  outline: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.pythagoras {
+  font-size: 70.5%;
+  color: white;
+}
+
+.heading {
+    font-size: 152.5%;
+    padding: 1%;
+    color: #eb2142;
+    border-style: solid;
+    border-radius: 29px;
+    border: 22px solid #eb2142;
+    box-shadow: 51px 12px 31px 2px inset #d7b7e8;
+}
+
+#money {
+  border-radius: 92px;
+  border: 13px solid #ff69b4;
+  outline: none;
+}
+}
