@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Bree Serif', serif;
+}
+
+main{
+    background-image: url(../pic/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0; 
+
+}
+main{
+    height: 180rem;
+}
+
+.secTit{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.secBeg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.secIntr{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 14rem;
+}
+
+#secIns1{
+    width: 70%;
+}
+
+
+
+.secBeg3{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.h1Tit{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 0%;
+    height: 5rem;
+
+
+}
+
+.imgOri{
+    height: 20rem;
+}
+
+.h2Stor{
+    color: white;
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 6rem;
+}
+
+.secResult{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+}
+
+.h3Result{
+    font-size: 4rem;
+    color: white;
+    height: 6rem;
+    margin-top: 0%;
+    width: 40%;
+    /* border: .1rem solid black; */
+    border-radius: 10%;;
+    margin-bottom: 0%;
+}
+
+.h4Total{
+    color: white;
+    height: 4rem;
+    margin-top: 1%;
+}
+
+form{ 
+    font-size: 5rem;
+    width: 50%;
+    text-align: left;
+    padding-left: 1%;
+    margin-top: 1%;
+    
+}
+
+.buttSpin, .buttRe{
+    font-size: 5rem;
+    border-radius: 10%;
+}
+
+
+
+.secSlot{
+    /* border: .1rem solid black; */
+    height: 20rem;
+    width: 20%;
+   
+    
+}
+
+.secGame{
+    /* border: .1rem solid black; */
+    display: flex;
+    justify-content: space-around;
+    height: 30rem;
+    font-size: 20rem;
+    margin-top: 2%;
+
+}
+
+.secStor{
+    width: 100%;
+    text-align: center;
+    padding: 0% 10%;
+}
+
+
+.imgSlot{
+    object-fit: fill;
+    height: 25rem;
+    width: 100%;
+}
+
+.secPoint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.secTotal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+
+}
+
+
+.inputBet{
+    text-align: center;
+}
+
+.secH4{
+    width: 25%;
+    text-align: right;
+}
+
+span{
+    color: white;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.secMin{
+    margin-bottom: 1%;
+}
+
+.butt5, .butt50{
+    font-size: 4rem;
+    border-radius: 10%;
+}
+
+@media only screen and (max-width: 30rem){
+    main{
+        height: 100rem;
+    }
+    .secIntr{
+        height: 10rem;
+    }
+    .h1Tit{
+        font-size: 2rem;
+    }
+
+    .imgOri{
+        height: 10rem;
+    }
+
+    .h2Stor{
+        font-size: 1.5rem;
+    }
+
+    .secGame{
+        height: 15rem;
+    }
+    .imgSlot{
+        height: 12rem;
+        width: 100%;
+    }
+
+    .secTotal{
+        align-items: baseline;
+    }
+
+    .secH4{
+        height: 3rem;
+    }
+    .h4Total{
+        font-size: 2rem;
+        margin-bottom: 0%;
+        
+    }
+
+    form{
+        height: 6rem;
+    }
+
+    .inputBet{
+        font-size: 1.5rem;
+        width: 45%;
+    }
+
+    .butt5, .butt50{
+        font-size: 1.5rem;
+    }
+
+    .buttSpin, .buttRe{
+        font-size: 2rem;
+    }
+
+    .h3Result{
+        width: 80%;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 30rem) and (max-width: 50rem){
+    main{
+        height: 100rem;
+    }
+    .secIntr{
+        height: 8rem;
+    }
+    .h1Tit{
+        font-size: 2.5rem;
+    }
+
+    .imgOri{
+        height: 10rem;
+    }
+
+    .h2Stor{
+        font-size: 1.8rem;
+    }
+
+    .secGame{
+        height: 15rem;
+    }
+
+    .secSlot{
+        height: 12rem;
+        width: 30%;
+    }
+
+    .imgSlot{
+        height: 12rem;
+    }
+    .secTotal{
+        align-items: baseline;
+    }
+
+    .secH4{
+        height: 6rem;
+    }
+    .h4Total{
+        font-size: 2rem;
+        margin-bottom: 0%;
+        
+    }
+
+    form{
+        height: 6rem;
+    }
+
+    .inputBet{
+        font-size: 2rem;
+    }
+
+    .butt5, .butt50{
+        font-size: 2rem;
+    }
+
+    .buttSpin, .buttRe{
+        font-size: 2.5rem;
+    }
+
+    .h3Result{
+        width: 80%;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 50rem) and (max-width: 80rem){
+    main{
+        height: 100rem;
+    }
+    .secIntr{
+        height: 10rem;
+    }
+    .h1Tit{
+        font-size: 4rem;
+        margin-top: 2%;
+    }
+
+    .imgOri{
+        height: 13rem;
+    }
+
+    .h2Stor{
+        font-size: 2.5rem;
+    }
+
+    .secGame{
+        height: 20rem;
+    }
+    .imgSlot{
+        height: 20rem;
+        width: 100%;
+    }
+
+    .secTotal{
+        align-items: baseline;
+    }
+
+    .secH4{
+        height: 3rem;
+    }
+    .h4Total{
+        font-size: 4rem;
+        margin-bottom: 0%;
+        
+    }
+
+    form{
+        height: 6rem;
+    }
+
+    .inputBet{
+        font-size: 2rem;
+        width: 55%;
+    }
+
+    .butt5, .butt50{
+        font-size: 2.5rem;
+    }
+
+    .buttSpin, .buttRe{
+        font-size: 3rem;
+    }
+
+    .h3Result{
+        width: 80%;
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 80rem) and (max-width: 110rem){
+    main{
+        height: 100rem;
+    }
+    .secIntr{
+        height: 10rem;
+    }
+    .h1Tit{
+        font-size: 6rem;
+        margin-top: 2%;
+        width: 80%;
+    }
+
+    .imgOri{
+        height: 18rem;
+    }
+
+    .h2Stor{
+        font-size: 2.5rem;
+    }
+
+    .secGame{
+        height: 20rem;
+    }
+    .imgSlot{
+        height: 20rem;
+        width: 100%;
+    }
+
+    .secTotal{
+        align-items: baseline;
+    }
+
+    .secH4{
+        height: 3rem;
+    }
+    .h4Total{
+        font-size: 4rem;
+        margin-bottom: 0%;
+        
+    }
+
+    form{
+        height: 6rem;
+    }
+
+    .inputBet{
+        font-size: 2rem;
+        width: 55%;
+    }
+
+    .butt5, .butt50{
+        font-size: 2.5rem;
+    }
+
+    .buttSpin, .buttRe{
+        font-size: 3rem;
+    }
+
+    .h3Result{
+        width: 80%;
+        font-size: 4rem;
+    }
+}
+
