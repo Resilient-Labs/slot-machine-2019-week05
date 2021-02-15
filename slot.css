@@ -46,6 +46,7 @@ button{
  .alignment{
     display: flex;
     justify-content: space-between;
+    
 }
 .slots{
     font-size: 3rem;
@@ -57,9 +58,14 @@ button{
 }
 #slot1{
   padding-left: 1%;
+  height: 340px;
+}
+#slot2{
+  height: 336px;
 }
 #slot3{
   margin-right: 15%;
+  height: 336px;
 }
 h2{
   text-align: center;
@@ -68,3 +74,4 @@ h2{
   margin-right: 1.5%;
   margin-left: 1.5%;
 }
+
