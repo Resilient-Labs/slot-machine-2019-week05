@@ -6,7 +6,7 @@ This was a really fun project that made me think on how to apply everything I've
 
 <img src="https://github.com/DashlinS/SlotMachine/blob/answer/gifs/OnePieceGR.png" width="700">
 
-[Click Here to go to the website!](https://onepiecegoldrush.netlify.app/)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Click Here to go to the website!](https://onepiecegoldrush.netlify.app/)
 
 ## How Its Made 
 
