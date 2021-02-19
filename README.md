@@ -8,7 +8,7 @@ Link:  https://hillary-slotmachine.netlify.app/
 
 Tech used: HTML CSS JS
 
-<img src="/Slot MachineRemix/template/img/SlotMachine.PNG" alt="SlotMachine" style="height: 100px; width:100px;"/>
+<img src="img/SlotMachine.PNG" alt="SlotMachine" style="height: 100px; width:100px;"/>
 
 Lesson Learned:
 
