@@ -2,23 +2,19 @@
 
 ### Goal: Build a Simple Slot Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+Spin the wheel to bet and win money, or feel free to just spin the wheel of friendship for fun. Inspired by Hello Kitty and friends. 
 
 ### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<img src="/ToDoListRemix2/img/SlotMachine.PNG" alt="SlotMachine" style="height: 100px; width:100px;"/>
+
+Lesson Learned:
+
+This is one of my first html css projects. To this project I learned how to make a slot machine work by assigned variables to the images and using Math.random to randomize the image shown when the spin button is used. Here I used an event listener to detect the click, and also used conditionals to show messages, using innerText to refer to a certain area of the html, of when the player wins or loses.   
 
 Example:
 ```
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+
 ```
