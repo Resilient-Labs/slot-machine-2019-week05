@@ -2,11 +2,11 @@
 
 ### Goal: Build a Simple Slot Machine
 
-Spin the wheel to bet and win money, or feel free to just spin the wheel of friendship for fun. Inspired by Hello Kitty and friends. 
+Spin the wheel to bet and win money, or feel free to just spin the wheel of friendship for fun. Inspired by Hello Kitty and friends.
 
 ### How to submit your code for review:
 
-<img src="/ToDoListRemix2/img/SlotMachine.PNG" alt="SlotMachine" style="height: 100px; width:100px;"/>
+<img src="/Slot MachineRemix/template/img/SlotMachine.PNG" alt="SlotMachine" style="height: 100px; width:100px;"/>
 
 Lesson Learned:
 
