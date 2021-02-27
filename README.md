@@ -1,24 +1,5 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+Project: JDM Slot Machine 
 
-### Goal: Build a Simple Slot Machine
+Goals: The goals of this project contitst of creating a systemt to randomly generate a car from 5 potential cars for 3 slots. When the 3 slots line up with the same car then you win that bet! You will win 10x the amount you bet. If you lose you will lose the amount of money you spent. Each game you start with $10,000. 
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Screenshot](jdmSlotMachine.png)
