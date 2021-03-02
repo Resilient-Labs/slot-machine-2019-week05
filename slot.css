@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+  }
+body{
+  background-image: url("pokerbg.jpeg");
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.slots{
+    
+    height: 200px;
+    width: 25%; 
+    float: left;   
+    margin-left: 12.5%;
+}
+.reeltwo{
+    
+    height: 200px;
+    width: 25%;
+    float: left;    
+}
+.reelthree{
+    
+    height: 200px;
+    width: 25%;
+    float: left;    
+}
+button{
+    padding: 1%;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    
+}
+#betButtons{
+  padding-left: 41%;
+  padding-top: 1%;
+}  
+ .alignment{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.slots{
+    font-size: 3rem;
+    display: flex;
+    height: 15rem;
+    width:30%;
+    color: white;
+    font-size: 60px;
+}
+#slot1{
+  padding-left: 1%;
+  height: 340px;
+}
+#slot2{
+  height: 336px;
+}
+#slot3{
+  margin-right: 15%;
+  height: 336px;
+}
+h2{
+  text-align: center;
+}
+.fifty{
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+}
+
