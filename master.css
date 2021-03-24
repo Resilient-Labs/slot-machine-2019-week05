@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  margin: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  height: 80vh;
+  width: 100vw;
+  margin: 5% auto;
+  background-color: rgb(192, 192, 192);
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#calcBody {
+  border: 5px solid black;
+  height: 80vh;
+  width: 75%;
+  margin: 5% auto;
+  background-color: black;
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#disPlay {}
+
+.gameBoard {
+  height: 163px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.reel {
+  /* border: 1px solid red; */
+  width: 30%;
+  float: left;
+  height: 400px;
+}
+
+.leftSlot {
+  background-image: url(nba.Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: none;
+}
+
+.middleSection {
+  overflow: visible;
+}
+
+.rotate {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.reel img {
+  width: 108px;
+  height: 163px;
+}
+
+.reel {
+  height: 163px;
+}
+
+.spin {
+  animation-name: x-spin;
+  animation-iteration-count: infinite;
+  transform-style: preserve-3d;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-style: preserve-3d;
+  -webkit-animation-timing-function: linear;
+}
+
+#middleSlot {
+  animation-duration: 5.0s;
+}
+
+#rightSlot {
+  animation-duration: 5.0s;
+}
+
+img[data-player='mj'] {
+  transform: rotateX(0deg) translateZ(163px);
+  -webkit-transform: rotateX(0deg) translateZ(163px);
+}
+
+img[data-player='kobe'] {
+  transform: rotateX(72deg) translateZ(163px);
+  -webkit-transform: rotateX(72deg) translateZ(163px);
+}
+
+img[data-player='paul'] {
+  transform: rotateX(144deg) translateZ(163px);
+  -webkit-transform: rotateX(144deg) translateZ(163px);
+}
+
+img[data-player='lebron'] {
+  transform: rotateX(216deg) translateZ(163px);
+  -webkit-transform: rotateX(216deg) translateZ(163px);
+}
+
+img[data-player='trophy'] {
+  transform: rotateX(288deg) translateZ(163px);
+  -webkit-transform: rotateX(288deg) translateZ(163px);
+}
+
+@keyframes x-spin {
+  0% {
+    -webkit-transform: rotateX(0deg)
+  }
+
+  50% {
+    -webkit-transform: rotateX(180deg)
+  }
+
+  100% {
+    -webkit-transform: rotateX(360deg)
+  }
+}
