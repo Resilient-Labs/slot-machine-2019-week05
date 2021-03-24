@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Slot Machine</title>
+  <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+  <section class="leftSection">
+    <button id="buttonFive" type="button" name="button"><span>Min Bet $5</span></button>
+    <button id="buttonFifty" type="button" name="button"><span>Max Bet $50</span></button>
+    <input type="number" name="customEntry" value="">
+    <span id="pocket">Current Pocket</span>
+    <span id="currentBet">Current Bet</span>
+    <section id="totalEarning">
+      <h2 id="earnings">Your Earnings</h2>
+    </section>
+  </section>
+  <section class="middleSection">
+    <section class="gameBoard">
+      <section class="rotate">
+        <div id="leftSlot" class="reel spin">
+          <img id="mjOne" src="mj.png" alt="mj Pic" data-player="mj">
+          <img id="kobeOne" src="kobe.png" alt="kobe Pic" data-player="kobe">
+          <img id="paulOne" src="paul.png" alt="paul Pic" data-player="paul">
+          <img id="lebronOne" src="lebron.png" alt="lebron Pic" data-player="lebron">
+          <img id="trophyOne" src="trophy.png" alt="trophy Pic" data-player="trophy">
+        </div>
+        <div id="middleSlot" class="reel spin">
+          <img id="mjTwo" src="mj.png" alt="mj Pic" data-player="mj">
+          <img id="kobeTwo" src="kobe.png" alt="kobe Pic" data-player="kobe">
+          <img id="paulTwo" src="paul.png" alt="paul Pic" data-player="paul">
+          <img id="lebronTwo" src="lebron.png" alt="lebron Pic" data-player="lebron">
+          <img id="trophyTwo" src="trophy.png" alt="trophy Pic" data-player="trophy">
+        </div>
+        <div id="rightSlot" class="reel spin">
+          <img id="mjThree" src="mj.png" alt="mj Pic" data-player="mj">
+          <img id="kobeThree" src="kobe.png" alt="kobe Pic" data-player="kobe">
+          <img id="paulThree" src="paul.png" alt="paul Pic" data-player="paul">
+          <img id="lebronThree" src="lebron.png" alt="lebron Pic" data-player="lebron">
+          <img id="trophyThree" src="trophy.png" alt="trophy Pic" data-player="trophy">
+        </div>
+      </section>
+    </section>
+  </section>
+  <section class="rightSection">
+    <img id="lever" src="lever.png" alt="lever">
+    <!-- <img id="spinButton"src="spinButton.png" alt="spinButton"> -->
+  </section>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
