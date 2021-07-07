@@ -1,24 +1,20 @@
 # 🎰 Week05 Bootcamp2019 Project: Slot Machine
 
+![Slot Machine](https://cdn.dribbble.com/users/2406299/screenshots/11373893/media/31c3b8cd04e59cf88636983879b6f383.png)
+
 ### Goal: Build a Simple Slot Machine
 
 Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+I built a slot machine using just HTML,CSS and Javascript.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project involved using Javascript to manipluate the dom and make the website interactive.
+
+I used grid and flexbox to make this website reponsive on all devices.
+
+My next goal for this project to is make the actual slot machine animations work with spinning images.
+
+link to Slot Machine
+
+https://myslot-machine-app.netlify.app/
