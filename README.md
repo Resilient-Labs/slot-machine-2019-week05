@@ -1,24 +1,5 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+This is a slot machine! User is able to place bets at $5 and $50. Every time the user wins, they make x10 their bet!
 
-### Goal: Build a Simple Slot Machine
+View my slot machine: https://agitated-wiles-08e8a3.netlify.comf
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
-
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![](slot.png)
