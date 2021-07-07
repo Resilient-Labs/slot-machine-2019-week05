@@ -1,0 +1,134 @@
+#totalBalance,#playButton,#optionsBet{
+  width: 20%;
+  /* credit to mdn */
+
+  height:5em;
+  margin:17% 0 10% 10%;
+  color:orange;
+  border-radius: 22%;
+
+}
+#totalBalance:hover, #playButton:hover, #optionsBet:hover{
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(203,38,72,1) 100%);
+}
+h1{
+  text-align: center;
+  text-shadow: 1px 1px;
+  color: gold;
+  width:96%;
+  margin-right: 1%;
+  padding-top: 1%;
+  border-radius:10em;
+  border-left: 25px solid yellow;
+  border-right: 25px solid yellow;
+  font-family: cursive;
+  background-size: cover;
+  background-color: rgb(1,91,140);
+
+
+}
+img{
+height: 10em;
+width: 15%;
+margin-top: 7%;
+border: 1px solid blue;
+
+}
+
+
+.main-slot-section{
+  width:80%;
+  margin: auto;
+  background-image: url("https://image.freepik.com/free-photo/creative-background-roulette-gaming-dice-cards-casino-chips-dark-background_99433-24.jpg");
+  margin-top:1%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2em;
+  border-right:20px solid rgb(1,91,140);
+  border-left:20px solid rgb(1,91,140);
+  background-color: rgb(1,91,140);
+  box-shadow: 92px 18px 96px 96px lightgray;
+}
+
+.firstWheel,.secondWheel,.thirdWheel{
+  width:50%;
+  display:inline;
+  margin-right: 10%;
+  padding-left: 10%;
+}
+
+#optionsBet{
+  padding-left: 7%;
+}
+.menu{
+  display: none;
+}
+
+
+/* mobile */
+@media screen and (max-width: 561px)
+{
+
+
+
+
+
+img{
+  width:90%;
+  margin: 0;
+}
+h1{
+  width: 90%;
+  background: none;
+}
+#totalBalance,#playButton,#optionsBet{
+  width: 90%;
+  margin: 0;
+  margin-left:9%
+  /* credit to mdn */
+
+}
+.main-slot-section{
+  background-image: none;
+}
+
+.menu{
+  display: contents;
+  font-size: 24px;
+}
+
+}
+
+
+/*tablet */
+@media only screen and (min-width:562px)
+and (max-width: 968px)
+{
+
+.menu{
+  display: contents;
+  font-size: 24px;
+}
+
+.main-slot-section{
+  background-image:none;
+}
+
+img{
+  width:70%;
+  margin: 0;
+  margin-left:9%
+}
+h1{
+  width: 90%;
+  background: none;
+
+}
+#totalBalance,#playButton,#optionsBet{
+  width: 90%;
+  margin: 0;
+  margin-left:9%
+  /* credit to mdn */
+
+}
+}
