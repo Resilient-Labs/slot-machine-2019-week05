@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Slot Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <section class="reels">
+    <section class="imgs">
+      <img id="imgReelOne"src="blank.jpg" alt="">
+
+    </section>
+    <section class="imgs">
+      <img id="imgReelTwo" src="blank.jpg" alt="">
+
+    </section>
+    <section class="imgs">
+      <img id="imgReelThree" src="blank.jpg" alt="">
+    </section>
+
+  </section>
+  <section>
+    <button class="start" id="startGame" type="button" name="button"> <i class="fas fa-dollar-sign"></i>tart Playing !
+    </button>
+  </section>
+  <section class="buttons">
+    <h2 id="Win"></h2>
+    <h2 id="displayBet"> $0 Your Bet</h2>
+    <button class="but butLeft"id="betMin" type="button" value="PLAY" name="button">Make a 5$ Bet</button>
+    <button class="but"id="betMax" type="button" name="button">Make a 50$ Bet</button>
+      <h1 class="yourMoney" id="displayMoney">$1000,Your Earnings!</h1>
+
+  </section>
+
+    <h2 id="displayWin"></h2>
+    <audio id="audio" src="sounds/kick.wav"></audio>
+    <audio id="maxAudio" src="sounds/tom.wav"></audio>
+      <audio id="startAudio" src="sounds/ride.wav"></audio>
+  <script type="text/javascript"
+  src="APP.js">
+  </script>
+</body>
+</html>

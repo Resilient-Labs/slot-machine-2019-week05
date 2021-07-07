@@ -1,0 +1,104 @@
+
+* {
+  box-sizing: border-box;
+}
+.reels{
+  width:100%;
+  height:100px;
+}
+.imgs {
+  width: 29%;
+float: left;
+border: 2px solid black;
+height: 233px;
+margin: 2%;
+border-radius: 32px;
+}
+
+.buttons h2{
+  border: 2px solid black;
+      width: 23%;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 27px;
+      border-radius: 39px;
+      font-size: 21px;
+      height: 63px;
+      padding: 11px;
+      background-color: mediumpurple;
+}
+
+#imgReelOne {
+  height: 159px;
+width: 55%;
+margin-top: 11%;
+margin-left: 15%;
+}
+#imgReelTwo {
+  height: 161px;
+  margin-top: 24px;
+  margin-left: 11%;
+  width: 53%;
+}
+#imgReelThree {
+  height: 152px;
+margin-top: 34px;
+margin-left: 16%;
+width: 68%;
+}
+button{
+  outline: 0;
+}
+.buttons{
+  float: left;
+      text-align: center;
+      margin-left: 18%;
+      font-size: 30px;
+      border-radius: 50px;
+      padding: 3%;
+      clear:both;
+      width:65%;
+      font-family: 'Righteous', cursive;
+
+}
+.but{
+  float: left;
+text-align: center;
+font-size: 35px;
+padding: 3%;
+margin-left: 10%;
+border-radius: 100px;
+font-family: 'Righteous', cursive;
+margin-bottom: 32px;
+background-color: mediumpurple;
+}
+#Win{
+  font-size: 50px;
+width:15%;
+background-color: white;
+border:none;
+
+padding-right: 50px;
+}
+.start{
+  clear: both;
+      font-size: 40px;
+      border-radius: 30px;
+      font-family: 'Righteous', cursive;
+      padding: 16px;
+}
+
+
+.yourMoney{
+  clear:both;
+  clear: both;
+border: 2px solid black;
+border-radius: 34px;
+width: 41%;
+margin-left: 33%;
+background-color: mediumpurple;
+}
+.fa-dollar-sign{
+  color:Green;
+  font-size: 50px;
+}
