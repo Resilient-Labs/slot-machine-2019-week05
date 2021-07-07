@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="wrap">
+      <h1>Vegas Slot Machine</h1>
+      <section class="score">
+          <h2>You have $<span id=money></span></h2>
+          <select class="" name="" id="bet">
+            <option value="five" type="button" name="button">Bet Min: $5</option>
+            <option value="fifty" type="button" name="button">Bet Max: $50</option>
+          </select>
+      </section>
+      <section class="machine">
+        <section class="reelOne">
+          <span class="reelItem" id="reelOneItem"></span>
+        </section>
+        <section class="reelTwo">
+          <span class="reelItem" id="reelTwoItem"></span>
+        </section>
+        <section class="reelThree">
+          <span class="reelItem" id="reelThreeItem"></span>
+        </section>
+        <section>
+          <section id="spin">SPIN!</section>
+        </section>
+      </section>
+    </section>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

@@ -1,24 +1,13 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot Machine
 
-### Goal: Build a Simple Slot Machine
+<img width="1440" alt="Screen Shot of Slot Machine project" src="https://user-images.githubusercontent.com/55306344/67130856-a8438680-f1d0-11e9-9480-b230ea918e11.png">
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+https://quirky-swanson-684b5a.netlify.com
 
-### How to submit your code for review:
+## How It's Made:
+**Tech used:** HTML, CSS, JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The CSS is basic and the images need some adjusting. The DOM manipulation of the reel pictures was most difficult and took time to have the images display.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned
+It was difficult to try to get the reels to work separately and getting them to work together using comparison operators to determine if there is a winner as well as the amount won. It was interesting seeing how others did their projects and to see how there is more than one way to do it.
