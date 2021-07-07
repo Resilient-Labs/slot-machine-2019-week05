@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  font-family: 'Knewave', cursive;
+}
+body {
+  
+  background-color: #c21708;
+  padding: 0px;
+  margin-top: 0px;
+}
+main{
+  margin-top: 0px;
+  background-image: url(../assets/img/casinobg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 610px;
+  /* width: 90%; */
+  /* margin: auto; */
+  background-position: center;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  position: relative;
+  top:10px;
+  color: #f8d100;
+  letter-spacing: .8em;
+  background-color: black;
+  width: 50%;
+  margin:auto;
+  padding-top: 10px;
+  height: 50px;
+  font-family: 'VT323', monospace;
+  font-size: 3.5rem;
+  border-radius: 10px;
+}
+p{
+  width: 50%;
+  height: 30px;
+  margin:auto;
+  margin-top: 10px;
+  color: white;
+  /* background-color: white; */
+
+}
+label{
+  color: white;
+  font-size: 1.5em;
+  /* background-color: black; */
+  border-radius:5px;
+  font-weight: 600;
+
+}
+button{
+  height: 30px;
+  width: 20%;
+  margin-top: 20px;
+  color: white;
+  background-color: red;
+  border-color: #c21708;
+  border-radius: 5px;
+}
+select{
+  border-radius: 5px;
+  background-color: #f8d100;
+  margin-left: 2.5%;
+}
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  position: relative;
+  top: 20px;
+  margin: auto;
+  height: 275px;
+  background-color: white;
+  opacity: 50%;
+  border-radius: 20px;
+}
+.slots{
+  height: 250px;
+  width: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+  color: black;
+  font-size:10rem;
+}
+.mainSec{
+  background-image: url(../assets/img/greenbg.jpg);
+  width: 30%;
+  padding-top: 20px;
+  height: 200px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border-style: groove;
+}
+.balance{
+   height: 30px;
+   width: 30%;
+   margin: auto;
+   background-color: white;
+   opacity: 70%;
+   border-radius: 20px;
+   font-size: 2rem;
+ }
+ .update{
+   font-size: 3rem;
+   margin-bottom: 20px;
+ }
+ /* Tablet*/
+@media only screen and (min-width:600px) and (max-width:1140px) {
+  h1{
+    height: 100px;
+  }
+  .display {
+    width: 70%;
+
+  }
+  .mainSec{
+    width: 40%;
+
+  }
+
+}
+/* Phone */
+@media only screen and (max-width:600px)  {
+  h1{
+    height: 100px;
+  }
+  .display {
+    width: 90%;
+    height: 230px;
+
+  }
+  .mainSec{
+    width: 60%;
+
+  }
+  .slots{
+    height:220px;
+    padding-top: 20px;
+  }
+
+}
