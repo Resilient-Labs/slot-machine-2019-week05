@@ -83,7 +83,7 @@ function checkWinner(bet) {
         alert('Sorry Pal you Run out of Cash. The Game Is Over!')
         return
     } else if (middleImages[0].src === middleImages[1].src && middleImages[1].src == middleImages[2].src) {
-        playersCredit += bet
+        playersCredit += bet * 10
         credit.innerText = playersCredit
     } else {
 
