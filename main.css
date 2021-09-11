@@ -1,0 +1,71 @@
+section{
+    width: 80%;
+    height: 300px;
+   
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+div{
+    width: 32.8%;
+    height: 300px;
+   
+    float: left;
+}
+
+#minBet{
+    float: left;
+    padding: 14px 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    left: 550px;
+   
+}
+#maxBet{
+    float: left;
+    padding: 14px 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    left: 560px;
+}
+
+#spin{
+    float: left;
+    padding: 14px 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    left: 570px;
+    
+}
+
+#reset{
+    float:left;
+    padding: 14px 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    left: 580px;
+}
+
+h2{
+    float: left;
+   
+}
+
+body{
+    background-image: url('background.jpeg');
+    background-size: cover ;
+    height: 400px;
+    width: 100%;
+   
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
