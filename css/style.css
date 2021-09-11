@@ -1,0 +1,226 @@
+.youwon{
+    animation:bounceText 1s infinite;
+}
+ @keyframes bounceText{
+        0%{     transform: translate(0px, 0px); }
+        49%{    transform: translate(0px, 20px);}
+        60%{    transform: translate(0px, 30px);}
+        99%{    transform: translate(0px, -2px); }
+        100%{   transform: translate(0px, 0px); }
+    }   
+
+.tryagain{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    50%{    color: #000; }
+    70%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}   
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    body {
+    
+        background-color:rgb(175, 228, 225);
+        background-position: center;
+        font-family:  'Nova Round', cursive;
+        font-weight: 300;
+        position: relative;
+        height: 100vh;
+        color: black;
+    }
+
+@media(max-width:2000px) {
+
+    .wrapper {
+        width: 2000px;
+        position: absolute;
+       	top: 10%;
+        left: 50%; 
+        transform: translate(-50%, 0%);
+        display: float;
+
+    }
+/*Scoring Sheet*/
+#scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: 0.5em;
+    margin-top: 40px;
+  }
+
+
+    /**********************************************
+    *** desktop
+    **********************************************/
+    
+    
+    .title {
+        text-align: center;
+        font-size: 70px;
+        font-weight: 100;
+        color: black;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        transform: translateY(40%);
+        z-index: 0;
+    }
+   
+    /* button */
+    button {
+        position: absolute;
+        width: 200px;
+        left: 42%;
+        transform: translateX(-50%);
+        color: white;
+        background:black;
+       
+       border: none;
+        border-radius: 50px;
+        padding: 20px;
+        font-family: 'Nova Round', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 300;
+        transition: background-color 0.3s, color 0.3s;
+        z-index: 0;
+    }
+    
+    button:hover { width: 200px; background:white; color:black; }
+    /* button:hover i { margin-right: 20px; } */
+    
+    button:focus {
+        outline: none;
+    }
+    
+    .btn-roll { 
+        top: 600px;  
+    }
+    
+    .btn-stop { 
+        top: 600px; left:55%;    
+    }
+    
+    .slot {
+        position: absolute;
+        left: 22%;
+        top: 70%;
+        transform:scale(0.75);
+        z-index: 0;
+           
+    }
+    
+    .slot img{
+        padding:20px;
+        margin: 30px;
+        border: 20px solid black ;
+        background-color:white;
+        z-index: -1;
+    
+    }
+
+}
+
+    /**********************************************
+    *** mobile
+    **********************************************/
+
+
+@media(max-width:600px) {
+
+    .wrapper {
+        width:500px;
+        position: absolute;
+        top: 0%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        display: block;
+
+    }
+
+    .title {
+        text-align: center;
+        font-size: 50px;
+        color: black;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        transform: translate(0%,100%);
+    }
+    
+
+    .slot {
+        transform: scale(0.4);
+        position: absolute;
+        display:block;
+        width: 70%;
+        height: 500px;
+        top:0%;
+        margin-bottom: 10px;
+        
+    }
+    
+    .slot img {
+        padding:0px;
+        margin: 10px;
+        border: 20px solid black ;
+        background-color:white;
+        display: block;
+    
+    }
+    
+    /* button */
+    button {
+        display: block;
+        position: absolute;
+        width: 160px;
+        left: 25%;
+        transform: translateX(-50%);
+        color: white;
+        background:black;
+        border: none;
+        border-radius: 50px;
+        padding: 20px;
+        font-family: 'Nova Round', cursive;
+        font-size: 20px;   
+        cursor: pointer;
+       /* transition: background-color 0.5s, color 0.3s;  text-transform: uppercase;*/
+    }
+    
+    button:hover { width: 200px;}
+    /* button:hover i { margin-right: 20px; } */
+    
+    button:focus {
+        outline: none;
+    }
+    
+    .btn-roll { top: 800px;
+    
+    }
+    
+    .btn-stop { top: 800px; left: 75%;
+    
+    }
+    
+   
+
+
+}
