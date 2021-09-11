@@ -1,0 +1,98 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     text-align: center;
+     background-color: #d2d8d6;
+background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+
+
+
+}
+
+.reel-container{
+     width: 100%;
+     border: solid black;
+     height: 20rem;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.status{
+     width: 100%;
+     border: solid black;
+     height: 5rem;
+}
+
+.button-reset{
+     width: 100%;
+     border: solid black;
+     height: 5rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.reel-one, .reel-two, .reel-three{
+     width: 25%;
+     /* border: solid red; */
+     height: 15rem;
+}
+
+.instructions{
+     width: 100%;
+     border: solid blue;
+     height: 5rem;
+}
+
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
