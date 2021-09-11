@@ -1,0 +1,127 @@
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+  body{
+      background-image: url("back.jpeg");
+      background-repeat:no-repeat;
+      background-size: 1440px 780px;
+      color: white;
+  }
+
+.image{
+    width: 200px;
+    height: 205px;
+    float: left;
+    background: gold;
+    padding: 20px;
+    border: 10px solid rgb(195, 150, 0);
+    
+  }
+
+  .slot1, .slot2, .slot3{
+      padding-left: 42px;
+      float: left;
+      
+  }
+
+  .reels{
+      width: 100%;
+      height: 230px;
+      padding-left: 350px;
+      padding-top: 35px;
+  }
+
+h1{
+    border: 2px solid black;
+    width: 100%;
+    height:100px;
+    font-size: 90px;
+    text-align: center;
+    background: black;
+    margin-top: 40px;
+  }
+
+  .selectAmount, .buttonSection, .goodLuck, .update{
+      background: black;
+      float: left;
+      width: 33.3333%;
+      margin-top: 120px;
+      height: 115px;
+  }
+
+  .selectAmount{
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+  }
+
+  .selectAmount p{
+      margin-bottom: 0;
+      margin-top: 15px;
+      padding-bottom: 2px;
+  }
+  
+  .selectAmount button{
+      padding: 8px;
+      width: 14%;
+      background:gold;
+      border: 3px solid rgb(195, 150, 0);
+      font-weight: 700;
+      font-size: 15px;
+      margin-right: 5px;
+  }
+
+  #tryButton{
+      width: 50%;
+      padding: 8px;
+      background: red;
+      border: 3px solid rgb(114, 0, 0);  
+      margin-top: 25px;
+      margin-left: 90px;
+      font-size: 40px;
+      font-weight: 700;
+      border-radius: 8px;
+    }
+
+ .winOrLose {
+       font-size: 25px;
+       font-style: italic;
+       margin-bottom:3px;
+       margin-top: 20px;
+    }
+    
+.update h2{
+    color: blueviolet;
+    margin-top: 0;
+    font-size: 35px;
+}
+
+#moneyLeft{
+    color: greenyellow;
+}
+
+#customBet{
+    width: 55%;
+    padding: 7px;
+    font-style: italic;
+    font-weight: 700;
+    border: 3px solid rgb(195, 150, 0);
+    border-radius: 6px;
+}

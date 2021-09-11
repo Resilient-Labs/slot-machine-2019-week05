@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>CA$H SPIN</h1>
+    </section>
+    <section class="reels">
+        <section class="slot1">
+            <img src="slot1.png" class="image left">
+        </section>
+        <section class="slot2">
+            <img src="slot2.png" class="image middle">
+        </section>
+        <section class="slot3">
+            <img src="slot3.png" class="image right">
+        </section>
+</section>
+    <section class="selectAmount">
+        <p>Enter your bet amount</p>
+        <input id="customBet" placeholder="Minimum bet is $5, Maximum is $50"></input>
+    </section>
+    <section class="buttonSection">
+        <button id="tryButton">Spin it</button>
+    </section>
+    <section class ="update">
+        <p class="winOrLose">Good Luck!</p>
+        <h2>Money left to bet: <span id="moneyLeft">1000</span></h2>
+    </section>
+
+    <script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>
