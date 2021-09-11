@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.container{
+  height:600px
+}
+div{
+  height:300px;
+  width:33.3333%;
+  border:3px solid black;
+  float:left;
+}
+
+button{
+  width: 200px;
+}
+
