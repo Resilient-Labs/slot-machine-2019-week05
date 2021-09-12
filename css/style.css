@@ -1,0 +1,89 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/*Leon doesn't like this*/
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+     font-size: 2em;
+     font-family: 'Callie Chalk Font', sans-serif;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     background-color: rgba(154,199,232, 1);
+}
+main{
+     width: 100%;
+     clear: both;
+}
+
+.slot{
+     padding-top: 70px;
+     text-align: center;
+     width: 200px;
+     height: 200px;
+     background-color: rgba(241,114,169,1);
+     border: 2px solid rgba(240,38,42,1);
+     border-radius: 12px;
+     margin-bottom: 15px;
+     float: left;
+}
+
+.buttons{
+     width: 100%;
+     margin: 0 auto;
+     clear: both;
+}
+
+#fiver, #fiftyCent{
+     background-color: rgb(201, 184, 115);
+     border: 3px solid rgba(149,210,68,1);
+     border-radius: 12px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
