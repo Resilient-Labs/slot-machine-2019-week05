@@ -1,0 +1,1 @@
+when winning, winning messgage doesn't show and bet total isn't added back to the balance
