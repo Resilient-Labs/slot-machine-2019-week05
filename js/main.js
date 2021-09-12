@@ -33,6 +33,10 @@ function minBet(){
         totalMoney -= bet
         displayWinnerOrLoser("You lost!", totalMoney)
     }
+
+    if(totalMoney <= 0){
+        displayWinnerOrLoser("GAME OVER!!!!!", 0);
+    }
 }
 
 function maxBet(){
@@ -51,12 +55,12 @@ function maxBet(){
         displayWinnerOrLoser("You won!", totalMoney)
     } else {
         totalMoney -= bet;
-        displayWinnerOrLoser("You lost!", totalMoney)
+        displayWinnerOrLoser("You lost!", totalMoney);
     }
 
-    // if(totalMoney.textContent === 0){
-    //     return message.textContent ="Game over"
-    // }
+    if(totalMoney <= 0){
+        displayWinnerOrLoser("GAME OVER!!!!!", 0);
+    }
 }
 
 //functions
