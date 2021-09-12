@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-image:url("../images/bg.jpeg") ;
+    color: white;
+}
+section{
+    background-image:url("../images/slot.jpg") ;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 60%;
+    margin: auto;
+    background-size: 100%;
+}
+main{
+    width: 60%;
+    margin: auto;
+    background-color: black;
+}
+#result{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+#gameResult{
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+}
+
