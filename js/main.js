@@ -42,3 +42,4 @@ function loseMoney(){
     ('money').value
     mula.innerText= playerMoney
 }
+ 
