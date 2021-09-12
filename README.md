@@ -1,24 +1,26 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot Machine
+This is a project for creating a slot machine. You start of with $1000 credits. you press the betting buttons to bet either $5 or $50. if you win, you win 10X your initial bet and it will get added to your total credits. there is a prompt telling you if you win or lose for every bet.
 
-### Goal: Build a Simple Slot Machine
+**Link to project:** 
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![screenshot](img/screenshot.jpg)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+To make this To-Do list you need to start off with creating 3 buttons with event listeners. You will need 3 functions: 1. To clear the list 2. To clear the completed tasks 3. Transfer each input into your list. Bonus points for adding a task counter and using JS to dynamically cross off completed list items by clicking them.
+
+To make this slot machine we make three sections for our slots. each slot is going to need to output 5 reel items randomly. to do this we create a mathematical function that outputs exactly 5 answers and insert them into our slots. since the results are binary for win/lose we can use an if else statement for winning and losing.  we need to update our totals after every bet is placed as well. we also need to let the user know if they won or not with a prompt. 
+
+## Optimizations
+
+
+## Lessons Learned:
+
+Some great takeaways from this project are reusing your code. Both buttons do exactly the same thing. The only difference is quantity which can be easily changes. adding more betting options would only take a few minute.
+
+## Examples:
+
+
+
