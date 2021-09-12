@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.slots {
+  width: 400px;
+  height: 150px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.firstBox, .secondBox, .thirdBox {
+  height: 100%;
+  width: 33.3333%;
+  border: 1px solid black;
+}
+img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
