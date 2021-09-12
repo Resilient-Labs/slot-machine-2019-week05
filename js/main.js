@@ -22,7 +22,7 @@ function lifeBet(){
     document.querySelector('.bet h2').innerText = `Bet: ${bet} dollars`
     balance = balance - balance
     document.querySelector('.balance h2').innerText = `Balance: ${balance} dollars left`
-    document.querySelector('.status h2').innerText = "HOLY MOLY!"
+    document.querySelector('.status h2').innerText = "OH YOU GOT MONEY LIKE THAT?!?"
 }
 
 
