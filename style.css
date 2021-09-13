@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  background-color: lavender;
+}
+
+h1 {
+  color: black;
+}
+.slotsection {
+  height: 300px;
+  width: 500px;
+}
+.slotone {
+  height: 200px;
+  width: 33.33%;
+  border: 3px solid black;
+  float: left;
+  font-size: 50px;
+  text-align: center;
+}
+.slottwo,
+.slotthree {
+  height: 200px;
+  width: 33.33%;
+  border: 3px solid black;
+  float: left;
+  font-size: 50px;
+  text-align: center;
+}
+.minbet,
+.maxbet {
+  padding: 20px;
+  width: 10%;
+  background-color: lightpink;
+}
