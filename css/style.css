@@ -1,0 +1,142 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'ultra', serif;
+     background-color: rgb(255,175,183);
+}
+
+#frame {
+     width: 90%;
+     height: 700px;
+     margin: 5%;
+     border: 1px solid black;
+     background-color: rgb(255,207,221);
+     border-radius: 10%;
+     padding-left: 2%;
+     padding-right: 2%;
+}
+
+#frame section {
+     width: 30%;
+     height: 400px;
+     margin: 1.666%;
+     margin-top: 0;
+     margin-bottom: 10px;
+     border: 1px solid black;
+     float: left;
+     background-color: white;
+     border-radius: 10%;
+}
+
+#frame section ul {
+     width: 100%;
+     height: auto;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+}
+
+#frame section ul li {
+     width: 100%;
+     height: 400px;
+     padding-top: 85px;
+     padding-bottom: 85px;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+
+#frame section ul li img {
+     width: 100%;
+     height: auto;
+}
+
+h2 {
+     width: 100%;
+     height: 50px;
+     float: left;
+     clear: both;
+     text-align: center;
+}
+
+h1 {
+     text-align: center;
+     font-size: 2rem;
+     font-weight: 500;
+     width: 100%;
+     height: auto;
+}
+
+#credits {
+     height: 50px;
+     width: 25%;
+     font-size: 1.5rem;
+     float: left;
+     text-align: center;
+}
+
+#bet {
+     height: 50px;
+     width: 25%;
+     font-size: 1.5rem;
+     float: left;
+     text-align: center;
+}
+
+button {
+     height: 50px;
+     width: 13%;
+     float: right;
+     border-radius: 10%;
+     background-color: rgb(255,175,183);
+     border: 1px solid black;
+     margin: 1%
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
