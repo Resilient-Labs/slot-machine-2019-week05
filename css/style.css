@@ -4,78 +4,232 @@
 
 /* Box Model Hack */
 *{
-  box-sizing: border-box;
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
-.alignright {
-	float: right;
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-	float: left;
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-/*
-1px  = 0.0625rem
-10px = 0.625rem
-12px = 0.75rem
-14px = 0.875rem
-16px = 1rem (base)
-18px = 1.125rem
-20px = 1.25rem
-24px = 1.5rem
-30px = 1.875rem
-32px = 2rem
-*/
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-}
-
-.container {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     margin: 10% 20%;
-}
-
-.reel {
-     width: 33%;
-     height: 400px;
-     font-size: 2em;
-     border: 1px solid black;
-}
-.reel img {
-     width: 100%;
-}
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+     box-sizing: border-box;
+   }
+   
+   /* Clear fix hack */
+   .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+   }
+   
+   .clear {
+        clear: both;
+   }
+   
+   .alignright {
+        float: right;
+        padding: 0 0 10px 10px; /* note the padding around a right floated image */
+   }
+   
+   .alignleft {
+        float: left;
+        padding: 0 10px 10px 0; /* note the padding around a left floated image */
+   }
+   /******************************************
+   /* BASE STYLES
+   /*******************************************/
+   
+   body {
+        color: white;
+        font-size: 12px;
+        line-height: 1.4;
+        font-family: Helvetica, Arial, sans-serif;
+        background-image: url(img/neon-cti-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+   
+   
+   /******************************************
+   /* Heading
+   /*******************************************/
+    header {
+        margin: 0;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:black;
+        /* background-image: url(img/vegad-sign-background.jpg); */
+   }
+    .neon {
+        position: relative;
+        overflow: hidden;
+        filter: brightness(200%);
+    }
+    
+    .text {
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        font-size: 180px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        position: relative;
+        user-select: none;
+        background-color:black;
+   }
+    
+    .text::before {
+        content: attr(data-text);
+        position: absolute;
+        color: white;
+        filter: blur(0.02em);
+        mix-blend-mode: difference;
+    }
+    
+    .gradient {
+        position: absolute;
+        background: linear-gradient(45deg, #A909AD, #FF00E8, #FF77E9, #FF00E8, #A909AD);     top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        mix-blend-mode: multiply;
+    }
+    
+    .spotlight {
+        position: absolute;
+        top: -100%;
+        left: -100%;
+        right: 0;
+        bottom: 0;
+        background: 
+            radial-gradient(
+                circle,
+                white,
+                transparent 25%
+            ) center / 25% 25%,
+            radial-gradient(
+                circle,
+                white,
+                #000 25%
+            ) center / 12.5% 12.5%;
+        animation: light 5s linear infinite;
+        mix-blend-mode: color-dodge;
+    }
+    
+    @keyframes light {
+        to {
+            transform: translate(50%, 50%);
+        }
+    }
+   
+   /******************************************
+   /* Buttons
+   /*******************************************/
+   .betButtons {
+        background-color: #08C608;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+   }
+   @keyframes glowing {
+        0% {
+          background-color: #08C608;
+          box-shadow: 0 0 5px #08C608;
+        }
+        50% {
+          background-color:  #0BEF72;
+          box-shadow: 0 0 20px  #0BEF72;
+        }
+        100% {
+          background-color: #0BEF72;
+          box-shadow: 0 0 5px #0BEF72;
+        }
+   }
+   .betButtons {
+        animation: glowing 2500ms infinite;
+   }
+   .button {
+        background-color: #A909AD;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+   @keyframes glowing {
+        0% {
+          background-color: #A909AD;
+          box-shadow: 0 0 5px #A909AD;
+        }
+        50% {
+          background-color:  #FF00E8;
+          box-shadow: 0 0 20px  #FF00E8;
+        }
+        100% {
+          background-color: #FF00E8;
+          box-shadow: 0 0 5px #FF00E8;
+        }
+      }
+   .button {
+        animation: glowing 2500ms infinite;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10% 20%;
+   }
+   
+   .reel {
+        width: 32%;
+        height: 400px;
+        font-size: 2em;
+        border: 1px solid white;
+        border-radius: 15%;
+        box-shadow: 0 0 5px 5px white;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+   }
+   .reel img {
+        width: 100%;
+        padding: 5%;
+   }
+   .diamond {
+        padding-top: 15%;
+   }
+        /******************************************
+   /* LAYOUT
+   /*******************************************/
+   
+   
+   /******************************************
+   /* Style Inspiration From:
+   https://freefrontend.com/css-glow-text-effects/
+   https://www.w3docs.com/snippets/css/how-to-create-flashing-glowing-button-using-animation-in-css3.html
+   /*******************************************/
+   

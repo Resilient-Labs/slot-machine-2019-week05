@@ -11,8 +11,18 @@ let currentWager = document.querySelector('#wager')
 let purse = 1000
 let bet = 0
 
-spinWheel.addEventListener('click', spinTheWheel)
+spinWheel.addEventListener('click', verifyBet)
 betButtons.forEach(element => element.addEventListener('click', setWager))
+
+function verifyBet(){
+  if (purse < bet) {
+    gameResult.innerHTML = 'Not Enough Money!'
+  } else if (bet === 0) {
+    gameResult.innerHTML = 'Place Your Bet!'
+  } else {
+    spinTheWheel()
+  }
+}
 
 function spinTheWheel(){
   let reel1Result = reelImages[Math.floor(Math.random() * 5)]
@@ -23,16 +33,10 @@ function spinTheWheel(){
   reel2Display.src = reel2Result
   reel3Display.src = reel3Result
 
-  if (purse <= bet) {
-    gameResult.innerHTML = 'Not Enough Money!'
-  } else if (bet === 0) {
-    gameResult.innerHTML = 'Place Your Bet!'
+  if (reel1Result === reel2Result && reel1Result === reel3Result){
+  executeIfWin()
   } else {
-      if (reel1Result === reel2Result && reel1Result === reel3Result){
-      executeIfWin()
-      } else {
-      executeIfLose()
-    }
+  executeIfLose()
   } 
 }
 
@@ -51,5 +55,7 @@ function executeIfLose(){
 function setWager(event){
   bet = Number(event.target.value)
   currentWager.innerText = bet
+  console.log(bet)
   return bet
+  
 }
