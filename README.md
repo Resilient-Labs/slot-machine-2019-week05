@@ -9,8 +9,6 @@ This is a project for creating a slot machine. You start of with $1000 credits. 
 
 **Tech used:** HTML, CSS, JavaScript
 
-To make this To-Do list you need to start off with creating 3 buttons with event listeners. You will need 3 functions: 1. To clear the list 2. To clear the completed tasks 3. Transfer each input into your list. Bonus points for adding a task counter and using JS to dynamically cross off completed list items by clicking them.
-
 To make this slot machine we make three sections for our slots. each slot is going to need to output 5 reel items randomly. to do this we create a mathematical function that outputs exactly 5 answers and insert them into our slots. since the results are binary for win/lose we can use an if else statement for winning and losing.  we need to update our totals after every bet is placed as well. we also need to let the user know if they won or not with a prompt. 
 
 ## Optimizations
