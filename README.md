@@ -1,5 +1,5 @@
 A slot machine that allows people to bet with either $5 or $50
-
+<img src=“slotmachine.png”>
 
 
 Example:
