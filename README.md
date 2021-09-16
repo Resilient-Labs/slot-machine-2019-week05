@@ -6,6 +6,7 @@ This is my simple slot machine project! Players can place a minimum bet of $5 or
 
 <img src="slotmachine.png"></img>
 
+Link to live site: [https://danielmtran-slotmachine.netlify.app]
 
 ### How It's Made:
 
