@@ -1,5 +1,6 @@
-A slot machine that allows people to bet with either $5 or $50
-<img src=“slotmachine.png”>
+A slot machine that allowsto bet with either $5 or $50
+when you win: you will get 10x of the money you betted.
+<img src="slotmachine.png">
 
 
 Example:
