@@ -1,4 +1,4 @@
-Project: Slot Machine
+<h1>Slot Machine</h1>
 
 I completed the challenge: 5
 I feel good about my code: 4
