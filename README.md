@@ -3,7 +3,7 @@ This is a project for creating a slot machine. You start of with $1000 credits. 
 
 **Link to project:** 
 
-<img src='img/screenshot.jpg')
+<img src="images/screenshot.jpg">
 
 ## How It's Made:
 
