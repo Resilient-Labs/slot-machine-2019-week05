@@ -1,1 +1,0 @@
-Here I created a simple but fun slot machine with music and sound effect. 
