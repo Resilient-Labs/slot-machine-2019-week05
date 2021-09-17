@@ -41,15 +41,17 @@ function spinTheWheel(){
 }
 
 function executeIfWin (){
-  gameResult.innerHTML = 'Win!'
+  gameResult.innerHTML = '      Win!'
   purse += bet * 10
   purseValue.innerHTML = purse
+  setTimeout(() => {gameResult.innerHTML = ''}, 1500)
 }
 
 function executeIfLose(){
-  gameResult.innerHTML = 'Lose!'
+  gameResult.innerHTML = '     Lose!'
   purse -= bet
   purseValue.innerHTML = purse
+  setTimeout(() => {gameResult.innerHTML = ''}, 1500)
 }
 
 function setWager(event){
@@ -58,4 +60,7 @@ function setWager(event){
   console.log(bet)
   return bet
   
+}
+function removeResult () {
+  gameResult.innerHTML = ''
 }

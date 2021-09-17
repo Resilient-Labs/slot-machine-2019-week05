@@ -1,24 +1,17 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine - Jackpot 🎰
 
-### Goal: Build a Simple Slot Machine
+Watch out Vegas, this slot machine game is at your heels! This application compares the randomized results of 3 separate reels and dynamically updated your bet and score.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+## Link to Project: https://slot-machine.catgoncalves.com/
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![To-Do List Demo](url)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
+
+## Optimizations:
+I improved the user experience by first checking they have placed a bet and have sufficient balance before beginning the game. I added a time out to the game result to enhance the excitement of gameplay. 
+
+## Lessons Learned:
+This project was a fun and exciting chance to flex my JavaScript muscles in new ways. I challenged myself while creating this project by using the forEach method and by using an array for the first time. I placed a strong emphasis on refactoring this project to increase precision and making use of new methods and operators.  I look forward to bringing the workflow and structure of this project into future applications.   
