@@ -5,7 +5,7 @@ Watch out Vegas, this slot machine game is at your heels! This application compa
 ## Link to Project: https://slot-machine.catgoncalves.com/
 
 
-![To-Do List Demo](url)
+![To-Do List Demo](https://github.com/cat-goncalves/slot-machine-2019-week05/blob/answer/css/img/slot-machine-demo.gif)
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
