@@ -164,18 +164,39 @@ p {
 }
 
 .flashDelay {
-	animation: blinker 0.3s linear 9.6;
+	animation: blinker 0.5s linear 9.6;
 }
 
 @keyframes blinker {
-	0%,
-	49% {
+	0% {
 		background: url('../img/loser.png');
 		border: 3px solid #e50000;
 		box-shadow: 0px 0px 10px 5px red;
 		background-size: contain;
 	}
-	50%,
+	25% {
+		/* background: url('../img/loser.png'); */
+		background: red;
+
+		border: 3px solid #e50000;
+		box-shadow: 0px 0px 10px 5px red;
+		background-size: contain;
+	}
+	50% {
+		/* background: url('../img/loser.png'); */
+		background: red;
+
+		border: 3px solid #e50000;
+		box-shadow: 0px 0px 10px 5px red;
+		background-size: contain;
+	}
+	75% {
+		/* background: url('../img/loser.png'); */
+		background: rgb(234, 6, 255);
+		border: 3px solid #e50000;
+		box-shadow: 0px 0px 10px 5px green;
+		background-size: contain;
+	}
 	100% {
 		background: url('../img/winner.png');
 		box-shadow: 0px 0px 10px 5px green;
