@@ -10,7 +10,7 @@ let pictureArray = ['./pics/IMG_0275.JPG', './pics/IMG_0279.JPG', './pics/IMG_02
 minBet.addEventListener('click', placeMinBet) //created an event listener that lets the program know that when you click that element, it starts the function plceMinBet
 maxBet.addEventListener('click', placeMaxBet)//added Click event Listener 
 console.log('munchkin')
-
+// fsdad
 let bet = 0
 let total = 1000
 
