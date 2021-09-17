@@ -1,8 +1,9 @@
 # Ricamura's Memory Matcher
+This project was a simple slot machine.
 
 **link to site** https://ricamuramemorymatcher.netlify.app/
 
-![my site](/Users/resilientcoders/Desktop/rc/potfolio/slot-machine-2019-week05/slots/pics/slotmachine.png)
+![my site](slotmachine.png)
 
 ### How It’s Made
 
