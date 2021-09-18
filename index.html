@@ -8,23 +8,25 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@800&display=swap" rel="stylesheet">
-  
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
   <title>Slot Machine</title>
 </head>
 <body>
-  <h1>Welcome to B's Casino!</h1>
-  <h2>Try your luck at the Jackpot!</h2>
-<section class="betButtons">
-  <button id="min">BET MIN $5</button>
-  <button id="max">BET MAX $50</button>
+<header>
+  <h1>WELCOME TO B's CASINO</h1>
+  <h2>TRY YOUR LUCK AT THE JACKPOT!</h2>
+</header>
+<section class="slots">
+  <section class="slotReels"><img id="reel1"></section>
+  <section class="slotReels"><img id="reel2"></section>
+  <section class="slotReels"><img id="reel3"></section>
 </section>
-<section class="slotReels">
-  <div id="reel1"><img src="css/img/bell.png" alt=""></div>
-  <div id="reel2"><img src="css/img/cherry.png" alt=""></div>
-  <div id="reel3"><img src="css/img/grape.png" alt=""></div>
+<section class="results">
+    <button class="button" id="betFive"onclick="spin(minBet)">BET MIN $5</button>
+    <button class="button" id="betFifty" onclick="spin(maxBet)">BET MAX $50</button>
+  </section>
+  <p class="bank">Total Bank: <span id="totalMoney"></span></p>
 </section>
-
 <script src="js/main.js"></script>
 </body>
 </html>
