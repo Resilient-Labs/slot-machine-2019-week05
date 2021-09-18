@@ -1,37 +1,42 @@
-var totalMoney = 1000;
+const totalMoney = document.getElementById("totalMoney");
 var minBet = 5;
 var maxBet = 50;
-let reel1;
-let reel2;
-var reel3;
-document.getElementById("#minBet").addEventListener("click", spin)
-document.getElementById("#maxBet").addEventListener("click", spin)
+//put the clicker in html and not the JS because it wasn't working properly with my code//
+const minButton = document.querySelector("#betFive");
+const maxButton = document.querySelector("#betFifty");
 
-const myImageArray = ["css/img/bell.png", "css/img/cherry.png" , "css/img/grape.png" , "css/img/lemon.png" , "css/img/lucky7.png"]
+const myImageArray = ["css/img/bell.png", "css/img/cherry.png", "css/img/grape.png", "css/img/lemon.png", "css/img/lucky7.png"];
+var image1 = document.getElementById("reel1");
+var image2 = document.getElementById("reel2");
+var image3 = document.getElementById("reel3");
 
+//changed from Math.ceiling to floor as to round down and not up//
 function getRandomInt(){
-    return Math.ceiling(Math.random() * 5)
+    return Math.floor(Math.random() * 5);
 }
 
+image1.src = myImageArray[getRandomInt()];
+image2.src = myImageArray[getRandomInt()];
+image3.src = myImageArray[getRandomInt()];
+totalMoney.innerText = 1000;
+
 function betWin(bet){
-    totalMoney += (bet*5)
+    totalMoney.innerText += (bet * 10);
 }
 
 function betLoss(bet){
-    totalMoney -= bet
-    if (totalMoney <= 0) {
-        totalMoney = 0
-    }
+    totalMoney.innerText -= bet;
+    if (totalMoney.innerText <= 0) totalMoney.innerText = 0;
 }
 
 function spin(bet){
-    reel1 = getRandomInt()
-    reel2 = getRandomInt()
-    reel3 = getRandomInt()
+    image1.src = myImageArray[getRandomInt()];
+    image2.src = myImageArray[getRandomInt()];
+    image3.src = myImageArray[getRandomInt()];
 
-    if (reel1 === reel2 === reel3)
-        betWin(bet)
-    else
-        betLoss(bet)
+    if (image1.src === image2.src === image3.src) {
+      betWin(bet);
+    } else {
+      betLoss(bet);
+    }
 }
-
