@@ -1,0 +1,97 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+  /* BASE STYLES
+/*******************************************/
+.displayFlex{
+  display:flex;
+}
+
+.blackBorder{
+  border:1px solid black;
+}
+
+body{
+  background-image: url("../images/wallpaper.jpg");
+  background-size: 100%;
+}
+
+main{
+  margin-top: 200px;
+  justify-content: center;
+}
+#reelOne{
+  width:10%;
+  height: 120px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 20%;
+  padding-top: 40px;
+  text-align: center;
+  font-size:24px;
+ 
+}
+
+#reelTwo{
+  width:10%;
+  height: 120px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 20%;
+  padding-top: 40px;
+  text-align: center;
+  font-size:24px;
+}
+
+#reelThree{
+  width:10%;
+  height: 120px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 20%;
+  padding-top: 40px;
+  text-align: center;
+  font-size:24px;
+}
+
+.betButtons{
+  justify-content: center;
+}
+
+.credits{
+  border: 1px solid black;
+  justify-content: center;
+  width:5%;
+  margin:auto;
+  background-color: white;
+  border-radius: 20%;
+  
+}
+
+.results{
+  border: 1px solid black;
+  justify-content: center;
+  width:5%;
+  margin:auto;
+  background-color: white;
+  border-radius: 20%;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
