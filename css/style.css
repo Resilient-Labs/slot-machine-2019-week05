@@ -91,17 +91,6 @@ p {
 	background-position: center;
 	box-shadow: 0px 0px 10px 5px gold;
 }
-.reelLeft {
-	/* background: red; */
-}
-
-.reelMid {
-	/* background: green; */
-}
-
-.reelRight {
-	/* background: blue; */
-}
 
 .btnCont {
 	display: flex;
