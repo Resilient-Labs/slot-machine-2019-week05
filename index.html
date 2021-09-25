@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+
+		<title>Slot Machine</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="neon">
+			<span class="text" data-text="jackpot">jackpot</span>
+			<span class="gradient"></span>
+			<span class="spotlight"></span>
+		</header>
+		<!-- <h1>Hit The Jackpot</h1> -->
+		<section class="container">
+			<section class="reel">
+				<img src="" alt="" id = "reel1">
+			</section>
+			<section class="reel">
+				<img src="" alt="" id = "reel2" >
+			</section>
+			<section class="reel">
+				<img src="" alt="" id = "reel3">
+			</section>
+		</section>
+		
+		<section class="results">
+			<section class="topLine">
+				<h2>Your Money: $<span id="purse">1000</span></h2>
+				<button class="betButtons" id="betFive" value="5" >Bet 5</button>
+				<button class="betButtons" id="betFifty" value="50" >Bet 50</button>
+			</section>
+			<section class="middleLine">
+				<h2>Your Bet: <span id="wager">0</span></h2>
+				<button class="button" id="spinWheel">Play!</button>
+			</section>
+			<h2 class ="gameResult" id="gameResult" ></h2>
+			
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
