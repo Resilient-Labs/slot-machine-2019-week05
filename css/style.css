@@ -1,0 +1,113 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  .alignright {
+      float: right;
+      padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  }
+  
+  .alignleft {
+      float: left;
+      padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+       color: #000;
+       font-size: 12px;
+       line-height: 1.4;
+       font-family: Helvetica, Arial, sans-serif;
+       margin:0;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .container{
+      background-image: url(..//WOW_Wheel_Triple_Blazing_7s.jpeg);
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position: center;
+      height:800px;
+      width:100%;
+      margin:0%;
+  }
+  h1{
+      text-align: center;
+      font-size: 3em;
+  }
+    p{
+        font-size: 1.5em;
+        width:70%;
+        text-align: center;
+        margin-left: 15%;
+        font-weight: bolder;
+        color: yellow;
+    }
+    .boxes{
+        display:inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width:60%;
+        margin-top:4%;
+        margin-left: 15%;
+        padding: 5%;
+        grid-column-gap: 50px;
+        background-color: rgba(42,41,39)
+
+
+    }
+    img{
+        width:100%;
+    
+    }
+
+    #spin{
+        margin-left: 40%;
+        margin-top:2%;
+    }
+    
+    button{
+        
+        box-shadow: 0 12px 16px 0  gold, 0 17px 50px 0 black;
+        background-color: black;
+        color: gold;
+        padding: 10px;
+        margin-top:4%;
+        
+    }
+    #placeToSee{
+        text-align: center;
+        margin-right:10%;
+    }
+
+
+      
