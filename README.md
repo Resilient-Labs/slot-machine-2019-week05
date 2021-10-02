@@ -1,4 +1,4 @@
-# Project: Slot Machine
+# 🎰 Project: Slot Machine
 <img width="1481" alt="slotmachine" src="https://user-images.githubusercontent.com/88988494/134819526-3b0c69b1-146f-40f6-9152-cb6de12e7efb.png">
 
 # Tech Used: HTML, CSS, JS
