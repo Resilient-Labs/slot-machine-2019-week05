@@ -6,13 +6,15 @@ document.getElementById('betButton').addEventListener('click', slotGame)
  totalMoney.innerText = 1000;
 
 function slotGame(){
+  const amountBet = Number(betAmount.value)
   const slot1 = spinWheel()
   const slot2 = spinWheel()
   const slot3 = spinWheel()
+  if (amount{Bet === 5 || amountBet === 50){
   didYouWinOrNah(slot1,slot2,slot3)
   updateResults(slot1,slot2,slot3)
   updateMoney(slot1,slot2,slot3)
-  
+  }
   }
 
 function spinWheel(){
@@ -54,13 +56,14 @@ function updateResults(slot1,slot2,slot3){
 
 function updateMoney(slot1,slot2,slot3){
     const amountBet = Number(betAmount.value)
+    if (amountBet === 5 || amountBet === 50){
     console.log(amountBet)
     if (didYouWinOrNah(slot1,slot2,slot3)){
     totalMoney.innerText = (amountBet * 10) + Number(totalMoney.innerText)}
     
     else{
       totalMoney.innerText = Number(totalMoney.innerText) - amountBet;
-}
+}}
 }
 
 
