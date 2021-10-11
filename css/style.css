@@ -58,8 +58,11 @@
         font-size: 12px;
         line-height: 1.4;
         font-family: Helvetica, Arial, sans-serif;
+        margin-bottom: 8em;
         margin: none;
         background-color: black;
+        background: url(../images/casino.jpg);
+        background-position: center;
    }
    
    
@@ -67,19 +70,31 @@
    /* LAYOUT
    /*******************************************/
    h1{
-        font-size: 5em;
-        color: red;
-        text-align: center;
+     font-size: 6em;
+     color: rgb(147,44,41);
+     text-align: center;
+     -webkit-text-stroke-width: 4px;
+     -webkit-text-stroke-color: white;
+     margin-bottom: -1px;
+     margin-top: auto;
    }
    h2{
         text-align: center;
-        font-size: 3em;
+        font-size: 7em;
         color: white;
+        margin: 0;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: rgb(209,177,72);
+        margin-bottom: none;
    }
    h3{
         text-align: center;
         font-size: 3em;
-        color: red;
+        color: rgb(147,44,41);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        margin-top: 0;
+        margin-bottom: 15px;
    }
    div{
         height: 10em;
@@ -98,20 +113,23 @@
      margin: auto;
      height: 7em;
      width: 25em;
+     margin-bottom: none;
     }
     #fiveDollarBet{
          height: 3em;
          width: 12em;
-         color: red;
+         color: rgb(147,44,41);
          background-color: white;
          border-radius: 2em;
+         border: 2px solid rgb(209,177,72);
     }
     #fiftyDollarBet{
      height: 3em;
      width: 12em;
-     color: red;
+     color: rgb(147,44,41);
      background-color: white;
      border-radius: 2em;
+     border: 2px solid rgb(209,177,72);
     }
     .resetGameButton{
      display: block;
@@ -123,13 +141,16 @@
    #resetGame{
         height: 3em;
         width: 20em;
-        color: red;
+        color: rgb(147,44,41);
         background-color: white;
         border-radius: 2em;
+        border: 2px solid rgb(209,177,72);
    }
    img{
         height: 10em;
         width: 10em;
+        border: 8px solid rgb(209,177,72);
+        border-radius: 25px;
    }
 
    

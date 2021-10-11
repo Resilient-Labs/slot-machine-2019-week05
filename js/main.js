@@ -44,8 +44,8 @@ function fiveDollarBetButton(){
         console.log("YOU WIN!")
         let text = document.querySelector('h3')
         text.innerText = "YOU WIN!"
-        text.style.backgroundColor = 'white'
-        text.style.color = 'red'        
+        text.style.fontSize = '6em'
+        text.style.color = 'rgb(209,177,72)'       
         counter += bet * 10 + 5
 
     } else{    
@@ -55,8 +55,8 @@ function fiveDollarBetButton(){
 
         let text = document.querySelector('h3')
         text.innerText = "Sorry, Try Again"
-        text.style.backgroundColor = 'black'
-        text.style.color = 'red'
+        text.style.fontSize = '3em'
+        text.style.color = 'black'
     }   
     document.querySelector('h2').innerHTML = counter 
     console.log(counter)   
@@ -89,8 +89,8 @@ function fiftyDollarBetButton(){
         console.log("YOU WIN!")
         let text = document.querySelector('h3')
         text.innerText = "YOU WIN!"
-        text.style.backgroundColor = 'white'
-        text.style.color = 'red'        
+        text.style.fontSize = '6em'
+        text.style.color = 'rgb(209,177,72)'      
         counter += bet * 10 + 50
 
     } else{    
@@ -101,8 +101,8 @@ function fiftyDollarBetButton(){
 
         let text = document.querySelector('h3')
         text.innerText = "Sorry, Try Again"
-        text.style.backgroundColor = 'black'
-        text.style.color = 'red'
+        text.style.fontSize = '3em'
+        text.style.color = 'black'
         counter == bet
     }   
     document.querySelector('h2').innerHTML = counter 
