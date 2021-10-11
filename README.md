@@ -1,6 +1,6 @@
 <a href="https://slot-machine-daphnyemily.netlify.app/">Click for Demo</a>
 
-<img src="https://github.com/daphnyemily/slot-machine-2019-week05/blob/answer/slotMachine.png">
+
 
 
 # 🎰 Project: Slot Machine
