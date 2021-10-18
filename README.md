@@ -8,5 +8,4 @@ This is a simple slot machine with two buttons and a total that updates on wins 
 
 
 
-https://user-images.githubusercontent.com/89389822/137770551-6fee7671-78b0-45c9-9cd1-0e07eaf9c987.mov
-
+![slot-machine](https://user-images.githubusercontent.com/89389822/137770647-0f5dde20-0f4d-465a-b4b2-8bfdb8da7da9.gif)
