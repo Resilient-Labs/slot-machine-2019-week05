@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>SLOT MACHINE</h1>
+    <!-- Min/Max Bet Input-->
+    <p>How much do you want to bet?</p>
+    <form>
+        <label for="bet">Amount</label>
+        <input type="text" name="bet" placeholder="Min: $5 Max: $50" id="bet">
+    </form>
+    <!-- Start Button -->
+    <input type="submit" name="bet" value="Spin the Reels" id="go">
+    <!-- Show Reel -->
+    <p id="reel"></p>
+    <p id="winLose"></p>
+    <!-- Total -->
+    <p>Total: $<span id="totalMoney"></span></p>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
