@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: teal;
+}
+
+.clearfix:after {
+     content: " ";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    letter-spacing: 0.8px;
+    animation: blink 1s infinite;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.money:hover,#bet:hover,#maxBet:hover,.wheelSpin:hover{
+    cursor: pointer;
+}
+
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 500px;
+}
+
+.screenFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    width: 800px;
+    margin-top: 35px;
+}
+
+#firstItem, #secondItem, #thirdItem{
+    border:solid black 0.3px;
+    border-radius: 5px;
+    background: thistle;
+    height: 160px;
+    width: 200px;
+    margin: 60px 0;
+    background-image: url("/images/reel_normal.png");
+    background-repeat: no-repeat;
+    background-position:15px -170px;
+    background-size: cover;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    z-index: 1;
+}
+
+#bet, #maxBet, .money{
+    background: rgb(231, 231, 189);
+    border: thistle 10px solid;
+    width: 170px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.wheelSpin{
+    background: rgb(231, 231, 189);
+    border: thistle 20px solid;
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.wheelSpin h2{
+    font-size: 50px;
+}
+
+#bet h2, #maxBet h2, .money h2{
+    font-size: 30px;
+}
+
+#bet h3, #maxBet h3, .money h3{
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+#rewardMoney{
+    font-size: 30px;
+    text-transform: none;
+    margin-top: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+span{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.corn{
+    z-index: 2;
+
+    text-align: center;
+    font-size: 100px;
+    animation: blinky 2s infinite;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+
+.corn:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+@keyframes blinky { 
+    0%{ 
+        color:white; 
+    }25%{
+        color: rgb(78, 55, 78);
+    } 
+    50%{
+        color:white;
+    }75%{
+        color:rgb(78,55,78)
+    } 
+    100%{ 
+        color:white; 
+    } 
+}
+
+@keyframes blink { 
+    0%{ 
+        color:black; 
+    }25%{
+        color: rgb(240, 0, 0);
+    } 
+    50%{
+        color:black;
+    }75%{
+        color:rgb(240, 0, 0)
+    } 
+    100%{ 
+        color:black; 
+    } 
+}

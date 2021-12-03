@@ -1,24 +1,16 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+<h1>Slot Machine</h1>
 
-### Goal: Build a Simple Slot Machine
+I created a fun slot machine. Even though it looks nice and clean it is very difficult to win. 
+https://app.netlify.com/sites/theluckyslot/overview
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![webthree](https://user-images.githubusercontent.com/88953222/133680286-3803d2d0-e2e4-4a32-8549-6c427830755b.png)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<h2> How it's made</h2>
+Tech used: HTML, CSS, JavaScript, Framework of choice
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I created multiple click events for each of my buttons on the slot machine. The spin button had a function that takes in numbers from another function that runs the Math.random() call. Running numbers from 1-5. depending on the number it will decide what image to display. If all 3 numbers match after clicking the Spin button it will display to the user they have won and the reward is 3 times what they bet.
+
+<h2> Lesson Learned</h2>
+
+No matter what your experience level, being an engineer means continuously learning. 
