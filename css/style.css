@@ -51,3 +51,18 @@ h1{
   
 }
 
+#list{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.listgroup{
+ margin-right: 4%;
+ font-size: 20px;
+}
+
+.total{
+  font-size: 20px;
+}
