@@ -1,4 +1,4 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine
 
 ### Goal: Build a Simple Slot Machine
 
