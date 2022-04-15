@@ -1,0 +1,12 @@
+.slotOne,
+.slotTwo, .slotThree{
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+    margin: 5px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
