@@ -1,0 +1,95 @@
+/* slot machine styling */
+
+/* *{
+  font-size: 62.5%;
+} */
+/* 16 px = 
+/* 1 rem = 10px */
+/*margin and padings can be measured in rem and em*/
+
+body{
+  background-image: url(https://previews.123rf.com/images/tofumax/tofumax1504/tofumax150400019/38675371-blank-slot-machine-background-display.jpg);
+  background-repeat: no-repeat; 
+font-size: 30px; /*3 rem*/
+margin-top: -3%;
+background-size: cover;
+background-color: rgb(100, 18, 18)
+}
+#message{
+  margin:-3%;
+  font-size:32px;
+  color: yellow;
+}
+
+#cash-money{
+  /* display: inline-block; */
+   margin-left:432px;
+   margin-top: -104px; 
+  font-size: 20px;
+  /* width: 100px; */
+}
+
+h1{
+  display: inline;
+padding-top: 0%;
+}
+
+#reel{
+ margin: 2%;
+ /* margin-left: 10%; */
+/* margin-top: 400px; */
+width: 100%;
+}  
+
+#numberOne,#numberTwo,#numberThree{
+  display:inline-block;
+  font-size: 300px;
+}
+
+#numberOne{
+  margin-left: -37%;
+}
+#numberTwo{
+  margin-left: 20%;
+}
+#numberThree{
+  margin-left: 20%;
+}
+main{
+  margin-left: 40%;
+}
+#cash{
+  margin-left: 10%;
+  display: inline;
+}
+#min{
+  margin-right: 518px;
+}
+#max{
+  margin-left: -154px;
+}
+#min, #max{
+  transform: scale(4);
+  /* margin:100px; */
+}
+
+button:active{
+  box-shadow: 0 2px 0 rgb(36, 24, 24);
+  transform: translateY(3px);
+  border-radius: 10px;
+  height:20%;
+
+}
+
+
+#min, #max{
+  transition: 0.25s;
+  border-radius: 10px;
+  background-color: rgb(239, 15, 15);
+  color:rgb(248, 238, 238);
+  box-shadow: inset;
+  border: 2px solid rgb(66, 11, 18); 
+  /* box-shadow: 5px 2px 10px 5px rgba(93, 56, 63, 0.87); */
+  cursor: pointer;
+
+}
