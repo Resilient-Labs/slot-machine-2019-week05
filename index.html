@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Slot Machine</title>
+</head>
+<body>
+
+  <main> 
+    <h1>Feeling <span style= 'font-size:100px;'></span>&#127808;</span> 
+    <span style='font-size:50px;'>&#128527;</span> ? </h1>
+    <h2 id = "message">Welcome to Dani's Casino!</h2>
+    <div id = "cash-money">
+      <h2>Cash Amount:<span id = "cash">100</span></h2>
+      
+    </div> <!--this value has to be  ONLY a # ( no spaces or other characters ) so that we can parse it by adding or subtracting from it depending on the slot's generated #'s'-->
+
+    <!-- 5 items per reel and 3 reels  45 possible numbers -->
+    <div id=reel>
+      <section id = "numberOne"></section>
+      <section id = "numberTwo"></section>
+      <section id = "numberThree"></section>
+    </div>
+
+
+
+    <!-- <ul> 
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+
+    </ul>
+    <ul> 
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+
+    </ul>
+
+    <ul> 
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li> 
+    </ul>-->
+
+
+
+    <button type="submit" id="min"> $5 </button>
+    <button type="submit" id="max"> $50 </button>
+  
+    <div id="displayTotal"> 
+  </main>
+
+    <script src=main.js></script>
+</body>
+</html>
