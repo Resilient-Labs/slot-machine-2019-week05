@@ -1,4 +1,4 @@
-# Todo List App
+# Resilient Slot Machine
 Todo List allows the user to log their 'todos' and mark off todos for clearing upon completetion. Enjoy a nice 
 
 **Link to project:** https://cydvilla.github.io/todo-list/
