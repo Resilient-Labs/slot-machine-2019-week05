@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    color: #151414;
+    line-height: 1.4;
+    font-family: 'Boogaloo', cursive;
+    background-image:url("./img/background.png");
+    background-size:cover;
+}
+
+header{
+    padding-right: 30px;
+}
+h1{
+    margin:0px;
+    font-size: 70px;
+    text-align:right;
+    color: #ffed66;
+}
+h2{
+    margin: 0px 20px 0px 0px;
+    font-size: 30px;
+    text-align:right;
+    color: #ffed66;
+
+
+}
+
+.slots{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 40px;
+    padding-left: 60%;
+    width: 100%;
+    font-size: 35px;
+}
+
+img{
+    padding: 20px;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: #7d7d7d60;
+    object-fit: contain;
+    box-shadow: 0 0 10px 10px rgb(249, 238, 153);
+
+}
+
+button{
+    font-family: 'Boogaloo', cursive;
+    border-radius:20px;
+    border: 2px solid #ffed669e;
+    background-color: #7d7d7d60;
+	color:#ffed66;
+	font-size:25px;
+	padding:5px 20px;
+	text-decoration:none;
+}
+
+.results{
+    padding-right: 30px;
+    margin-top: 35px;
+    text-align: right;
+    font-size: 45px;
+}
+
+.bank{
+    font-size: 50px;
+    padding-right: 30px;
+    text-align: right;
+    color: #ffed66;
+}
+
+#totalMoney{
+    padding: 5px;
+    border: 2px solid #ffed669e;
+    background-color: #7d7d7d60;
+}
