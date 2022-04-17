@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+h1{
+  font-size: 5rem;
+  font-family: 'Beau Rivage', cursive;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  color: white;
+}
+h2{
+  font-size: 1.5rem;
+  color: white;
+}
+body{
+  height: 100%;
+  background-image: url(../images/rio.jpg);
+  background-size: cover;
+  min-height: 100%;
+}
+button{
+  color: white;
+  font-size: 1rem;
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  min-width: 70px;
+  background-color: black;
+}
+#reelsSec{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#btns{
+  height: 10%;
+  margin: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+#info{
+  height: 70px;
+  border-radius: 8%;
+  background-color: slategray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  width: 20%;
+  min-width: 200px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+#note{
+  font-style: italic;
+  clear: both;
+  color: white;
+}
+#info section{
+  float: left;
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid darkslategray;
+  display: flex;
+  justify-content: space-evenly;
+}
+#info section p, #info section h4, #info section h3{
+  margin: 0.4rem 0.4rem;
+  font-size: 1.1rem;
+}
+h2{
+  font-size: 2.5rem;
+  height: 1.2rem;
+  text-align: center;
+}
+.reels{
+  background-color: slategray;
+  min-height: 7.5rem;
+  font-size: 5rem;
+  width: 33%;
+  font-family: 'Beau Rivage', cursive;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8%;
+  max-width: 150px;
+  margin-bottom: 3rem;
+}
+
+@media all and (max-width: 700px) {
+  h1{
+    font-size: 4rem ;
+  }
+  .reels{
+    font-size: 3rem;
+  }
+  button{
+    font-size: 0.8rem;
+  }
+  #info section p, #info section h4, #info section h3{
+    font-size: 0.9rem;
+  }
+}
