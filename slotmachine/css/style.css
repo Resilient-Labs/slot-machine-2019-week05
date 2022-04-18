@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box; 
+  }
+  
+  /* Clear fix */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+/* body bg */
+
+body{
+    background: linear-gradient(
+        135deg,
+        rgb(37, 0, 29),
+        rgb(65, 0, 25),
+        rgb(0, 0, 36)
+    );
+}
+
+#container{
+    height: 1000px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+/* header */
+
+h1{
+    font-family: 'Press Start 2P', 'sans-serif', Helvetica;
+    color: rgb(255, 238, 0);
+    text-shadow: 5px 7px 7px rgba(255, 238, 0, 0.541) ;
+}
+
+#counter,p{
+    font-family: 'Lato', sans-serif;
+}
+
+/* amount */
+
+#amount{
+    color: lime;
+    font-size: larger;
+}
+
+/* reels */
+#reel1,#reel2,#reel3{
+    height: 200px;
+    width: 30%;
+    border: 5px dotted rgb(234, 0, 255);
+    border-radius: 5px;
+    float: left;
+    font-size: 100px;
+    margin-left: 30px;
+    color: rgb(0, 255, 221);
+    margin-bottom: 50px;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* bet buttons */
+#betButtons{
+    height: 200px;
+    margin-top: 30px;
+}
+
+#min,#max{
+    border: none;
+    height: 40px;
+    width: 20%;
+    border-radius: 4px;
+    font-size: large;
+    background: rgb(121, 109, 233);
+    color: white;
+}
+
+#min:hover{
+    background: rgb(46, 255, 27);
+}
+
+#max:hover{
+    background: rgb(46, 255, 27);
+}
+
+
+/* status message */
+#status{
+    height: 100px;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
