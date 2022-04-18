@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  margin: 0%;
+  background-image: url("../img/slot-machine-background-edit-3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  font-family: 'Spectral', serif;
+}
+
+h1 {
+  color: #fef0cb;
+  font-size: 4.2rem;
+  font-family: 'Monoton', cursive;
+  margin-top: 27.6px;
+  letter-spacing: 0.8rem;
+}
+
+.instructions {
+  background-color: #141741a8;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30.6%;
+  margin-left: 53px;
+  float: left;
+}
+
+.rewards {
+  text-align: left;
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 8.8px;
+  margin-top: 17.9px;
+  line-height: 1.8rem;
+  width: 100%;
+}
+
+main {
+  margin-top: 208px;
+  text-align: center;
+}
+
+.inlineSec {
+  display: inline;
+}
+
+.numbers {
+  display: inline;
+  width: 40%;
+}
+
+.slotMachineNum {
+  border: 1p solid black;
+  color: red;
+  font-size: 2.8rem;
+}
+
+#num1 {
+  margin: 5rem 2rem 5rem 8rem;
+}
+
+#num2 {
+  margin: 5rem 2rem 5rem 6.6rem;
+}
+
+#num3 {
+  margin: 10rem 7rem 5rem 6rem;
+}
+
+.betButton {
+  font-weight: 600;
+  font-size: 2.9rem;
+  color: #141741; 
+  
+}
+
+/* #maxBet {
+  float: right;
+}
+
+#minBet {
+  float: left;
+} */
+
+#playButton {
+  margin-top: 104.8px;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+button {
+  font-family: 'Spectral', serif;
+  font-size: 1rem;
+  padding: 2px 2.5% 2px 2.5%;
+  font-size: 2.1rem;
+  background-color: rgb(254 240 203 / 78%);
+  border: 2px solid #9CDCFE;
+  border-radius: 5px;
+}
+
+.bottomSec {
+  font-size: 2rem;
+  margin-top: 5rem;
+  color: #9CDCFE;
+}
+
+#amountLeftTxt {
+  color: #9CDCFE;
+  margin-top: 104.4px;
+  float: left;
+  margin-left: 90px;
+}
+
+#startAmountTxt {
+  display: block;
+  margin-top: -2.4rem;
+  font-size: 2.4rem;
+  color: #9CDCFE;
+}
+
+#gameStatus {
+  background-color: rgb(254 240 203 / 78%);
+  padding: 2px 2.5% 2px 2.5%;
+  display: inline;
+  font-weight: 600;
+  font-size: 2.9rem;
+  color: #141741;
+  font-family: 'Spectral', serif;
+  border: 2px solid #9CDCFE;
+  border-radius: 5px;
+}
+
+/* #amountContainer {
+  background-color: rgb(254 240 203 / 78%);
+  padding: 2px 2.5% 2px 2.5%;
+  border: 2px solid #9CDCFE;
+  font-family: 'Spectral', serif;
+  border-radius: 5px;
+  display: inline;
+} */
+
+#amountLeftTxt {
+  font-weight: 400;
+  color: white;
+  display: inline;
+  font-size: 3.3rem;
+}
+
