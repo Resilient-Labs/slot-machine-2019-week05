@@ -1,0 +1,19 @@
+* {
+  background: darkgreen;
+  color: tan;
+}
+
+main {
+  flex-direction: column;
+  text-align: center;
+}
+
+.reels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#reelOne, #reelTwo, #reelThree {
+  padding: 5px;
+}
