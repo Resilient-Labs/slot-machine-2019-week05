@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1 id="message">Welcome to the Casino!</h1>
+            <h2 id="secondMessage">Are you feeling <span class="greenText">Lucky</span>?</h2>
+            <p>Test your luck!</p> 
+        </section>
+    </header>
+    <main class="clearfix">
+        <section class="reelBox">
+            <h3 id="reel1"></h3>
+            <img src="images/panda.png" alt="" class="pandaPic">
+        </section>
+        <section>
+            <h3 id="reel2"></h3>
+            <img src="images/panda.png" alt="" class="pandaPic">
+        </section>
+        <section>
+            <h3 id="reel3"></h3>
+            <img src="images/panda.png" alt="" class="pandaPic">
+        </section>
+    </main>
+    <section class="scoring">
+        <p>You have $<span id="amount">100</span> dollars left</p>
+        <p>Choose your bet.</p>
+        <button id="min">Min Bid ($5)</button>
+        <button id="max">Max Bid ($50)</button>
+        <section class="instructions">
+            <p>Instructions</p>
+            <ol>
+                <li>Choose a bid.
+                    <ul>
+                        <li>If you bid $5 and win, you gain $50. If you lose, you lose $5.</li>
+                        <li>If you bid $50 and win, you gain $100. If you lose, you lose $50.</li>
+                    </ul>
+                </li>
+                <li>When you run out of money, you will need to refresh the page to play again.</li>
+                <li>Have fun!</li>
+            </ol>
+        </section>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
