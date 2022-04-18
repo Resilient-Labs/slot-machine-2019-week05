@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slot Machine</title>
+  <link rel="stylesheet" href="slotmachine.css">
+</head>
+<body>
+    
+        <section class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Play Slot!</h1>
+                <p class="lead">
+                    Slot machine simulator
+                </p>
+                           
+                <p>
+                    Hit lever button to start
+                </p>
+            </div>
+        </section>
+     <table class="center">
+            <tbody>
+                <tr>
+                    <td>
+                        <span id="item1" class="slot-number">-</span>
+                    </td>
+                    <td>
+                        <span id="item2" class="slot-number">-</span>
+                    </td>
+                    <td>
+                        <span id="item3" class="slot-number">-</span>                        
+                    </td>
+                    <td>
+                        <span id="item4" class="slot-number">-</span>
+                    </td>
+                    <td>
+                        <span id="item5" class="slot-number">-</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+           <div class="center lever">
+            <button type="button" class="btn">Lever</button>
+        </div>
+
+        <div id="message" class="hidden">
+            You Won!
+        </div>
+     
+        <script src="slotmachine.js"></script>
+</body>
+</html>
