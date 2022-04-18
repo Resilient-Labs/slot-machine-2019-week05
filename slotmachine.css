@@ -1,0 +1,45 @@
+.hidden{
+  display: none;
+}
+
+body{
+  /* background-image: url(../Slot\ Machine/slot.png) */
+  background-color: aqua;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container h1{
+  font-size: xx-large;
+}
+
+.container p{
+  font-size: large;
+}
+
+
+.slot-number {
+  font-size: 100px;
+}
+
+.message {
+  text-align: center;
+  display: none;
+  font-size: xx-large;
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+
+.lever {
+  margin-top: 5px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
