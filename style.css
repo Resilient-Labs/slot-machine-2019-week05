@@ -1,11 +1,12 @@
 * {
-  background: darkgreen;
-  color: tan;
+  background: gray;
+  color: lightgray;
 }
 
 main {
   flex-direction: column;
   text-align: center;
+  padding: 10px;
 }
 
 .reels {
@@ -15,5 +16,9 @@ main {
 }
 
 #reelOne, #reelTwo, #reelThree {
+  width: 20%;
+  height: 20px;
   padding: 5px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
 }
