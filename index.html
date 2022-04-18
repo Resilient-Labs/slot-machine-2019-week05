@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>007 Slot Machine</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>007 Casino Royale Slot Machine</h1>
+		
+		<section>
+        <p id="savings">Bond's Life Savings:<span>$</span><span id="playerMoney">1000</span></p>
+		<div id="slotOne" class="slotNumber">0</div>
+		<div id="slotTwo" class="slotNumber">0</div>
+		<div id="slotThree" class="slotNumber">0</div>
+		</section>
+				
+		<section section="" class="botsec">
+			<p id="missionResult" class="resultMsg" style="">JACKPOT! Nice work Bond. - M</p>
+			<button id="minBet">Min bet:$50</button>
+			<button id="maxBet">Max bet:$100 </button>
+		</section>
+
+		<audio id="audioOne">
+			<source id="smAudio" src="audio/slotmachine.mp3" type="audio/mpeg">
+		</audio>
+		
+		<audio id="audioTwo">
+		<source id="jackAudio" src="audio/jackpot.wav" type="audio/mpeg">
+		</audio>
+		
+		<audio id="audioThree">
+		<source id="loseAudio" src="audio/lose.wav" type="audio/mpeg">
+		</audio>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
