@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Slotty Machine</h1>
+        <section id="leftslot" class="img"><img id="imgLeft" src="css/rick.png" alt=""></section>
+        <section id="midslot" class="img"><img id="imgMid" src="css/rick.png" alt=""></section>
+        <section id="rightslot" class="img"><img id="imgRight" src="css/rick.png" alt=""></section>
+    </main>
+    <section>
+        <button value='5' id="bet5" class="min bet">min bet: $5</button>
+        <button value='100' id="bet100" class="max bet">max bet: $100</button>
+    </section>
+    <section>
+        <button value="10" id="bet10">$10</button>
+        <button value="20" id="bet20">$20</button>
+        <button value="50" id="bet50">$50</button>
+    </section>
+
+    <h2 id="wonOrLost"></h2>
+    <h2>Current Amount:$<span id="placeToSeeMoney"></span> </h2>
+    <script src="js/main.js"></script>
+</body>
+</html>
