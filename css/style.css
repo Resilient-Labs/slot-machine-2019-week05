@@ -1,0 +1,132 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+*{
+  font-family: 'Press Start 2P', cursive;
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, section, p, button, main{
+  align-self: center;
+}
+
+#reel1, #reel2, #reel3 {
+  width: 30%;
+  height: 86%;
+  background-image: url(../img/slotsprite2.JPG);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 1%;
+  background-position: 50% -0.5%;
+}
+
+
+main {
+  background: url(../img/oregonfield.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+.slots {
+  background-color: black;
+  border: 6px solid white;
+  border-radius: 5px;
+  width: 35%;
+  margin: 95px 33%;
+  height: 218px;
+  padding-top: 12px;
+}
+
+.response {
+  padding: 2%;
+  background: url(../img/message3.png);
+  background-repeat: no-repeat;
+  width: 45%;
+  background-position: 50% 52%;
+  min-height: 100px;
+  background-size: 185% 682%;
+  margin: auto;
+}
+
+#message {
+  margin: 10%;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 83%;
+}
+
+#goal {
+  font-size: 2em;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+}
+
+.info {
+  margin: 1%;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+footer{
+  background-color: black;
+}
+/* Buttons */
+#restartBtn {
+  margin: 1% 28%;
+}
+
+button {
+  height: 44px;
+  width: 47%;
+  font-size: 1.5rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
