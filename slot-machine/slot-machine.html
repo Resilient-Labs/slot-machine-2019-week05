@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>feeling lucky? </title>
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="css/slot-machine.css">
+</head>
+<body>
+
+  <h1>Feeling lucky?</h1>
+
+  <!-- <button id="playButton">play Game</button> -->
+
+  <span id="startAmountTxt">Starting amount: $1000</span>
+
+  <main>
+    
+    <button class="betButton" id="minBet">Bet $25</button>
+    
+    <Section class="numbers">
+      <span class="slotMachineNum" id="num1">7</span>
+      <span class="slotMachineNum" id="num2">7</span>
+      <span class="slotMachineNum" id="num3">7</span>
+    </Section>
+
+    <button class="betButton" id="maxBet">Bet $100</button>
+  </main>
+
+  <section class="bottomSec">
+    <section class="instructions">
+      <p class="rewards">Get over 21 & get your money back x 2 </p>
+  
+      <p class="rewards">Get between 15 and 21 get your money back + $100</p>
+  
+      <p class="rewards">Get between 10 and 15 get your money back + $50</p>
+  
+      <p class="rewards">Get between 5 and 10 get your money back + $25</p>
+    </section>      
+
+    <!-- <div id="gameStatus">
+      <span id="WinLoseTxt">YOU WON</span>
+    </div> -->
+
+  <!-- <div id="amountContainer"> -->
+    <p id="amountLeftTxt"></p>
+  <!-- </div> -->
+  </section>
+  
+
+  <!-- // Alumni Jeffery Moreta helped me -->
+
+  <script src="js/slot-machine.js"></script>
+</body>
+</html>
