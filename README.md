@@ -4,21 +4,4 @@
 
 Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Definitely a project I'll remember as it had to do with one of the best animes ever written! This Attack On Titan inspired slot machine allows the user to interact with a button that will randomly generate 3 images. If these images come out to be the same, the user will recieve a prize and can continue playing until they reach 0. Tougher than our last one but in my opinion way more aesthetically pleasing than the last one! I got to understand how to use randomness on a button press/interaction and how to continue adding/subtracting values based on the result the user sees! I'd love for you to try your luck so feel free to download my code and I hope you can become the next Attack Titan ready to defend Paradis Island!
