@@ -1,0 +1,36 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  display: flex;
+  flex-direction: column;
+  background: url(../sino.jpeg);
+  background-size: cover;
+}
+
+h1{
+  font-family: 'abril fatface', 'Helvetica', 'sans-serif';
+  font-size: 600%;
+  color: #C49222;
+}
+
+p{
+  font-size: 400%;
+}
+h1, form, div, h3, p{
+  align-self: center;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
