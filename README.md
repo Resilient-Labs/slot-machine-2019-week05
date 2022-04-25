@@ -4,6 +4,8 @@ This project is mimicking a slot machine using JavaScript that you would play at
 
 **Link to project:** https://ecslot.netlify.app
 
+![slot](https://user-images.githubusercontent.com/102037717/165101157-d1d07be3-bd1a-4527-8c8a-32e19d7aea84.png)
+
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
