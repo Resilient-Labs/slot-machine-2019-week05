@@ -54,7 +54,7 @@ h1, section, p, button, main{
 }
 
 
-main {
+.game {
   background: url(../img/oregonfield.jpg);
   background-repeat: no-repeat;
   background-size: cover;
