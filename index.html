@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<title>Slot Machine</title>
+</head>
+<body>
+	
+	<main>
+		<section class="game">
+			<h1>The Oregon Trail Slot Machine</h1>
+
+			<section class="slots">
+				<section id="reel1"></section><!--
+				--><section id="reel2"></section><!--
+				--><section id="reel3"></section>
+			</section>
+			
+			<section class="response">
+				<p id="message">Play a round. You look like a winner.</p>
+			</section>
+		</section>
+
+		<p id="goal">Raise money to make it through the trail</p>
+
+		<section class="info">
+			<p>Date: April 4 1948</p>
+			<p>Weather: Rain</p>
+			<p>Wallet: $<span id="walletAmount">500</span></p>
+			<button id="max">Max ($50)</button>
+			<button id="min">Min ($5)</button>
+			
+		</section>
+
+		<footer>
+			<button id="restartBtn">Play Again?</button>
+		</footer>
+	</main>
+
+	<script rel="text/javascript" src="js/main.js" ></script>
+</body>
+</html>
