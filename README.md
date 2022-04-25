@@ -1,24 +1,17 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine Project
 
-### Goal: Build a Simple Slot Machine
+This project is mimicking a slot machine using JavaScript that you would play at a real-life casino. you can choose a minimum bet of $5 or maximum bet of $50 to test your luck. If you match all 3 numbers in each reel, you wil $50. 
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+**Link to project:** https://ecslot.netlify.app
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I first created the HTML for the content of the site - and to have places for each real, the min/max buttons, as well as the total amount of money. Afterwards, I used JavaScript to generate random numbers from 1-5 for each real, and functions that excute when you click the mix/max numbers. using conditionals, I mde it so that if all 3 reel numbers are equal to one another, you would get an additional $50 to your total amount. If not, you would be deducted the amount you bet. Additionally, I made sure that if you have no more money (0), you can not longer play the game. I then used CSS to give it a darker theme with brighter colors that stand out. 
+
+## Lessons Learned:
+
+This was great JavaScript practice, so after completeing this I am trying to continue to memorize the patterns used to make this project run, by deleting the code and doing it again off of memory. This definitely helped with my overll understanding of conditionals and functions as well. 
+
+
