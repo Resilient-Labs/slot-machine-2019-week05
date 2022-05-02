@@ -1,6 +1,6 @@
 ### Money Shores Slot Machine
 
-![Slot Machine](https://cdn.dribbble.com/users/2406299/screenshots/11373893/media/31c3b8cd04e59cf88636983879b6f383.png)
+![Slot Machine](https://images.unsplash.com/photo-1517085908802-f56a43681c18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80)
 
 ### Goal: Build a Simple Slot Machine
 
