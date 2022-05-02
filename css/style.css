@@ -1,0 +1,21 @@
+body {
+    font-family: "Poppins", "Futura", sans-serif;
+    background-color: rgb(177, 206, 221);
+    text-align: center;
+    background: url(../media/background.png);
+}
+
+button {
+    font-family: "Poppins", "Futura", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.message {
+    margin-top: 5em;
+}
+
