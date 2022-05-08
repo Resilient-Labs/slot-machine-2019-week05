@@ -19,15 +19,3 @@ You don't have to include this section but interviewers *love* that you can not 
 ## Lessons Learned:
 
 Going overboard with CSS animations CAN and WILL cause extreme slowdown to your computer. 
-
-<!-- ## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
-
-
- -->
