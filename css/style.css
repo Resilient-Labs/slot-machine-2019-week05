@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('../images/bamboo.jpg')
+}
+
+.greenText {
+    color: #5f753b;
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* Header Styling */
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(227,219,202, .8);
+    margin: 2%;
+    font-size: 1.5rem;
+}
+
+/* Main Reel Styling */
+
+main>section {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.pandaPic {
+    height: 250px;
+}
+
+h3{
+    background-color: rgb(227,219,202, .8);
+    text-align: center;
+    margin: 2% 25%;
+    font-size: 6rem;
+}
+
+/* Scoring Styling */
+
+.scoring {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: rgb(227,219,202, .8);
+    margin: 2%;
+    padding: 2%;
+}
+
+.instructions {
+    margin: 1% 20%;
+    text-align: left;
+}
+
+button {
+    padding: 1%;
+    border-radius: 15px;
+}
+
+#amount {
+    color: darkgreen;
+}
+
+/* Media Queries Below */
+
+@media all and (max-width: 426px) {
+    .pandaPic {
+        height: 140px;
+    }
+
+    .instructions {
+        margin: 1% 1%;
+    }
+}
