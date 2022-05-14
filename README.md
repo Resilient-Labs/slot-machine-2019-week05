@@ -3,7 +3,8 @@ Todo List allows the user to log their errands or things they need to currently 
 
 **Link to project:** https://dragonballslot.netlify.app/
 
-![alt tag](slot.gif)
+![Screenshot 2022-05-14 034403](https://user-images.githubusercontent.com/101950707/168416417-8176a2f7-edbf-4fd3-a98f-3a9f7766a7bc.png)
+
 
 ## How It's Made:
 
