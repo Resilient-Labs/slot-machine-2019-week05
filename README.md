@@ -1,5 +1,5 @@
 # Resilient Slot Machine
-Todo List allows the user to log their errands or things they need to currently do!
+Slot machine allows the user to bet money to see if they can match the three dragonballs 
 
 **Link to project:** https://dragonballslot.netlify.app/
 
