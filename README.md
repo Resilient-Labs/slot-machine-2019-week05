@@ -1,5 +1,5 @@
 <section>
-  <h1 align="center">Tic Tac Toe</h1>
+  <h1 align="center">Slot Machine</h1>
 <p align="center">
  A cool website that is a slot machine game. Test your luck and see if Rick and Morty will take all your cash or leave richer than you came!
 </p>
