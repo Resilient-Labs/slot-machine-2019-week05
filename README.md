@@ -1,24 +1,10 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+<h1 align="center"> Slot Machine</h1>
+<p align="center"> This project is mimicking a slot machine using JavaScript that you would play at a real-life casino. User has to make min or max bid and spin the wheel. if all three pixtures match the user is the winner.
 
-### Goal: Build a Simple Slot Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
 
-### How to submit your code for review:
+![ss1](https://user-images.githubusercontent.com/101954954/172289434-5fb90d0d-fd70-4571-8148-2daa1701d5bb.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Tech used: HTML, CSS, JavaScript, OOP
+
