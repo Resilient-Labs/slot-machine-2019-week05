@@ -1,24 +1,17 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+<section>
+  <h1 align="center">Slot Machine</h1>
+<p align="center">
+ A cool website that is a slot machine game. Test your luck and see if Rick and Morty will take all your cash or leave richer than you came!
+</p>
 
-### Goal: Build a Simple Slot Machine
+<section align="center">
+  <img width="1322" alt="Screen Shot 2022-06-05 at 4 55 19 PM" src="https://user-images.githubusercontent.com/102041426/172070189-46aa0ae8-e856-4a83-9fde-bc4a2bdfd052.png">
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+  </section>
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+</section>
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<h2 align="center"> Languages used</h2>
+<p align="center"> HTML, CSS, Javascript  </p>
+

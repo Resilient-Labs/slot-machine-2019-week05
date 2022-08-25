@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url(./galaxy.webp);
+    background-size: cover;
+}
+body{
+font-family: 'Nosifer', sans-serif;
+font-size: 24px;
+}
+
+main{
+    height: 400px;
+    width: 100%;
+}
+main>section{
+    height: 200px;
+    border: 1px solid white;
+}
+img{
+    height: 200px;
+    width: 100%;
+}
+h1, main+section, section+section, h2{
+    text-align: center;
+    color: greenyellow;
+}
+.img{
+    float: left;
+    margin: 4% 0 0 10%;
+}
+.bet{
+    height: 40px;
+    width: 15%;
+    font-size: 18px;
+    font-weight: 600;
+}
+section>button{
+    height: 30px;
+    width: 6%;
+}
+
+@media all and (max-width: 1024px){
+    main>section.img{
+       margin-left: 4%;
+    }
+}
+
+@media all and (max-width: 820px){
+    main>section.img{
+       margin-left: 0;
+    }
+    main>section{
+        width: 33%;
+    }
+    .bet{
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 390px){
+    .bet{
+        font-size: 10px;
+    }
+    main>section{
+        height: 200px;
+    }
+    section>.bet{
+        width: 30%;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    section+section>button{
+        width: 10%;
+    }
+}
