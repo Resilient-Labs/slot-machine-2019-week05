@@ -1,0 +1,34 @@
+/* * {
+    box-sizing: border-box;
+}
+
+div {
+   
+    border: 1px solid black;
+    float: left;
+}
+
+button {
+    clear: both;
+} */
+
+section {
+    border: 1px solid black;
+    height: 400px;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.reel {
+    display:inline-block;
+    height: 100px;
+}
+
+ button {
+    height: 50px;
+    width: 10%;
+    background: green;
+    border-radius: 10%;
+    border: none;
+    
+} 
