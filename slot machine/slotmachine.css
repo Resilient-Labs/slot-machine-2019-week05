@@ -1,0 +1,216 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image: url('./images/angryeren.gif');
+    background-repeat: no-repeat;
+    background-size:130%;
+    font-family: 'New Rocker', cursive;
+
+}
+h1{
+    text-align: center;
+    position: relative;
+    margin-left: 40px;
+    top:-50px;
+    color: white;
+    font-size: 65px;
+    font-weight: 900;
+}
+.lives {
+    color: rgb(238, 35, 35);
+    position: relative;
+    text-align: center;
+    margin-left: 60px;
+    top:40px;
+    font-size: 40px;
+}
+#seeTotal{
+    color: rgb(35, 64, 230);
+    margin-left: 50px;
+}
+.total1{
+    color: red;
+    text-align: center;
+
+}
+.currentbet{
+    color: red;
+    text-align: center;
+    position: relative;
+    top:40px;
+}
+.btn1, .btn2{
+    color:white;
+    font-size:30px;
+}
+.reset{
+    font-size:120%;
+}
+.startbet{
+    color: red;
+    text-align: center;
+}
+h3{
+    color:rgba(45, 246, 253, 0.817);
+    text-align: center;
+    position: relative;
+    top: -620px;
+    font-size: 23px;
+}
+.aot1 img, .aot2 img, .aot3 img{
+    
+    height: 300px;
+    width: 33.3333%;
+    float: left;
+}
+.attack1,.armoured2,.beast3{
+    height: 295px;
+    width: 100%;
+}
+.attack2,.armoured1, .beast1, .jaw1, .warhammer1,.beast2,.jaw2,.warhammer2,
+.attack3,.armoured3,.jaw3,.warhammer3 {
+    width: 100%;
+    height: 295px;
+    
+}
+
+.reset{
+    margin-left: 590px;
+    position: relative;
+    top: -90px;
+
+}
+
+.topthree{
+  
+    position: relative;
+    top: 30px;
+    left: 250px;
+    height: 300px;
+    width: 60%;
+}
+.bottomtwo{
+    
+    position: relative;
+    top: 20px;
+    left: 250px;
+    height: 108px;
+    width:70%;
+}
+.bet1, .bet2{
+
+    float: left;
+    width: 50%;
+    height: 97px;
+}
+.btn1, .btn2{
+    position: relative;
+    left: 180px;
+    top:40px;
+    height: 100px;
+    width: 50%;
+    background-color: rgb(217, 22, 22);
+    float: left;
+
+   
+}
+
+@media all and (min-width:200px) and (max-width:500px){
+   html{
+       background-size: 380%;
+   }
+    h3{
+        position: relative;
+        top: -610px;
+    }
+    .topthree{
+        position: relative;
+        left: 10px;
+        top: 150px;
+        width: 100%;
+    }
+    .bottomtwo{
+        position: relative;
+        left: -20px;
+        top: 150px;
+    }
+    .lives{
+        position: relative;
+        top: 150px;
+    }
+    .btn1{
+        font-size: 20px;
+    }
+    .btn2{
+        font-size: 20px;
+    }
+    .total1{
+        position: relative;
+        top: 120px;
+        color: green;
+        
+    }
+    .reset{
+        position: relative;
+        left: -380px;
+    }
+  
+}
+@media all and (min-width:501px) and (max-width:850px){
+    html{
+        background-size: 400%;
+    }
+    h3{
+        position: relative;
+        top: -610px;
+    }
+    .topthree{
+        position: relative;
+        left: 10px;
+        top: 100px;
+        width: 100%;
+    }
+    .btn1, .btn2{
+        font-size: 20px;
+       
+    }
+    .reset{
+       
+        margin-left: 550px;
+    }
+    .bottomtwo{
+        position: relative;
+        left: 50px;
+        top: 100px;
+    }
+    .lives{
+        position: relative;
+        top: 120px;
+    }
+    .total1{
+        position: relative;
+        top: 100px;
+        
+    }
+    .reset{
+        position: relative;
+        left: -260px;
+    }
+}
+@media all and (min-width:851px) and (max-width:1200px){
+    html{
+        background-size: 250%;
+    }
+    h3{
+        position: relative;
+        top: -630px;
+    }
+    .lives{
+        position: relative;
+        top: 30px;
+        left: 60px;
+    }
+    
+}
