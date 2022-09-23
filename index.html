@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Slot Machine</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+		<img id="slot1" src='img/777.jpeg'>
+		<img id="slot2" src='img/777.jpeg'>
+		<img id="slot3" src='img/777.jpeg'>
+	</main>
+
+		<form>
+			<label for='betOne'>$10</label>
+			<input type="radio" name="bet" id="betOne" value=10 required>
+
+			<label for="betTwo">$100</label>
+			<input type="radio" name="bet" id="betTwo" value=100>
+
+			<button id="placeBet">PlaceBet</button>
+		</form>
+		
+		<h3 id="wallet">1000</h3>
+		<p id="message"></p>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

@@ -1,24 +1,17 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine
 
-### Goal: Build a Simple Slot Machine
+This slot machine lets you bet $100 or $10 to bet on an automatic slot machine. You start with $1000 in your pocket.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+**Link to project:** kerlinaugustin-slotmachine.netlify.app
 
-### How to submit your code for review:
+![slotmachine](https://user-images.githubusercontent.com/102834611/168728708-dd2255d4-4e4d-4a5c-a2d2-c8fe348a941e.gif)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+So I started by making array. Then I put all my slot sections, bet amounts, buttons and wallet in different variables then set them equal to document.querySelector and their respective corresponding html tags. I then put all of the slots into a function and had them equal to images with an array attached that had the get random index method. I then added a check win function to give you money if you win or keep the money if you lose.
+
+## Lessons Learned:
+
+I learned that it is easierto put elements and tags that you will be working with in a variable so you can reference them with variables rather then having to do document.querySelector everytime you want to reference the same tag over and over again.
