@@ -1,0 +1,184 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Hepta Slab', serif;
+
+}
+
+h1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 4em;
+  margin-top: 0rem;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsi0XAsPfy6_HbBEl0lkOITsx1U3bxPylccQ&usqp=CAU);
+  background-size: 24rem;
+  background-position: center;
+  color: gold;
+}
+
+#slotOne {
+  height: 4rem;
+  width: 3rem;
+  font-size: 5.5em;
+  float: left;
+}
+
+#minBet {
+  float: left;
+  height: 5.5rem;
+  width: 13rem;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  background-image: url(https://cdn.wallpapersafari.com/47/45/FVSYzN.jpg);
+  background-size: cover;
+  background-position: center;
+  color: seashell;
+  border-radius: 3rem;
+}
+
+#maxBet {
+  float: left;
+  height: 5.5rem;
+  width: 12rem;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  background-image: url(https://cdn.wallpapersafari.com/47/45/FVSYzN.jpg);
+  background-size: cover;
+  background-position: center;
+  color: seashell;
+  border-radius: 3rem;
+}
+
+.resultMsg {
+  float: left;
+  width: 33.6rem;
+  height: 7rem;
+  margin-bottom: 0.1rem;
+  font-size: 1.7em;
+  font-weight: 600;
+  /* background-image: url(https://consequence.net/wp-content/uploads/2015/11/james-bond-feat.jpg?quality=80&w=590&h=332&crop=1&resize=590%2C332&strip); */
+  background-color: #000000d6;
+  background-size: 34rem 12rem;
+  background-position: 0rem 11.73rem;
+  color: #ff0000cf;
+  text-decoration: 2px underline gray;
+  text-align: center;
+  margin-top: 0rem;
+  padding-top: 0.8rem;
+  display: none;
+}
+
+body {
+  background: black;
+  background-repeat: no-repeat;
+  background-image: url(https://www.teahub.io/photos/full/143-1430110_casino-royale-movie-posters.jpg);
+  background-position-x: 26rem;
+  background-size: 64rem;
+  background-position-y: 0rem;
+}
+
+section {
+  margin-left: 42.3rem;
+  height: 15rem;
+  width: 34rem;
+  background: url(https://cdn.wallpapersafari.com/23/87/bdIr06.png);
+  background-size: 37.97rem;
+  margin-top: 13.9rem;
+  border: 2.6px dashed gold;
+  border-radius: 1.2rem;
+}
+
+#slotOne {
+  height: 11rem;
+  width: 12rem;
+  font-size: 5.5em;
+  float: left;
+  margin-left: -0.33rem;
+  background: white;
+  text-align: center;
+  padding-top: 2.3rem;
+  border: 1px solid black;
+  border-right: none;
+  border-radius: 1rem;
+}
+
+#slotTwo {
+  height: 11rem;
+  width: 11rem;
+  font-size: 5.5em;
+  float: left;
+  margin-left: 0rem;
+  background: white;
+  padding-top: 2.4rem;
+  text-align: center;
+  border: 1px solid black;
+  border-right: none;
+  border-radius: 1rem;
+}
+
+#slotThree {
+  height: 11rem;
+  width: 11rem;
+  font-size: 5.5em;
+  float: left;
+
+  background: white;
+  text-align: center;
+  padding-top: 2.5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+#savings {
+  font-size: 2.35em;
+  float: left;
+  padding-top: 1.2rem;
+  padding-left: 0.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #ffd700c7;
+  background-image: url(https://wallpaperaccess.com/full/1859957.jpg);
+  background-size: cover;
+  border-radius: 1rem;
+  height: 5rem;
+  width: 33.7rem;
+}
+
+#playerMoney {
+  font-size: 1em;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  color: mintcream;
+  height: 3rem;
+  width: 6rem;
+  position: fixed;
+}
+
+section.botsec {
+  margin-top: 0rem;
+}
+
+span {
+  color: mintcream;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
