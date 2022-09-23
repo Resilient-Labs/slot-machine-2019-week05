@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 40px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 40px;
+    
+}
+body {
+background-image: url(shen.gif);
+background-size: cover;
+font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+}
+.pics, .buttons{
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: rgb(253, 131, 0);
+    border-radius: 10px;
+}
+span{
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+
+}
+input {
+    border-radius: 10px;
+}
+p {
+    font-size: 30px;
+    margin-top: 8px;
+}

@@ -1,24 +1,14 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Resilient Slot Machine
+Slot machine allows the user to bet money to see if they can match the three dragonballs 
 
-### Goal: Build a Simple Slot Machine
+**Link to project:** https://dragonballslot.netlify.app/
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![Screenshot 2022-05-14 034403](https://user-images.githubusercontent.com/101950707/168416417-8176a2f7-edbf-4fd3-a98f-3a9f7766a7bc.png)
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+Utilziing JavaScript, The slot machine is able to make a minimum bet of 50 zenny(dragonball currency) and a max of 1000 zenny. If you win you get double of whatever you bet and if you lose, it is subtracted from your total. You can also input your own value, as long as it is above 50 into the slot machine.
+
