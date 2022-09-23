@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section id="container">
+        <!-- title + intro -->
+        <header>
+            <h1>Let's Play the Slot Machine</h1>
+            <p>Test your luck and see if you can win some money! Bet a minimum or maximum amount below to play.</p>
+        </header>
+        <!-- money counter -->
+        <section id="counter">
+            <p>You have <span id="amount">100</span> dollars left</p>
+        </section>
+        <!-- Reels -->
+        <section id="allReels">
+            <section id="reel1"></section>
+            <section id="reel2"></section>
+            <section id="reel3"></section>
+        </section>
+        <!-- bet buttons -->
+        <section id="betButtons">
+            <button id="min">Min Bet ($5)</button>
+            <button id="max">Max Bet ($50)</button>
+        </section>
+        <!-- did you win or lose message  -->
+        <section id="status">
+            <h2 id="message"></h2>
+        </section>
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
