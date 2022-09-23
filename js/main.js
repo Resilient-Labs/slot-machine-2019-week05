@@ -9,7 +9,7 @@ function run() {
    let bet = parseInt(this.value)
    console.log(this.value)
    if (bet > bankAmount){
-      document.querySelector('#result').innerText = 'Brokie!'
+      document.querySelector('#result').innerText = 'Oh you a brokie'
 
    } else {
 
@@ -36,13 +36,13 @@ function checkForWinner(num1,num2,num3,bet) {
    document.querySelector('span').innerText = `$${bankAmount}`
 
     console.log('WINNER')
-    document.querySelector('#result').innerText = 'WINNER 🎊'
+    document.querySelector('#result').innerText = 'WE HAVE A WINNER 🎊'
 
  } else {
    bankAmount -= bet
    document.querySelector('span').innerText = `$${bankAmount}`
     console.log('L')
-    document.querySelector('#result').innerText = 'YOU LOST 💔'
+    document.querySelector('#result').innerText = 'L 💔'
 
  }
 }
