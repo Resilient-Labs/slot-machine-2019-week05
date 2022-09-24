@@ -15,7 +15,45 @@
 
 .clear {
 	clear: both;
+  
 }
+
+img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding-right: 10px;
+}
+
+.result {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
