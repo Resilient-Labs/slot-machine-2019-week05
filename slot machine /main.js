@@ -1,6 +1,5 @@
 // Create a Slot Machine 
 
-
 const buttons = document.querySelectorAll('.bet')
 const money = document.querySelector('.money')
 const update = document.querySelector('.update')
