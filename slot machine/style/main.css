@@ -1,0 +1,25 @@
+section #reel{
+    display: inline-block;
+    border: 10px solid orange;
+    width: 5%;
+    height: 5%;
+    text-align: center;
+}
+body{
+    background: purple;
+    color:white;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+title{
+    text-align: center;
+
+}
