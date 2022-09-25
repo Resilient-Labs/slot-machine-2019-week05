@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Slot Machine</title>
+</head>
+<body>
+  
+
+  <h1>Slot Machine</h1>
+  <h2>Feeling lucky? Give it a try!</h2>
+
+  <section class="slotContainer">
+    <section id="slotOne">
+      <img src="img/dollarsign2.jpeg">
+    </section>
+    
+    <section id="slotTwo">
+      <img src="img/dollarsign2.jpeg"> 
+    </section>
+    
+    <section id="slotThree">
+      <img src="img/dollarsign2.jpeg">
+    </section>
+  </section>
+
+
+  <section class="chooseBet">
+    <form action="#">
+      <button id="minBet" type="button">10</button>
+      <button id="fiftyBet" type="button">50</button>
+      <button id="maxBet" type="button">100</button>
+      <button id="submitBtn" type="button">Submit</button>
+    </form>
+  </section>
+
+
+  <section class="result">
+    <h2>Current Amount: <span id="currentAmt">$1000</span></h2>
+    <h2>Current Bet:<span id="currentBet"></span></h2>
+    <h2 id="endGame"></h2>
+  </section>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

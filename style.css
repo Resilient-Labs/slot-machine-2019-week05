@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.slotContainer {
+	border: 2px solid transparent;
+	width: 33.3333%;
+	margin-left: 32%;
+	height: 176px;
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+
+.chooseBet {
+	text-align: center;
+	margin-top: 4%;
+}
+
+.result {
+	text-align: center;
+	margin-top: 5%;
+}
