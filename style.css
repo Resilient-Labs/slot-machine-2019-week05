@@ -1,0 +1,76 @@
+body{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(background.jpeg);
+}
+
+img{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    height: 260px;
+    width: auto; 
+    justify-content: space-evenly;
+}
+
+.container{
+    display:flex;
+    flex-direction:row; 
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%; 
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: white; 
+    background-color:rgba(0, 0, 0, 0.497);
+    padding: 1%; 
+}
+
+.container{
+    background-color:rgba(0, 0, 0, 0.497)
+}
+
+.money{
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.resetGame{
+    margin-top: 2%; 
+    width: 80%; 
+    margin-left: 8%; 
+    background-color: rgba(70, 69, 69, 0.673);
+    font-family: 'Roboto', sans-serif;
+    height: 25px; 
+    font-size: 16px; 
+    border-radius: 6%; 
+    border-style: none;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.bet{
+    width: 45%; 
+    background-color: rgba(62,180,46,255);
+    border-style: none;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    height: 20px; 
+    font-size: 16px; 
+    margin: 1%; 
+    border-radius: 8%; 
+}
+
+h3{
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
