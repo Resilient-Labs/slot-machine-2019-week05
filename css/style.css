@@ -1,0 +1,28 @@
+/* CSS */
+
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 300px;
+    width: 33%;
+    margin-left: 150px;
+
+
+}
+
+.two {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+}
