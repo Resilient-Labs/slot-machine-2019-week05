@@ -19,17 +19,29 @@
 }
 
 img {
-  width: 150px;
+  width: 200px;
   height: 150px;
   float: left;
   padding-right: 10px;
 }
 
-.result {
-  clear: both;
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: plum;
+  text-align: center;
 }
 
+button {
+  margin-top: 20px;
+}
 
+.images {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
