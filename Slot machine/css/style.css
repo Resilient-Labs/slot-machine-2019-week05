@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box; 
+}
+
+/* Clear fix */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section {
+  width: 70%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+}
+
+#slots {
+  width: 50%;
+  height: 200px;
+  float: left;
+}
+h1, h2{
+  text-align: center;
+}
+button {
+  border: 2px solid green;
+}
+p{
+  text-align: center;
+}
+#bigBank {
+  color: black;
+}
+#num1, #num2, #num3 {
+  height: 50px;
+  width: 10%;
+  border-radius: 5px;
+  float: left;
+  font-size: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
