@@ -1,5 +1,6 @@
 img{
     width: 30%;
+    margin: -1%;
 }
 /*cannot change width of all bG2Img because the rest are entered through JavaScript*/
 #bG2Img{
