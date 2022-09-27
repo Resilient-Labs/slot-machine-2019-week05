@@ -1,0 +1,28 @@
+img{
+    width: 30%;
+    margin: -1%;
+}
+/*cannot change width of all bG2Img because the rest are entered through JavaScript*/
+#bG2Img{
+    width: 15%;
+}
+.topSect{
+    display: flex;
+    justify-content: center;
+}
+.bg1{
+    display: flex;
+    flex-direction: column;
+}
+.bg2{
+    display: flex;
+    flex-direction: column;
+}
+.bg3{
+    display: flex;
+    flex-direction: column;
+}
+.bottomSect{
+    display: flex;
+    justify-content: center;
+}
