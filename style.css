@@ -18,13 +18,29 @@
   
 }
 
+.title {
+  margin-top: 50px;
+  width: 20%;
+  height: 60px;
+  color: #B20D24;
+  font-size: 38px;
+
+}
+
 img {
   width: 200px;
   height: 150px;
   float: left;
-  padding-right: 10px;
+  margin-left: 150px;
 }
 
+.images {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  
+
+}
 
 main {
   display: flex;
@@ -32,10 +48,33 @@ main {
   align-items: center;
   background-color: plum;
   text-align: center;
+  height: 898px;
 }
+
+div {
+  width: 90%;
+  height: 600px;
+  margin-top: 40px;
+}
+
+label {
+  font-size: 24px;
+}
+
+#bet-select {
+  width: 5%;
+  height: 30px;
+  background-color: #EFEFEF;
+  font-size: 24px;
+}
+
 
 button {
   margin-top: 20px;
+  width: 8%;
+  height: 45px;
+  font-size: 30px;
+  border: 0px;
 }
 
 .images {
