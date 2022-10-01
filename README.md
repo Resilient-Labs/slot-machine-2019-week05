@@ -1,24 +1,11 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+### Hi there 👋, I'm Jasmine the Jazzy Engineer
+#### This is my To Do List project
+![This is my Slot To Do List project](https://jasminedm-todolist.netlify.app/)
 
-### Goal: Build a Simple Slot Machine
+(![To Do List](siteSnip.jpg))
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+This is a basic to do list that can be used for many needs like tracking completed task or even a shopping list. The user can input their task or items and add more by pressing the Add Next Item button. when a task or item is completed the user can check it off using the given check boxes for each input. Once all input task are checked, and only when they are all checked off, you can press Done to receive a congratulatory message! The user can press Clear All Task to start all over with a new list! Enjoy!
 
-### How to submit your code for review:
+Skills: HTML / JS 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- 🔭 I’m currently working on giving it some style 
