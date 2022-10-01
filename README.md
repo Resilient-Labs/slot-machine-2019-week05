@@ -1,6 +1,6 @@
 ### Hi there 👋, I'm Jasmine the Jazzy Engineer
 #### This is my To Do List project
-![This is my Slot To Do List project](https://jasminedm-todolist.netlify.app/)
+![This is my To Do List project](https://jasminedm-todolist.netlify.app/)
 
 (![To Do List](siteSnip.jpg))
 
