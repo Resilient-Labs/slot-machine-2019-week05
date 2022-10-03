@@ -9,7 +9,6 @@ const slotReturns = ['slot-diamond.png', 'slot-lemon.png', 'slot-watermelon.png'
 document.querySelector('#minBid').addEventListener('click', minBidReturns)
 document.querySelector('#maxBid').addEventListener('click', maxBidReturns)
 
-
 // Get Random Img from array x3 
 
 function minBidReturns(){
