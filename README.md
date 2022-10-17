@@ -19,4 +19,4 @@ This project taught me many different things about javascript. I learned that ja
 directory paths and can pull data from them. This could be pictures, videos, etc. I also learned
 about using conditional statements and how much they can change your code for specific instances. 
 
-```
+
