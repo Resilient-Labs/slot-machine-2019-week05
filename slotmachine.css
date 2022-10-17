@@ -1,0 +1,110 @@
+* { 
+    box-sizing: border-box;
+}
+
+/* Clearfix Hack */
+
+ .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+  }
+
+  body {
+    background-image: url(cash2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+  }
+  
+  #spinner {
+    display: block;
+    font-size: 30px;
+    color: yellow;
+    background-color: green;
+    padding:.5% 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+  }
+  #min {
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+  }
+
+  #max {
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+
+  }
+
+  h1 {
+    width:20%;
+    color: orangered;
+    font: 80px;
+    background-color:greenyellow ;
+    border-radius: 30px;
+    padding:1%;
+  }
+
+  #s {
+    color:white;
+    font-size: 100px;
+  }
+  
+  .items {
+    display: flex;
+    text-align: center;
+  }
+
+  .items section {
+    font-size: 60px;
+    font-weight:700;
+  }
+  #reel1 {
+    width:10%;
+    height: 150px;
+    border: 2px solid white;
+    
+  }
+  #reel2 {
+    width:10%;
+    height: 150px;
+    border: 2px solid white;
+  
+
+    
+  }
+  #reel3 {
+    width:10%;
+    height: 150px;
+    border: 2px solid white;
+  }
+#total {
+  color:blue;
+  background-color: gold;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 2%;
+  padding: .5%;
+  padding-right: 5%;
+}
+
+#message {
+  width: 30%;
+  color: white;
+  font-size: 40px;
+  background-color: black;
+}
