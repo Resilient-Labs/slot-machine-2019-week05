@@ -1,24 +1,14 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+### Hi there 👋, I'm Jasmine the Jazzy Engineer
+#### This is my Slot Machine project
+![This is my Slot machine project](https://jasminedm-slot-machine.netlify.app/)
 
-### Goal: Build a Simple Slot Machine
+(![Slot Machine](siteSnip.jpg))
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+This is a basic slot machine game you can play, win and loose! The user begins with a $500 budget and the options to make $5, $50 and $100 bets. If the user makes a bet and doesnt win the bet is subtracted from their total. If the user wins, the bet amount is doubled and added back into their total. The user is not permitted to make a bet larger than their remaining budget. Enjoy!
 
-### How to submit your code for review:
+Skills: HTML / JS 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- 🔭 I’m currently working on giving it some style 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
