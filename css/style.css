@@ -21,7 +21,7 @@ section {
 
  button {
     height: 50px;
-    width: 20%;
+    min-width: 20%;
     background: green;
     border-radius: 6%;
     border: none;
