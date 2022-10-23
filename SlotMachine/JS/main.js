@@ -27,7 +27,7 @@ function roll(){
 
 function updateAmount(change){
     amount = amount + change
-    document.querySelector('#h1').innerText = amount
+    document.querySelector('#h1').innerText = `Your Money Count: $${amount}`
 }
 
 function bet5(){
@@ -60,6 +60,12 @@ function bet100(){
             updateAmount(200)
         }
     }
+}
+
+document.querySelector('#restart').addEventListener('click', restartSlot)
+
+function restartSlot(){
+    window.location.reload()
 }
 /*If bet with 0 money, roll will not run*/
 //  function noMoney(){
