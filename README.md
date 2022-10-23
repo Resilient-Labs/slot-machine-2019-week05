@@ -1,14 +1,10 @@
-### Hi there 👋, I'm Jasmine the Jazzy Engineer
-#### This is my Slot Machine project
-![This is my Slot machine project](https://jasminedm-slot-machine.netlify.app/)
+### 🎰 Slot Machine
+#### This is a cool little slot machine that anyone can enjoy for any amount of time!https://jasminedm-slot-machine.netlify.app/
+![This is a cool little slot machine that anyone can enjoy for any amount of time!https://jasminedm-slot-machine.netlify.app/](https://i.imgur.com/6JNvqtx.jpg)
 
-(![Slot Machine](siteSnip.jpg))
+This game allows the user to choose from three bets to play. The money count begins at $500 and adds or subtracts money based on wins and losses.  I you win a round by seeing three matching images in a row, the amount added to your money count will be double your bet amount!
+<hr>
+While designing this game I learned about randomizing in JS in order to make this game fair
 
-This is a basic slot machine game you can play, win and loose! The user begins with a $500 budget and the options to make $5, $50 and $100 bets. If the user makes a bet and doesnt win the bet is subtracted from their total. If the user wins, the bet amount is doubled and added back into their total. The user is not permitted to make a bet larger than their remaining budget. Enjoy!
-
-Skills: HTML / JS 
-
-- 🔭 I’m currently working on giving it some style 
-
-
+Skills: JS / HTML / CSS
 
