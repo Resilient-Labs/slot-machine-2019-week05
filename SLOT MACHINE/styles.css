@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 157px;
+    width: 100%;
+    clear: both;
+    background-color: rgb(187, 153, 255);
+}
+header h1{
+    width: 47%;
+    font-size: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 304px;
+    margin-top: 59px;
+    float: left;
+}
+.dropdown{
+    height: 112px;
+    width: 100%;
+    float: left;
+    margin-top: -6px;
+    background-color: rgb(238, 230, 255);
+}
+#chooseBet{
+    margin-left: 458px;
+    margin-top: 49px;
+    float: left;
+    width: 14%;
+}
+.frame{
+    height: 291px;
+    width: 100%;
+    float: left;
+    background-color: rgb(187, 153, 255);
+}
+#imgone{
+    width: 33%;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    height: 260px;
+}
+img{
+max-width: 100%;
+height: 100%;
+}
+#imgtwo{
+    width: 31%;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    height: 260px;
+}
+#imgthree{
+    width: 33%;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    height: 260px;
+}
+.startbutton{
+    height: 65px;
+    width: 100%;
+    float: left;
+    background-color: rgb(238, 230, 255);
+}
+#start{
+    margin-left: 408px;
+    margin-top: 12px;
+    float: left;
+    width: 27%;
+    height: 34px;
+    background-color: rgb(187, 153, 255);
+}
+.purse{
+    height: 116px;
+    width: 100%;
+    border: 2px solid black;
+    float: left;
+    background-color: rgb(187, 153, 255);
+}
+.purse h1{
+    width: 49%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 230px;
+    margin-top: -118px;
+    float: left;
+}
+.purse h2{
+    width: 10%;
+    font-size: 30px;
+    margin-left: 486px;
+    margin-top: -68px;
+    float: left;
+}
+#outcome{
+    width: 22%;
+    font-size: 30px;
+    margin-left: 856px;
+    margin-top: 37px;
+    float: left;
+    height: 72px;
+    background-color:rgb(238, 230, 255);
+}
+
