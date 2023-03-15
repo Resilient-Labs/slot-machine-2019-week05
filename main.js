@@ -30,6 +30,10 @@ function displaySymbols(){
     let slot3Display = document.getElementById("slot3")
 
     genSymbol(slot1)
+    genSymbol(slot2)
+    genSymbol(slot3)
+
+    slot1Display
 
 
 
