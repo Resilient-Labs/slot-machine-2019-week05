@@ -3,7 +3,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-div{
-    width: 300px;
-    height: 700px;
+tr{
+    text-align: center;
+}
+table{
+    padding-left: 20px;
 }
