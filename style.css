@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#slot-machine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
+#slot-holder{
+    display: flex;
+    border: 1px solid black;
+}
