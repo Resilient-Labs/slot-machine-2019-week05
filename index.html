@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>SLOT MACHINE</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class = shadowBorderBorder>
+		<div class = shadowBorder>
+		<h1>HIT THE SLOTS</h1>
+		<span id = start>GIMME YOUR BEST SHOT</span>
+		<span>IF IT SAYS, HIT AGAIN</span>
+		<span>GO FOR A JACKPOT</span>
+		<div>
+			<section>
+				<span id = slot1></span>
+				<span id = slot2></span>
+				<span id = slot3></span>
+			</section>
+		</div>
+		<div>
+			<button id = reelButton type = button>WIN BIG</button>
+			<button id = buttonClear type = button>START OVER</button>
+		</div>
+		<label for = "betAmount">BET AMOUNT:</label>
+		<select id = "betAmount">
+  			<option value = "5">$5</option> <!--I accidently called a '$' into the value, which makes it a string, not a number-->
+  			<option value = "10">$10</option>
+  			<option value = "20">$20</option>
+			<option value = "50">$50</option>
+			<option value = "100">$100</option>
+		</select>
+		<div>
+		<h2>PLAYER FUNDS: $<span id = holdResult>500</span></h2>
+		<p id = "status"></p>
+		</div>
+		</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

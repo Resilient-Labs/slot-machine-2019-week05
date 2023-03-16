@@ -1,0 +1,126 @@
+/* Box Model Hack */
+* 
+{
+  box-sizing: border-box;
+  background-color: rgb(103, 23, 23);
+  font-size: large;
+  color: whitesmoke;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html
+{
+  display: flex;
+  justify-content: center;
+}
+
+body
+{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: dotted rgb(255, 183, 0) 6px;
+  border-radius: 5%;
+}
+
+p
+{
+    font-size: large;
+    color: goldenrod;
+    margin: 0px 0px 0px 30px;
+}
+
+div
+{
+  display: flex;
+  align-items: center;
+  border-bottom: dotted 1px gold;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+section
+{
+  display: flex;
+}
+
+ol
+{
+  display: flex;
+  list-style: none;
+}
+
+#slot1, #slot2, #slot3
+{
+  font-size: xxx-large;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.shadowBorder
+{
+  height: 100%;
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: column;
+border: dotted rgb(185, 143, 38) 2px;
+border-radius: 5%;
+box-shadow: coral 3px;
+}
+
+.shadowBorderBorder
+{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: dotted rgb(202, 145, 0) 4px;
+  border-radius: 5%;
+}
+
+
+
+
+
+  
