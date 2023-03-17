@@ -1,0 +1,82 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+/* border: 2px solid gray; */
+/* width: 45%;
+margin:300px auto;
+border-color: rgb(238, 224, 207); */
+background-image: url(horse-shoes.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+  font-size: 30px;
+  color:rgb(166, 132, 87);
+  margin: 20px auto;
+}
+.square{
+  width: 40%;
+margin:300px auto;
+border:2px solid black;
+background-color: white;
+}
+.spinningNumbers{
+  width: 100%;
+  float: left;
+}
+div{
+  float:left;   
+  height: 100px;
+  margin:10px 40px;
+  width:20%;
+  font-size: 20px;
+  border:2px solid rgb(238, 224, 207);
+  padding: 34px 0 0 0;
+
+  
+}
+#submit{
+  font-size: 18px;
+  width:15%;
+  height: 30px;
+  margin:40px auto;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
