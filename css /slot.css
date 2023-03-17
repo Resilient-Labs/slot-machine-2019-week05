@@ -3,9 +3,9 @@
 }
 
 h1{
-font-size:2rem;
+font-size:4rem;
 text-align:center;
-font-style: bold;
+font-style: bolder;
 font-weight: 100;
 }
 
@@ -14,7 +14,7 @@ height:400px;
 width:80%;
 margin-left:9%;
 float:left;
-margin-top:7%;
+margin-top:4%;
 border:1px solid gold;
 border-radius: gold;
 }
@@ -33,6 +33,7 @@ border:1px solid black;
 
 .same2{
 height:400px;
+width:33.3%;
 border:1px solid black;
 }
 
@@ -41,6 +42,7 @@ height:50px;
 width:15%;
 margin-left: 40%;
 float:left;
+margin-top: 5%;
 }
 
 .bottompart{
@@ -59,6 +61,11 @@ body{
 background: url(../images/peakpx.jpg);
 }
 
+.amount{
+font-size:large;
+}
 
-
+button{
+width: 40%;
+}
 

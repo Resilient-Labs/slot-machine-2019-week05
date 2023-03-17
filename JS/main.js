@@ -44,7 +44,6 @@ function subtractFive(){
   total= total - 5
   amount.innerText= total
   document.querySelector('#placeToShow').innerText='Sorry You Lost!'
-  checkTotal()
 }
 fiveButton.addEventListener('click', playFive)
 
@@ -79,7 +78,6 @@ function subTwenty(){
   total= total - 20
   amount.innerText= total
   document.querySelector('#placeToShow').innerText='Sorry You Lost!'
-  checkTotal()
 }
 
 twentyButton.addEventListener('click', playTwenty )
@@ -115,7 +113,6 @@ function subFifty (){
   total= total - 50
   amount.innerText=total
   document.querySelector('#placeToShow').innerText='Sorry You Lost!'
-  checkTotal()
 }
 
 fiftyButton.addEventListener('click', playFifty)
@@ -151,13 +148,7 @@ function subHundred(){
   total= total - 100
   amount.innerText= total
   document.querySelector('#placeToShow').innerText='Sorry You Lost!'
-  checkTotal()
 }
 
 hundredButton.addEventListener('click', playHundred)
 
-function checkTotal(){
- if (total <=0){
-  return alert('Press Ok to reset your balance')
- }
-}
