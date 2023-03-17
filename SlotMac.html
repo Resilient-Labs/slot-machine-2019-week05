@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel ="stylesheet" href="css /reset.css">
+  <link rel="stylesheet" href="css /slot.css">
+</head>
+<body>
+  <main>
+   <h1>Lucky Slot Machine!</h1>
+
+   <section class="top">
+    <h2 class="bet">Choose an amount to bet:</h2>
+    <ul>
+      <button id="five">$5</button>
+      <button id="twenty">$20</button>
+      <button id="fifty">$50</button>
+      <button id="hundred">$100</button>
+    </ul>
+   </section>
+
+   <section class="images">
+    <span class="hidden">
+     <img src="images/heart.png" id="pic1" class="same">
+    </span>
+    <span  class="hidden">
+     <img src="images/heart.png" id="pic2"class="same1">
+    </span>
+    <span  class="hidden">
+     <img src="images/heart.png" id="pic3" class="same2">
+    </span>
+   </section>
+   <section class="bottompart">
+    <h3 id="placeToShow"></h3>
+    <h2 class="Balance">Your Balance:</h2>
+    <h3 id="amount"></h3>
+   </section>
+
+  </main>
+  <script type="text/javascript" src="JS/main.js"></script>
+</body>
+</html>
