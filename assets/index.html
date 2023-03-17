@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin The Wheel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1>Cash total: $<span id="total">500</span></h1>
+    <p>Instructions: First you want to bet on cash, then press spin.</p>
+    <form>
+        <input type="button" value="5" id="minValue">
+        <input type="button" value="10" id="maxValue">
+    </form>
+    <div id="container">
+        <div class="bigBoy">
+            <div id="slotOne"></div>
+            <div id="slotTwo"></div>
+            <div id="slotThree"></div>
+        </div>
+    </div>
+    <div id="yolo">
+        <button id="spin">Spin</button>
+    </div>
+    <div id="placeToSee"></div>
+    
+    <!-- javascript link -->
+    <script src="js/answer.js"></script>
+</body>
+</html>
