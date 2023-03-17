@@ -1,0 +1,187 @@
+  * {
+      box-sizing: border-box;
+  }
+
+
+  body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      border: 0;
+      padding: 0;
+      background-color: #c4f1b9;
+
+    
+
+  }
+
+  h1 {
+    align-self: center;
+    margin: 1% 2% 1% 39%;
+    color:white;
+    font-family: monospace;
+    font-size: 40px;
+  }
+
+  .Bigbox {
+      width: 100%;
+      height: 100%;
+      border: 1px solid black;
+
+  }
+
+
+
+  #app {
+      width: 60%;
+      height: 600px;
+
+      background: #caecd4;
+      display: flex;
+      flex-direction: column;
+     border:8px dashed white;
+
+      margin: 2% 0% 0% 17%;
+      transition: border 1s ease-in-out;
+       }
+
+       #app:hover {
+        border: 8px solid white;
+      }
+
+  .doors {
+      display: flex;
+      align-self: center;
+     
+    margin: 8% 0% 3% 0%;
+  }
+
+  #doorone {
+      background: #a4f196;
+      box-shadow: 0 0 3px 2px rgb(133, 184, 143) inset;
+
+      width: 100px;
+      height: 150px;
+      overflow: hidden;
+      animation: jump 4s infinite;
+      border-radius: 1px;
+      margin: 1%;
+      padding: 19% 2% 1% 13%;
+    font-size: 44px;
+    color: white;
+    text-shadow: 0 0 10px rgb(24, 24, 24);
+
+  }
+
+  #doortwo {
+    background: #a4f196;
+    box-shadow: 0 0 3px 2px rgb(133, 184, 143) inset;
+
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+animation: jump 4s infinite;
+    border-radius: 1px;
+    margin: 1%;
+    padding: 19% 2% 1% 13%;
+    font-size: 44px;
+    color: white;
+    text-shadow: 0 0 10px rgb(24, 24, 24);
+}
+
+#doorthree {
+    background: #a4f196;
+      box-shadow: 0 0 3px 2px rgb(133, 184, 143) inset;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    text-shadow: 0 0 10px rgb(24, 24, 24);
+    
+    animation: jump 4s infinite;
+    border-radius: 1px;
+    margin: 1%;
+    padding: 19% 2% 1% 13%;
+    font-size: 44px;
+    color: white;
+}
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}  
+
+
+
+
+  .boxes {
+      transition: transform 4s ease-in-out;
+  }
+
+  .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 3px;
+  }
+
+  .buttons {
+      margin: 1px;
+      align-self: center;
+      
+  }
+  #spinner {
+    border-radius: 100%;
+    width: 64%;
+    height: 82%;
+    font-family: monospace;
+    color: white;
+}
+#spinnerTwo {
+    border-radius:100%;
+    width: 64%;
+    height: 82%;
+    font-family: monospace;
+    color: white;
+}
+
+
+
+  button {
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(121, 234, 108);
+    margin: 2% 1% 2% 10%;
+}
+  
+
+  .info {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+  }
+
+  .froggg{
+    width: 29px;
+    height:50px;
+  }
+
+
+  p {
+    margin: 12% 2% -1% 30%;
+    display: flex;
+    font-size: 40px;
+    color: black;
+    color: #2d6d46;
+  }
+
+  span{
+    color:#006c12;
+  }
