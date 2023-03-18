@@ -1,11 +1,21 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+*{
+    box-sizing: border-box;
 }
 tr{
     text-align: center;
 }
 table{
     padding-left: 20px;
+}
+div.allSlots{
+    width: 100%;
+    display: flex;
+}
+div.slot{
+    width: 30%;
+}
+img{
+    width: 20%;
+    object-fit: cover;
+    overflow: hidden;
 }

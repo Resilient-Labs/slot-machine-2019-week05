@@ -1,6 +1,14 @@
 // establish bank
 let playerBank = 1000
 let betAmount = 0
+
+const sevens = './css/img/seven.jpeg'
+const cherries = './css/img/cherries.jpeg'
+const diamond = './css/img/diamond.jpeg'
+const bell = './css/img/bell.jpeg'
+const bar = './css/img/bar.jpeg'
+
+
 // player makes low or high bet
 document.getElementById("bet10").addEventListener('click', take10)
 document.getElementById("bet50").addEventListener('click', take50)
@@ -11,36 +19,39 @@ function genSymbol(){
     let randomNumber = Math.random()*100
     let symbolShown = "start"
     if(randomNumber < 100 && randomNumber > 95 ){ // rare
-        symbolShown = "wild"
+        symbolShown = diamond
     } if (randomNumber < 96 && randomNumber > 80 ){
-        symbolShown = "sevens"
+        symbolShown = sevens
     } if (randomNumber < 81 && randomNumber > 64 ){ 
-        symbolShown = "bar"
+        symbolShown = bar
     } if (randomNumber < 65 && randomNumber > 32 ){ 
-        symbolShown = "bell"
+        symbolShown = bell
     } if (randomNumber >= 0 && randomNumber < 33 ){
-        symbolShown = "cherries"
+        symbolShown = cherries
     }
     return symbolShown 
 }
 // if u can make a couple options show before the image settles that'd be cool
 
 // display symbols on dom
+
+
+
 function displaySymbols(){
     let slot1Display = genSymbol()
     let slot2Display = genSymbol()
     let slot3Display = genSymbol()
-    document.getElementById("slot1").innerText = slot1Display
-    document.getElementById("slot2").innerText = slot2Display
-    document.getElementById("slot3").innerText = slot3Display
+    document.getElementById("slot1").src = slot1Display
+    document.getElementById("slot2").src = slot2Display
+    document.getElementById("slot3").src = slot3Display
     checkMatch()
 }
 
 // do symbols match?
 function checkMatch(){
-    let slot1Display = document.getElementById("slot1").innerText
-    let slot2Display = document.getElementById("slot2").innerText
-    let slot3Display = document.getElementById("slot3").innerText 
+    let slot1Display = document.getElementById("slot1").src
+    let slot2Display = document.getElementById("slot2").src
+    let slot3Display = document.getElementById("slot3").src 
     document.getElementById("playerBank").innerText = playerBank
     let betAmount = Number(document.getElementById("betAmount").innerText)
     if(slot1Display === slot2Display && slot2Display === slot3Display){
