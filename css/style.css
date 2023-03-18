@@ -9,7 +9,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background:url('img/cute.png');
+    background:url('../img/cute.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
