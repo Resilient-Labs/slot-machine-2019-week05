@@ -1,88 +1,103 @@
-*{
-    box-sizing:border-box;
-    font-family: 'Tilt Warp', Arial, Helvetica, sans-serif;
-    text-align:center;
+* {
+  box-sizing: border-box;
+  font-family: "Tilt Warp", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
 }
 
-html{
-    font-size:62.5%;
-   
+html {
+  font-size: 62.5%;
 }
 
-.slots{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+.slots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-#box1, #box2, #box3{
-    border: 2px solid black;
-    width: 150px;
-    height: 200px;
-    margin: 20px;
-    font-size:3rem;
+#box1,
+#box2,
+#box3 {
+  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+  margin: 20px;
+  font-size: 3rem;
 }
 
-button{
-    margin-top: 30px;
-    font-size:2rem;
-    border-radius:10px;
+button {
+  margin-top: 30px;
+  font-size: 2rem;
+  border-radius: 10px;
 }
 
-h1{
-    font-size: 4rem;
-    color: white;
-    text-shadow: 5px 5px 6px black;
+h1 {
+  font-size: 6rem;
+  color: white;
+  text-shadow: 5px 5px 3px black;
+  margin-top: 20px;
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-10px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 
-.cards{
-    margin-top: 30px;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    animation: float 6s ease-in-out infinite;
+.cards {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  animation: float 6s ease-in-out infinite;
 }
 
-img{
-    width:60%;
-    border-radius: 25px;
-    box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, .5);
+img {
+  width: 60%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px 10px rgba(255, 255, 255, 0.5);
 }
 
-
-body{
-    background: url('img/login.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
+body {
+  background: url("img/login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h2{
-    color:white;
-    font-size: 3.5rem;
-    text-shadow: 5px 5px 6px black;
+h2 {
+  color: white;
+  font-size: 3.5rem;
+  text-shadow: 5px 5px 6px black;
 }
 
-#bag, #mora{
-    width:30px;
-    box-shadow: none;
-    display:inline;
+#bag,
+#mora {
+  width: 30px;
+  box-shadow: none;
+  display: inline;
 }
 
-h3{
-    font-size: 2rem;
-    color:white;
-    text-shadow: 4px 4px 3px black;
-    font-weight: 300;
+#max:active,
+#min:active {
+  background: rgb(58, 124, 58);
+  color: white;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 4px 4px 3px black;
+  font-weight: 300;
+}
+
+#player {
+  height: 20px;
+  width: 40%;
+  color: rgba(255, 255, 255, 0.5);
 }

@@ -43,19 +43,19 @@ function spinWheel10() {
   img1.innerHTML = boxOne;
   img2.innerHTML = boxTwo;
   img3.innerHTML = boxThree;
-  
 
   if (boxOne === boxTwo && boxTwo === boxThree) {
     total += 20;
     document.querySelector("h3").innerText = "...Pull for me, please";
   } else {
     total -= 10;
-    document.querySelector("h3").innerText = "You look like you lose 50/50s";
+    document.querySelector("h3").innerText =
+      "You look like you would lose 50/50s";
   }
   document.querySelector("#total").innerText = total;
 
   if (total <= 0) {
-    alert("GAME OVER");
+    alert("You have a Gambling Addiction, seek Therapy");
     total = 1000;
     document.querySelector("#total").innerText = total;
   }
@@ -75,11 +75,12 @@ function spinWheel25() {
     document.querySelector("h3").innerText = "...Pull for me, please";
   } else {
     total -= 25;
-    document.querySelector("h3").innerText = "You look like you lose 50/50s";
+    document.querySelector("h3").innerText =
+      "You look like you would lose 50/50s";
   }
   document.querySelector("#total").innerText = total;
   if (total <= 0) {
-    alert("GAME OVER");
+    alert("You have a Gambling Addiction, seek Therapy");
     total = 1000;
     document.querySelector("#total").innerText = total;
   }
