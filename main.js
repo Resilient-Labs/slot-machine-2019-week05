@@ -1,6 +1,7 @@
 const images = document.querySelector('#slot-img')
 let bread = 1000
 let bet = 0
+let winMessage = document.querySelector('#message')
 let currentBalance = document.querySelector('#balance').innerText = bread
 let betTotal = document.querySelector('#betTotal')
 let balanceTotal = document.querySelector('#balance')
@@ -26,9 +27,9 @@ function insertSlot(){
     `
     placeBet(bet)
     winCondiiton(slotOne, slotTwo, slotThree)
-    return bet = 0
+    return bet = 0, betTotal.innerText = 0 
     }else{
-        console.log('seek help')
+        winMessage.innerText = 'seek help'
     }
 }
 
@@ -40,8 +41,12 @@ function updatedBread(){
     balanceTotal.innerText = bread
 }
 function accumulateBet(betAmount){
+    if(bread > bet){
     bet += betAmount
     updatedBet()
+    }else{
+        console.log('cap reached')
+    }
 }
 function updatedBet(){
     betTotal.innerText = bet
@@ -49,12 +54,12 @@ function updatedBet(){
 }
  function winCondiiton(slotOne,slotTwo,slotThree){
     if(slotOne === slotTwo && slotOne === slotThree){
-        console.log('jackpot')
+        winMessage.innerText = 'jackpot'
         return balanceTotal.innerText = bread += ( bet * 3 )
     }else if(slotOne === slotTwo || slotTwo === slotThree){
-        console.log('minor win')
+        winMessage.innerText = 'minor win'
         return balanceTotal.innerText = bread += ( bet * 1.5 )
     }else{
-        console.log('You Lose')
+        winMessage.innerText = 'You Lose'
     }
  }
