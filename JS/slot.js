@@ -1,6 +1,4 @@
-//start off deposit
-//call variables for buttons
-//call for reels 
+
 
 let total = 5000
 const reelOne = document.querySelector('#reelOne')
@@ -35,7 +33,6 @@ function getRandomFifty() {
     reelOne.innerText = numOne
     reelTwo.innerText = numTwo
     reelThree.innerText = numThree
-
     checkMatchesFifty(reelOne, reelTwo, reelThree)
 }
 betFifty.addEventListener('click', getRandomFifty)
@@ -57,7 +54,7 @@ betHundo.addEventListener('click', getRandomHundo)
 //_____________________________________________________________________//
 
 function addBetTen() {
-    total = total + 20
+    total = total + 30
     wallet.innerText = total
 }
 
@@ -72,7 +69,6 @@ function subtractBetTen() {
 function addBetFifty() {
     total = total + 500
     wallet.innerText = total
-
 }
 
 function subtractBetFifty() {
@@ -84,8 +80,9 @@ function subtractBetFifty() {
 }
 
 function addBetHundo() {
-    total = total + 1200
+    total = total + 2000
     wallet.innerText = total
+
 }
 
 function subtractBetHundo() {
@@ -101,7 +98,7 @@ function subtractBetHundo() {
 
 
 function checkMatchesTen(num1, num2, num3) {
-    if (num1 === num2 && num1 === num3) {
+    if (num1.innerText === num2.innerText && num1.innerText === num3.innerText) {
         addBetTen()
     } else {
         subtractBetTen()
@@ -109,7 +106,7 @@ function checkMatchesTen(num1, num2, num3) {
 }
 
 function checkMatchesFifty(num1, num2, num3) {
-    if (num1 === num2 && num1 === num3) {
+    if (num1.innerText === num2.innerText && num1.innerText === num3.innerText) {
         addBetFifty()
     } else {
         subtractBetFifty()
@@ -117,14 +114,14 @@ function checkMatchesFifty(num1, num2, num3) {
 }
 
 function checkMatchesHundo(num1, num2, num3) {
-    if (num1 === num2 && num1 === num3) {
+    if (num1.innerText === num2.innerText && num1.innerText === num3.innerText) {
         addBetHundo()
     } else {
         subtractBetHundo()
     }
 }
 
-function walletTotal() {
+function walletTotal(num1, num2, num3) {
     if (total <= 0) {
         return alert('Deposit More Money!')
     }

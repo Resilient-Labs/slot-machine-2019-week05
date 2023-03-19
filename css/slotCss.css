@@ -30,7 +30,7 @@ h1 {
     float: left;
     margin-right: 7%;
     margin-left: 5.5%;
-    background: rgba(169, 169, 169, 0.613);
+    background: rgba(1, 126, 99, 0.395);
 }
 
 #reelTwo {
@@ -39,7 +39,7 @@ h1 {
     border: 20px groove goldenrod;
     float: left;
     margin-right: 7%;
-    background: rgba(169, 169, 169, 0.613);
+    background: rgba(1, 126, 99, 0.395);
     margin-bottom: 53px;
 }
 
@@ -49,7 +49,7 @@ h1 {
     border: 20px groove goldenrod;
     float: left;
     margin-right: 4%;
-    background: rgba(169, 169, 169, 0.613);
+    background: rgba(1, 126, 99, 0.395);
 }
 
 button {
@@ -66,7 +66,20 @@ button {
     font-weight: 900;
     text-align: center;
     margin-bottom: 16px;
+
 }
+
+button:hover {
+    background-color: rgb(1, 126, 99);
+    box-shadow: #8c02b6 0 -6px 8px inset;
+    transform: scale(1.125);
+
+}
+
+button :active {
+    transform: scale(1.025);
+}
+
 
 
 input {
@@ -78,13 +91,13 @@ input {
 }
 
 #win {
-    border: 2px solid red;
+    border: 12px groove rgb(1, 126, 99);
     float: left;
     margin-top: 45px;
     clear: both;
     margin-left: 643px;
     width: 150px;
-    height: 40px;
+    height: 55px;
     font-size: 1.3rem;
     color: forestgreen;
     text-align: center;
