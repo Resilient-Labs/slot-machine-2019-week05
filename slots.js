@@ -1,4 +1,4 @@
-let bal = 50000
+let bal = 100000
 let bet;
 let icon = ['<img src="images/facebook.png">' , '<img src="images/instagram.png">' , '<img src="images/twitter.png">' , '<img src="images/whatsapp.png">', '<img src="images/linkedin.png">'] 
 let spot1 = document.querySelector('#pic1')
