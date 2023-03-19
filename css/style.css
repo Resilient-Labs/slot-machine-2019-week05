@@ -10,12 +10,25 @@ table{
 div.allSlots{
     width: 100%;
     display: flex;
+    flex-direction: row;
 }
 div.slot{
     width: 30%;
+    float: left;
+    object-fit: cover;
 }
 img{
-    width: 20%;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
+}
+div.buttons{
+    margin-top: 20px;
+    clear: both;
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+button{
+    width: 50%;
 }
