@@ -51,17 +51,21 @@ div{
   height: 100px;
   margin:10px 40px;
   width:20%;
-  font-size: 20px;
+  font-size: 30px;
   border:2px solid rgb(238, 224, 207);
   padding: 34px 0 0 0;
-
-  
 }
-#submit{
+button{
   font-size: 18px;
   width:15%;
   height: 30px;
   margin:40px auto;
+  margin-bottom: 10px;
+}
+p{
+  font-size: 25px;
+  margin-bottom: 40px;
+
 }
 
 
