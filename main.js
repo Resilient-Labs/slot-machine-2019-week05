@@ -46,7 +46,6 @@ function bet10(){
         total= total - 10
         document.querySelector('#balance').innerText= total
     } 
-    
 }
 
 function bet20(){
