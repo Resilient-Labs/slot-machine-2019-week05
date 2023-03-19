@@ -11,7 +11,6 @@
 /* LAYOUT
 /*******************************************/
 #slotMachine {
-  border: 8px solid black;
   width: 48%;
   float: left;
   height: 200px;
@@ -20,9 +19,12 @@
 
 #reel1, #reel2, #reel3 {
   border: 2px solid black;
-  width: 33%;
+  border-radius: 5%;
+  width: 31%;
   float: left;
   height: 187px;
+  margin-right: 1%;
+  text-align: center;
 }
 
 h1{
