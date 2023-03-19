@@ -1,4 +1,4 @@
-let bankAmount = 10000
+let bankAmount = 25000
 const total = document.querySelector('#total')
 total.innerText = bankAmount
 document.querySelector('#betNow').addEventListener('click', makeMoney)
