@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+
+}
+
+html {
+  background: #389679;
+}
+
+#slotMachine {
+  /* height: 500px;
+  border: 1px solid green;
+  width: 50%;
+  margin: auto;
+  display: block; */
+  /* margin-top: 10%; */
+  background: rgb(235, 225, 203);
+  width: 50%;
+  margin: 10% 25%;
+}
+
+.reel {
+  width: 31%;
+  height: 50px;
+  border: 1px solid #000;
+  float: left;
+  margin: 1%;
+}
+
+.symbol {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#controls {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+}
+
+#balance,
+#bet-amount,
+#win-amount {
+  display: inline-block;
+  margin: 5px;
+}
