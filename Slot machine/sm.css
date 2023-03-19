@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins';
+}
+h1 {
+  padding-left: 25px;
+}
+.reels {
+  float: left;
+  height: 400px;
+  padding-left: 20px;
+}
+#btn5{
+  font-family: 'Poppins';
+  background-color: greenyellow;
+  color: black;
+  border-radius: 8px;
+  padding: 8px;
+  width: 10%;
+}
+#btn25{
+  font-family: 'Poppins';
+  background-color: greenyellow;
+  color: black;
+  border-radius: 8px;
+  width: 10%;
+  padding: 8px;
+}
