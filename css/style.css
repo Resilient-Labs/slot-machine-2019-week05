@@ -27,15 +27,18 @@ th:last-child, td:last-child{
     text-align: left;
 }
 table{
+    width: 30%;
     font-size: 12rem;
     margin: 0px;
     display: inline-block;
 }
 h1{
+    width: 100%;
     display: inline-block;
     font-size: 4rem;
     margin: 0px;
-    padding-left: 300px;
+    margin-top: 20px;
+    text-align: center;
 }
 tr{
     padding-top: 30px;
@@ -92,6 +95,7 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 5rem;
 }
 button:hover{
     background: rgba(255, 0, 0, 0.479);
@@ -106,6 +110,16 @@ span:hover{
 }
 
 @media screen and (max-width: 1085px) {
+    section.main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.buttons{
+        flex-direction: row;
+    }
+}
+@media screen and (max-device-width: 1085px) {
     section.main{
         flex-direction: column;
         align-items: center;
