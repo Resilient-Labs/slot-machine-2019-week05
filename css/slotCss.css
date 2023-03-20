@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../pictures/slotParsely.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 68px;
+    font-family: Nabla;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: maroon;
+    text-decoration-thickness: 3.1px;
+    color: goldenrod;
+
+}
+
+#reelOne {
+    width: 25%;
+    height: 117px;
+    border: 20px groove goldenrod;
+    float: left;
+    margin-right: 7%;
+    margin-left: 5.5%;
+    background: rgba(1, 126, 99, 0.395);
+}
+
+#reelTwo {
+    width: 25%;
+    height: 117px;
+    border: 20px groove goldenrod;
+    float: left;
+    margin-right: 7%;
+    background: rgba(1, 126, 99, 0.395);
+    margin-bottom: 53px;
+}
+
+#reelThree {
+    width: 25%;
+    height: 117px;
+    border: 20px groove goldenrod;
+    float: left;
+    margin-right: 4%;
+    background: rgba(1, 126, 99, 0.395);
+}
+
+button {
+    width: 41%;
+    height: 50px;
+    margin-left: 420px;
+    float: left;
+    background: rgba(128, 0, 0, 0.733);
+    border-radius: 50px;
+    font-family: Bungee Spice;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+button:hover {
+    background-color: rgb(1, 126, 99);
+    box-shadow: #8c02b6 0 -6px 8px inset;
+    transform: scale(1.125);
+
+}
+
+button :active {
+    transform: scale(1.025);
+}
+
+
+
+input {
+    float: left;
+    margin-left: 651px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#win {
+    border: 12px groove rgb(1, 126, 99);
+    float: left;
+    margin-top: 45px;
+    clear: both;
+    margin-left: 643px;
+    width: 150px;
+    height: 55px;
+    font-size: 1.3rem;
+    color: forestgreen;
+    text-align: center;
+    font-size: 2rem;
+}
+
+section span {
+    font-size: 4rem;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
