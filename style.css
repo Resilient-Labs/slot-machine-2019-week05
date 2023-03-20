@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gold;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ img{
+    height: 250px;
+    width: 33.3333%;
+    margin-top: 100px;
+    margin: 120px;
+}
+.risk{
+    display: flex;
+    flex-direction: row;
+}
+.data{
+    font-size: x-large;
+}
+.clicker{
+   background: gold;
+   border-radius: 6px;
+   border: 2px solid gold;
+   height: 30px;
+   margin: 10px;
+}
+
