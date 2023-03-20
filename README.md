@@ -6,9 +6,9 @@ Build a simple slot machine with minimum 5 items per reel and 3 reels - user sho
 
 ### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
+- Fork and clone this repo --
+- Create a new branch called answer --
+- Checkout answer branch --
 - Push to your fork
 - Issue a pull request
 - Your pull request description should contain the following:
