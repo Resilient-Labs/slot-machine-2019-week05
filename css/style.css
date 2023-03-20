@@ -1,0 +1,65 @@
+body{
+    background-image: url(../fallmoney.jpeg);
+}
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: whitesmoke;
+    margin: 0.75%;
+    display: flex;
+    padding-left: 2%;
+}
+.bigpapa{
+     background-color: rgba(0, 0, 0, 0.75);
+     width: 50%;
+     /* height: 500px; */
+     margin: auto;
+     border-radius: 6px;
+}
+.babushka{
+    width: 50%;
+}
+main>section{
+    border-top: 0.5px gold solid ;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.box{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    background-color: whitesmoke;
+    color: green;
+    border-radius: 6px;
+}
+.quarter{
+    height: 123px;
+    display: flex;
+    color: gold;
+}
+span{
+    font-size: 32px;
+    margin: auto;
+    font-weight: 700;
+}
+button{
+    justify-content: space-around;
+    width: 30%;
+    height: 50px;
+    margin: auto;
+    border-radius: 15px;
+    border: none;
+    background-color: gold;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h1, h2{
+    width: 41%;
+    display: flex;
+}
