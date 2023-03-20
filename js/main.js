@@ -2,11 +2,11 @@
 let playerBank = 1000
 let betAmount = 0
 
-const sevens = './css/img/seven.jpeg'
-const cherries = './css/img/cherries.jpeg'
-const diamond = './css/img/diamond.jpeg'
-const bell = './css/img/bell.jpeg'
-const bar = './css/img/bar.jpeg'
+const six = './css/img/six.jpg'
+const cherries = './css/img/cherries.jpg'
+const bat = './css/img/bat.jpg'
+const ghost = './css/img/ghost.jpg'
+const tomb = './css/img/tomb.jpg'
 
 
 // player makes low or high bet
@@ -19,13 +19,13 @@ function genSymbol(){
     let randomNumber = Math.random()*100
     let symbolShown = "start"
     if(randomNumber < 100 && randomNumber > 95 ){ // rare
-        symbolShown = diamond
+        symbolShown = bat
     } if (randomNumber < 96 && randomNumber > 80 ){
-        symbolShown = sevens
+        symbolShown = six
     } if (randomNumber < 81 && randomNumber > 64 ){ 
-        symbolShown = bar
+        symbolShown = tomb
     } if (randomNumber < 65 && randomNumber > 32 ){ 
-        symbolShown = bell
+        symbolShown = ghost
     } if (randomNumber >= 0 && randomNumber < 33 ){
         symbolShown = cherries
     }
