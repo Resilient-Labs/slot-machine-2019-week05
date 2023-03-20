@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="bank">
+    <div class="top">
         <table>
             <tbody>
               <tr>
@@ -25,17 +25,20 @@
                   <th>Bet</th>
                 </tr>
             </tfoot>
-          </table>
-        </div>
+        </table>
+        <h1 id="outcome"></h1>
+    </div>
+  <section class="main">
     <div class="allSlots">
       <div class="slot"><img id="slot1" src="css/img/cherries.jpg"></div>
       <div class="slot"><img id="slot2" src="css/img/cherries.jpg"></div>
       <div class="slot"><img id="slot3" src="css/img/cherries.jpg"></div>
     </div>
     <div class="buttons">
-      <button id="bet10">BET LOW</button>
-      <button id="bet50">BET HIGH</button>
+      <button id="bet10">BET LOW <span>×2</span></button>
+      <button id="bet50">BET HIGH <span>×100</span></button>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
+  </section>
 </body>
 </html> 

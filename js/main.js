@@ -10,8 +10,8 @@ const tomb = './css/img/tomb.jpg'
 
 
 // player makes low or high bet
-document.getElementById("bet10").addEventListener('click', take10)
-document.getElementById("bet50").addEventListener('click', take50)
+document.getElementById("bet10").addEventListener('click', take25)
+document.getElementById("bet50").addEventListener('click', take100)
 // money leaves bank
 
 // generate a random symbol 
@@ -31,12 +31,7 @@ function genSymbol(){
     }
     return symbolShown 
 }
-// if u can make a couple options show before the image settles that'd be cool
-
 // display symbols on dom
-
-
-
 function displaySymbols(){
     let slot1Display = genSymbol()
     let slot2Display = genSymbol()
@@ -54,13 +49,18 @@ function checkMatch(){
     let slot3Display = document.getElementById("slot3").src 
     document.getElementById("playerBank").innerText = playerBank
     let betAmount = Number(document.getElementById("betAmount").innerText)
-    if(slot1Display === slot2Display && slot2Display === slot3Display){
-    playerBank = playerBank + (betAmount * 100)
-    }
+    if(slot1Display === slot2Display && slot2Display === slot3Display && betAmount === 25){
+    playerBank = playerBank + (betAmount * 3)
+    winner() 
+    } else if (slot1Display === slot2Display && slot2Display === slot3Display && betAmount === 100){
+        playerBank = playerBank + (betAmount * 10)
+        winner()
+        }
 }
 // if player wins add money to bank
 
-function take10(){
+function take25(){
+    document.getElementById("outcome").innerHTML = ''
     if (playerBank >= 25){
         betAmount = 25
         document.getElementById("betAmount").innerText = betAmount
@@ -72,8 +72,11 @@ function take10(){
     }
 }
 // player makes high bet
-
-function take50(){
+function winner(){
+    document.getElementById("outcome").innerHTML = ' WE HAVE A WINNAH!!!'
+}
+function take100(){
+    document.getElementById("outcome").innerHTML = ''
     if (playerBank >= 100){
         betAmount = 100
         document.getElementById("betAmount").innerText = betAmount

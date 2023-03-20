@@ -10,25 +10,43 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    letter-spacing: 2px;
 
+}
+div.top{
+    align-self: flex-start;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
 }
 tr{
     text-align: center;
-    padding: 10px;
 }
-th, td{
-    padding-left: 30px;
+th:last-child, td:last-child{
+    padding-left: 40px;
+    text-align: left;
 }
 table{
-    padding: 40px;
-    font-size: 10rem;
+    font-size: 12rem;
+    margin: 0px;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    font-size: 4rem;
+    margin: 0px;
+    padding-left: 300px;
 }
 tr{
     padding-top: 30px;
 }
+section.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 div.allSlots{
-    width: 40%;
-    padding-top: 20px;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,16 +57,18 @@ div.slot{
     float: left;
     object-fit: cover;
     border-radius: 10px;
-    border: double white 10px;
+    border: double rgba(255, 255, 255, 0.72) 10px;
     margin: 10px;
     padding: 0px;
 }
 img{
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    padding: 5px;
+    object-fit: cover;
 }
 div.buttons{
+    width: 20%;
     margin-top: 20px;
     clear: both;
     display: flex;
@@ -56,6 +76,7 @@ div.buttons{
     justify-content: center;
     align-items: center;
     font-size: 10rem;
+
 }
 button{
     width: 100%;
@@ -64,5 +85,33 @@ button{
     border: rgb(255, 0, 0) dotted 2px;
     background: rgba(0, 0, 0, 0.364);
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+    line-height: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button:hover{
+    background: rgba(255, 0, 0, 0.479);
+}
+span{
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+span:hover{
+    color: white;
+}
+
+@media screen and (max-width: 1085px) {
+    section.main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.buttons{
+        flex-direction: row;
+    }
 }
