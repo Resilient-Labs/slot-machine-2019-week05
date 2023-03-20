@@ -56,7 +56,6 @@ function checkMatch(){
     let betAmount = Number(document.getElementById("betAmount").innerText)
     if(slot1Display === slot2Display && slot2Display === slot3Display){
     playerBank = playerBank + (betAmount * 100)
-    alert('YOU\'RE A WINNER HONEY!')
     }
 }
 // if player wins add money to bank
