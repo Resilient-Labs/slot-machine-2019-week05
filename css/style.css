@@ -6,6 +6,10 @@
 body{
     background: black;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 tr{
@@ -19,10 +23,12 @@ table{
     padding: 40px;
     font-size: 10rem;
 }
+tr{
+    padding-top: 30px;
+}
 div.allSlots{
-    width: 100%;
+    width: 40%;
     padding-top: 20px;
-    margin-left: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,9 +38,13 @@ div.slot{
     width: 33%;
     float: left;
     object-fit: cover;
+    border-radius: 10px;
+    border: double white 10px;
+    margin: 10px;
+    padding: 0px;
 }
 img{
-    width: 60%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
 }
@@ -48,9 +58,11 @@ div.buttons{
     font-size: 10rem;
 }
 button{
-    width: 20%;
+    width: 100%;
     border-radius: 20px;
     color: white;
-    border: white dotted 2px;
+    border: rgb(255, 0, 0) dotted 2px;
     background: rgba(0, 0, 0, 0.364);
+    margin: 10px;
+    padding: 10px;
 }
