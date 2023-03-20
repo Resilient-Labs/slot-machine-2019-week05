@@ -1,0 +1,84 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+h2{
+  font-size: 3rem;
+  color: white;
+}
+.reels{
+  display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+.reel{
+  flex: 1;
+    width: 33.33%;
+    height: 250px;
+    margin: 5px;
+}
+.container{
+  text-align: center;
+}
+body{
+  background-image: url('../img/background.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.minBet, .maxBet, .resetButton{
+    height: 31px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-width: thin;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}

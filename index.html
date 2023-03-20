@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Slot Machine</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1 class="lucky">🌀 Feelin' Lucky? Have a Spin 🌀</h1>
+
+	<section>
+		<section class="reels">
+			<img class="reel" value="1" id="reel1" src="img/1.png" alt="">
+			<img class="reel" value="2" id="reel2" src="img/1.png" alt="">
+			<img class="reel" value="3" id="reel3" src="img/1.png" alt="">
+		</section>
+		<section class="container">
+			<section class="buttons">
+				<button value="50" class="minBet">$50</button> <button value="100" class="maxBet">$100</button>
+				<form action=""><button class="resetButton">Reset</button></form>
+			</section>
+			<section>
+				<h2>Total: $<span class="total">1000</span></h2>
+				<h2 class="winlose"></h2>
+			</section>
+		</section>
+	</section>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
