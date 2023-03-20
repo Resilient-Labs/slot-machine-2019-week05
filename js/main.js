@@ -61,10 +61,10 @@ function checkMatch(){
 // if player wins add money to bank
 
 function take10(){
-    if (playerBank >= 10){
-        betAmount = 10
+    if (playerBank >= 25){
+        betAmount = 25
         document.getElementById("betAmount").innerText = betAmount
-        playerBank -= 10
+        playerBank -= 25
         document.getElementById("playerBank").innerText = playerBank
         displaySymbols()
     } else {
@@ -74,10 +74,10 @@ function take10(){
 // player makes high bet
 
 function take50(){
-    if (playerBank >= 50){
-        betAmount = 50
+    if (playerBank >= 100){
+        betAmount = 100
         document.getElementById("betAmount").innerText = betAmount
-        playerBank -= 50
+        playerBank -= 100
         document.getElementById("playerBank").innerText = playerBank
         displaySymbols()
     } else {
