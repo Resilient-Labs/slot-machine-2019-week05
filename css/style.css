@@ -1,0 +1,91 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: gainsboro;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 72px;
+  font-family: 'play', sans-serif;
+  background-image: linear-gradient(to bottom, rgb(226, 124, 69) 50%, rgb(232,202,83)50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: blue;
+  color: transparent;
+}
+
+/* Style the main section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+/* Style the slot reels */
+.reel {
+  margin: 0 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Style the reel images */
+.reel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the buttons section */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style the bet buttons */
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the reset button */
+#resetButton {
+  background-color: #f44336;
+}
+
+/* Style the total amount */
+#total {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+}
+
+/* Style the display message */
+#display {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+
