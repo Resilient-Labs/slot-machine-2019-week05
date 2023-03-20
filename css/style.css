@@ -116,6 +116,7 @@ span:hover{
         justify-content: center;
     }
     div.buttons{
+        width: 60%;
         flex-direction: row;
     }
 }
@@ -127,5 +128,16 @@ span:hover{
     }
     div.buttons{
         flex-direction: row;
+    }
+
+}
+@media screen and (max-width: 800px){
+    div.allSlots{
+        width: 100%;
+    }
+}
+@media screen and (max-device-width: 800px){
+    div.allSlots{
+        width: 100%;
     }
 }
