@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slot.css">
+</head>
+<body>
+    <header>
+        <h1>Doll Face Slot Machine</h1>
+    </header>
+
+    <section class="rows">
+       <span id="s1"></span>
+       <span id="s2"></span>
+       <span id ="s3"></span>
+    </section>
+
+    
+
+    <section class="balance">
+        <select id="barbsPick">
+            <option value="20">$20</option>
+            <option value="40">$40</option>
+            <option value="80">$80</option>
+            <option value="160">$160</option>
+            <option value="240">$240</option>
+            <option value="480">$480</option>
+            <option value="600">$600</option>
+            <option value="800">$800</option>
+            <option value="1000">$1000</option>
+        </select>
+
+
+
+       <h2>Barbsbalance</h2>
+       <h3 id="Result"></h3>
+       <h4 id="barbsTotal"></h4>
+       <button id="spin">Spin</button>
+       <button id="minBet">Minimum</button>
+       <button id="maxBet">Maximum</button>
+    </section>
+
+    <script src="slot.js"></script>
+</body>
+</html>
