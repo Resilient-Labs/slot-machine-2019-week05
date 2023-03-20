@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(../IMG/background-yu-gi-oh.jpeg);
+    background-size: cover;
+    font-family: 'Passero One', 'cursive', 'Helvetica';
+}
+    header{
+        width: 100%;
+        height: 15px;
+        clear: both;
+    }
+    
+    h1 , p , h2, h3{
+        /* background-color: rgba(99, 109, 109, 0.3); */
+        text-align: center;
+        color: white;
+    }
+        h1{
+            font-size: 3rem;
+        }
+        h2, h3{
+            display: inline;
+        }
+        p{
+            font-size: 2rem;
+        }
+    .slot{
+        width: 100%;
+        height: 408px;
+        float: left;
+        /* border: 1px solid black; */
+    }
+        #slots1 , #slots2, #slots3{
+            width: 26%;
+            height: 399px;
+            float: left;
+            margin-left: 5.55%;
+            /* border: 4px solid black;
+            background-color: black; */
+        }
+            #img1 , #img2, #img3, #img4, #img5{
+                width: 79%;
+                margin-left: 11%;
+            }
+        #slots4 , #slots5{
+            width: 26%;
+            height: 399px;
+            float: left;
+            margin-left: 15%;
+            /* background-color: black;
+            border: 4px solid black; */
+        }
+    .buttons{
+        margin-top: 20%;
+        margin-left: 31.6%;  
+        
+    }
+        #dollarBtn, #fifteenBtn, #twentyFiveBtn, #fiftyBtn{
+            border-radius: 4px;
+            width: 12%;
+            height: 44px;
+            background: url(../IMG/goldMetal.jpg);
+            font-weight: 700;
+            font-family: 'Passero One', 'cursive', 'Helvetica';
+            font-size: 1.7rem;
+        }
