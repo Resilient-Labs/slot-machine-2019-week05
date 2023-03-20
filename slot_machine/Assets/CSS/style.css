@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+---------------------------------------------------
+Global Stylings
+---------------------------------------------------
+*/
+html {
+    font-size: 62.5%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    min-width: 300px;
+}
+body {
+    background: linear-gradient(-45deg, rgb(225,27,143), rgb(19,226,242), rgb(106,27,158));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*
+---------------------------------------------------
+Main Heading
+---------------------------------------------------
+*/
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 60px;
+    letter-spacing: 30px;
+    color: rgb(210,57,93);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(185,85,217);
+
+}
+.wheel {
+    background: linear-gradient(rgb(230,143,64), rgb(237,213,29), rgb(210,57,93));
+    height: 350px;
+    padding-top: 1px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 100%;
+}
+/*
+---------------------------------------------------
+Slots
+---------------------------------------------------
+*/
+#firstSlot {
+    width: 25%;
+    height: 120px;
+    border: 20px groove rgb(230,143,64);
+    float: left;
+    margin-right: 7%;
+    margin-left: 5.5%;
+    background: rgb(237,213,29);
+}
+#secondSlot {
+    width: 25%;
+    height: 120px;
+    border: 20px groove rgb(230,143,64);
+    float: left;
+    margin-right: 7%;
+    background: rgb(237,213,29);
+    margin-bottom: 53px;
+}
+#thirdSlot {
+    width: 25%;
+    height: 120px;
+    border: 20px groove rgb(230,143,64);
+    float: left;
+    margin-right: 4%;
+    background: rgb(237,213,29);
+}
+
+/*
+---------------------------------------------------
+Inputs
+---------------------------------------------------
+*/
+input {
+    float: left;
+    margin-left: 651px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+#cashAmount {
+    display: block;
+    text-align: center;
+    width: 150px;
+    color: forestgreen;
+    font-size: 6rem;
+    clear: both;
+}
+section > span {
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(210,57,93);
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/*
+---------------------------------------------------
+Buttons
+---------------------------------------------------
+*/
+main {
+    margin: 0 300px 0 300px;
+}
+button {
+    font-size: 2.5rem;
+    width: 100%;
+    background: linear-gradient(-45deg, rgb(213,21,136), rgb(47,230,247), rgb(106,27,158));
+    color: #ffffff;
+    letter-spacing: 10px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+button:active,
+button:hover {
+  outline: 0;
+}
+button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+button:hover span {
+  background: none;
+}
+
+/*
+---------------------------------------------------
+Media Query
+---------------------------------------------------
+*/
+@media (max-width: 860px) {
+    main {
+        margin: 0 150px 0 150px;
+    }
+}
+@media (max-width: 560px) {
+    main {
+        margin: 0 50px 0 50px;
+    }
+}
+@media (max-width: 345px) {
+    main {
+        margin: 0;
+    }
+}
