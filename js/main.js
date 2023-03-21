@@ -31,6 +31,7 @@ function spinMax() {
 function checkWin(bet){
   if (slotResult1.src === slotResult2.src && slotResult2.src === slotResult3.src) {
     cashAmount.innerText = bet * 10 + parseInt(cashAmount.innerText)
+    alert('Winner!')
   } else {
     cashAmount.innerText -= bet
   }
