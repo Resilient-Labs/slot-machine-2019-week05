@@ -8,15 +8,18 @@ body{
     background-size:cover;
     font-family: 'Merienda', 'Helvetica', 'sans-serif', cursive;
 }
+html{
+    font-size: 62.5%;
+    }
 h1{
     color: black;
-    font-size: 70px;
+    font-size: 7rem;
     background-color: rgba(229, 76, 113, 0.732);
     margin: 3% 25% 0 25%;
 }
 .title > p {
     background-color:  rgba(255,215,0, 0.732);
-    font-size: 40px;
+    font-size: 4rem;
     margin: 0 35% 0 35%;
 }
 #slotOne{
@@ -43,11 +46,11 @@ h1{
 }
 h2{
     margin-top:10%;
-    font-size:90px;
+    font-size:9rem;
 }
 .funds{
     color: rgb(255,215,0);
-    font-size:30px;
+    font-size:3rem;
 }
 button{
     width: 170px;
@@ -55,9 +58,50 @@ button{
     border-radius: 20px;
     background-color: rgb(20, 255, 41);
     font-family: 'Merienda', 'Helvetica', 'sans-serif', cursive;
-    font-size: 18px;
+    font-size: 1.8rem;
 
 }
     #max{
         margin-left: 10%;
-    }    
+    } 
+    
+@media (max-width: 1500px){
+    h1{
+        font-size:4rem;
+    }
+    .title > p {
+        font-size:2rem;
+    }
+    #max {
+        margin-left:0;
+    }
+}
+@media (max-width: 1070px){
+    .funds{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 1030px){
+    button{
+        width: 100px;
+        height: 45px;
+        font-size:1rem;
+    }
+    h2{
+        margin-bottom: 1%;
+    }
+}
+@media (max-width: 800px){
+    h2{
+        font-size:6rem;
+        margin-top: 14%;
+    }
+}
+@media (max-width: 600px){
+    h1{
+        font-size:3.5rem;
+    }
+    .funds{
+        font-size:1.5rem;
+    }
+}
