@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align:center;
+    /* margin-top:3%; */
+    background: url(../images/slot.jpeg) no-repeat center center fixed;
+    background-size:cover;
+    font-family: 'Merienda', 'Helvetica', 'sans-serif', cursive;
+}
+h1{
+    color: black;
+    font-size: 70px;
+    background-color: rgba(229, 76, 113, 0.732);
+    margin: 3% 25% 0 25%;
+}
+.title > p {
+    background-color:  rgba(255,215,0, 0.732);
+    font-size: 40px;
+    margin: 0 35% 0 35%;
+}
+#slotOne{
+    height:100px;
+    width:10%;
+    margin-left:35%;
+    float:left;
+}
+#slotTwo {
+    height:100px;
+    width:10%;
+    float:left;
+}
+#slotThree{
+    height:100px;
+    width:10%;
+    float:left;
+}
+.btn {
+    clear:both;
+}
+.funds{
+    clear:both;
+}
+h2{
+    margin-top:10%;
+    font-size:90px;
+}
+.funds{
+    color: rgb(255,215,0);
+    font-size:30px;
+}
+button{
+    width: 170px;
+    height: 55px;
+    border-radius: 20px;
+    background-color: rgb(20, 255, 41);
+    font-family: 'Merienda', 'Helvetica', 'sans-serif', cursive;
+    font-size: 18px;
+
+}
+    #max{
+        margin-left: 10%;
+    }    
