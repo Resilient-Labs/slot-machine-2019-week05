@@ -10,7 +10,7 @@ let message = document.querySelector('#result')
 
 function makeMoney(){
      if(bankAmount <= 0){
-        return alert('Contact 1800-Gambling')
+        return alert('Contact 1800-GAMBLER or Refresh Game !!')
      }
     let betAmount = Number(document.querySelector('#betPicker').value)
           
@@ -31,7 +31,13 @@ function makeMoney(){
         message.innerText = 'winner!'
 
     } 
-    else{
+    else if (betAmount > bankAmount){
+        return alert('Not Enough Funds. Please Make A Smaller Wager!!!')
+    }
+
+
+
+    else {
         bankAmount = bankAmount - betAmount
         total.innerText = bankAmount
         message.innerText = 'you lose!'
