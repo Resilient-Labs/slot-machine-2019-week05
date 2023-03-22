@@ -1,0 +1,53 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/logoback.png);
+}
+h1, h2, h3{
+  border: 2px solid brown;
+  background-color: tan;
+  
+}
+
+.pics{
+ display: flex;
+ justify-content: space-around;
+  width: 50%;
+  
+  height: 230px;
+}
+#picOne, #picTwo, #picThree{
+  
+  
+  height: 150px;
+}
+img{
+  height: 175px;
+  
+}
+
+
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
