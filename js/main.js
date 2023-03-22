@@ -1,12 +1,14 @@
 // VARIABLES
-const resetButton = document.querySelector(".resetButton");
 const minBet = document.querySelector(".minBet");
 const maxBet = document.querySelector(".maxBet");
 const reel1 = document.querySelector("#reel1");
 const reel2 = document.querySelector("#reel2");
 const reel3 = document.querySelector("#reel3");
 const total = document.querySelector(".total");
-const decision = document.querySelector(".winlose");
+const decision = document.querySelector(".winLose");
+const x = document.querySelector(".closeOne");
+const y = document.querySelector(".closeTwo");
+const z = document.querySelector(".closeThree");
 let updatedTotal = 1000;
 
 // FUNCTIONS
@@ -23,22 +25,23 @@ const slotRandomizer = () => {
 const minRoll = (bet) => {
   bet = 50;
   if (bet > updatedTotal) {
-    decision.innerText = "NICE TRY, GO HOME BEFORE I CALL YOUR MAMA";
+    outOfMoneyModal();
   } else {
     slotRandomizer();
-    if (reel1 === reel2 && reel2 === reel3) {
+    if (reel1.src === reel2.src && reel2.src === reel3.src) {
       updatedTotal += bet * 10;
       total.innerHTML = updatedTotal;
       console.log(total);
       console.log(updatedTotal);
-      decision.innerText = "YOU WIN!!!";
+      winModal();
+      decision.innerText = "WINNER!";
     } else {
       updatedTotal -= bet;
       total.innerHTML = updatedTotal;
       console.log(total);
       console.log(updatedTotal);
       console.log(bet);
-      decision.innerText = "LOSSAH!!!";
+      decision.innerText = "LOSER! TRY AGAIN";
       console.log(total.value);
     }
   }
@@ -46,69 +49,55 @@ const minRoll = (bet) => {
 
 const maxRoll = (bet) => {
   bet = 100;
-  if (bet > updatedTotal) {
-    decision.innerText = "NICE TRY, GO HOME BEFORE I CALL YOUR MAMA";
+  if (updatedTotal === 0) {
+    outOfMoneyModal();
+  } else if (bet > updatedTotal) {
+    notEnoughMoneyModal();
   } else {
     slotRandomizer();
-    if (reel1 === reel2 && reel2 === reel3) {
+    if (reel1.src === reel2.src && reel2.src === reel3.src) {
       updatedTotal += bet * 10;
       total.innerHTML = updatedTotal;
       console.log(total);
       console.log(updatedTotal);
-      decision.innerText = "YOU WIN!!!";
+      winModal();
+      decision.innerText = "WINNER!";
     } else {
       updatedTotal -= bet;
       total.innerHTML = updatedTotal;
       console.log(total);
       console.log(updatedTotal);
       console.log(bet);
-      decision.innerText = "LOSSAH!!!";
+      decision.innerText = "LOSER! TRY AGAIN";
       console.log(total.value);
     }
   }
 };
 
-// const reset = () => {
-//   updatedTotal = 1000;
-//   reel1.src === "img/frog.png";
-//   reel2.src === "img/frog.png";
-//   reel3.src === "img/frog.png";
-// };
+// MODALS
+const winModal = () => {
+  document.getElementById("winModal").style.display = "block";
+};
+const outOfMoneyModal = () => {
+  document.getElementById("outOfMoneyModal").style.display = "block";
+};
+const notEnoughMoneyModal = () => {
+  document.getElementById("notEnoughMoneyModal").style.display = "block";
+};
+
+const closeOne = () => {
+  document.getElementById("winModal").style.display = "none";
+};
+const closeTwo = () => {
+  document.getElementById("outOfMoneyModal").style.display = "none";
+};
+const closeThree = () => {
+  document.getElementById("notEnoughMoneyModal").style.display = "none";
+};
 
 // EVENT LISTENERS
 minBet.addEventListener("click", minRoll);
 maxBet.addEventListener("click", maxRoll);
-resetButton.addEventListener("click", reset);
-
-// const maths = (bet) => {
-//   bet = Number(minBet.target.value);
-//   if ((reel1 === reel2) === reel3) {
-//     updatedTotal += Number(bet) * 10;
-//     total.innerHTML = updatedTotal;
-//     console.log(total);
-//     console.log(updatedTotal);
-//     alert("YOU WIN!!!");
-//   } else {
-//     updatedTotal -= Number(bet);
-//     total.innerHTML = updatedTotal;
-//     console.log(total);
-//     console.log(updatedTotal);
-//     console.log(bet);
-//     alert("LOSAH!!!");
-//   }
-// };
-// if(randomReel === 1){
-//   reelOne.scr ==='1.png'
-// }
-// else if(randomReel === 2){
-//   reelOne.value ==='1'
-// }
-// else if(randomReel === 3){
-//   reelOne.value ==='1'
-// }
-// else if(randomReel === 4){
-//   reelOne.value ==='1'
-// }
-// else if(randomReel === 5){
-//   reelOne.value ==='1'
-// }
+x.addEventListener("click", closeOne);
+y.addEventListener("click", closeTwo);
+z.addEventListener("click", closeThree);

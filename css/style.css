@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-
+  font-family: 'Abril Fatface', cursive;
 }
 
 html{
@@ -45,40 +45,184 @@ footer {
 /*******************************************/
 h1{
   text-align: center;
-  font-size: 3rem;
-  color: white;
+  font-size: 5rem;
+  color: red;
 }
 h2{
   font-size: 3rem;
   color: white;
 }
+.total-container{
+  margin-top: 0px;
+}
+.overlay {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 150%;
+  position: relative;
+  z-index: 1;
+}
+.winLose{
+  font-size: 4rem;
+  text-align: center;
+  margin: 0px;
+}
+.container{
+  margin-top: 91px;
+}
 .reels{
   display: flex;
-    width: 50%;
+    width: 62%;
     margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 15px;
+}
+.reels img{
+  margin-right: 5px;
+}
+.reels img:last-child{
+  margin-right: 0px;
 }
 .reel{
   flex: 1;
     width: 33.33%;
-    height: 250px;
-    margin: 5px;
+    height: 287px;
+    /* margin: 5px; */
 }
-.container{
+.button-container{
   text-align: center;
+  margin-top: 90px;
 }
 body{
-  background-image: url('../img/background.avif');
-  background-size: cover;
+  background-image: url('../img/background.webp');
+  background-position: center center;
+  /* background-size: cover;  */
   background-repeat: no-repeat;
-  height: 100vh;
-}
+  object-fit: contain;
+  }
 .minBet, .maxBet, .resetButton{
-    height: 31px;
+    height: 68px;
+    width: 123px;
     border-radius: 9px;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-align: center;
     border-width: thin;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 
 }
+
+/* MODAL */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgb(255, 255, 255);
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  background: rgb(0, 67, 175);
+}
+
+/* Close Button */
+.closeOne, .closeTwo, .closeThree {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+p{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+.pointer{
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 840px){
+  h1{
+    font-size: 4.5rem;
+  }
+  .container{
+    margin-top: 70px;
+  }
+}
+@media (max-width: 768px){
+  h1{
+    font-size: 4rem;
+  }
+  .container{
+    margin-top: 70px;
+  }
+  .reels{
+    width: 77%;
+  }
+  .reel{
+    height: 287px;
+  }
+  .reels img:last-child{
+    padding-right: 7px;
+  }
+  .overlay{
+    width: 55%;
+  }
+}
+@media (max-width: 526px){
+  .lucky{
+    font-size: 3.5rem;
+  }
+  .reels{
+    width: 90%;
+  }
+  .winLose{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 390px){
+  .lucky{
+    font-size: 4rem;
+  }
+  .container{
+    margin-top: 40px;
+  }
+  .reels{
+    width: 99%;
+    padding-left: 2px;
+  }
+  .reel{
+    height: 272px;
+  }
+  .reels img:last-child{
+    padding-right: 2px;
+  }
+  .overlay{
+    width: 60%;
+  }
+  .winLose{
+    font-size: 2rem;
+  }
+  .button-container{
+    margin-top: 48px;
+  }
+}
+

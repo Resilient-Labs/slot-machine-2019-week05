@@ -10,30 +10,57 @@
 	<title>Slot Machine</title>
 
 	<!-- external CSS link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/@phosphor-icons/web"></script>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<h1 class="lucky">🌀 Feelin' Lucky? Have a Spin 🌀</h1>
-
-	<section>
+	<h1 class="lucky">RAW VS SMACKDOWN SLOTMANIA</h1>
+	<section class="container">
 		<section class="reels">
 			<img class="reel" value="1" id="reel1" src="img/1.png" alt="">
 			<img class="reel" value="2" id="reel2" src="img/1.png" alt="">
 			<img class="reel" value="3" id="reel3" src="img/1.png" alt="">
 		</section>
-		<section class="container">
+		<div class="overlay">
+			<h2 class="winLose">Select Amount To Start</h2>
+		</div>
+		<section class="button-container">
 			<section class="buttons">
-				<button value="50" class="minBet">$50</button> <button value="100" class="maxBet">$100</button>
-				<form action=""><button class="resetButton">Reset</button></form>
+				<button value="50" class="minBet pointer">$50</button> <button value="100" class="maxBet pointer">$100</button>
+				<form action=""><button class="resetButton pointer">Reset</button></form>
 			</section>
-			<section>
+			<section class="total-container">
 				<h2>Total: $<span class="total">1000</span></h2>
-				<h2 class="winlose"></h2>
 			</section>
 		</section>
 	</section>
+
+	<div id="winModal" class="modal">
+		<div class="modal-content">
+			<span class="closeOne">&times;</span>
+			<p><i class="ph ph-sparkle"></i> YOU WIN!!! DON'T SPEND IT ALL IN ONE PLACE! <i class="ph ph-sparkle"></i></p>
+		</div>
+	</div>
+
+	<div id="outOfMoneyModal" class="modal">
+		<div class="modal-content">
+			<span class="closeTwo">&times;</span>
+			<p><i class="ph ph-mask-sad"></i> OUT OF MONEY, GO HOME BEFORE THE BIG SHOW KICKS YOU OUT OF THE RING <i
+					class="ph ph-mask-sad"></i></p>
+		</div>
+	</div>
+
+	<div id="notEnoughMoneyModal" class="modal">
+		<div class="modal-content">
+			<span class="closeThree">&times;</span>
+			<p>🙃 NOT ENOUGH FUNDS, BET LESS 🙃</p>
+		</div>
+	</div>
 
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
