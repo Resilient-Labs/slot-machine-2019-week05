@@ -1,7 +1,9 @@
+![TheSlot](https://user-images.githubusercontent.com/126503921/228003361-62abc36d-38d4-4d4e-9ab8-da5122af4e0d.png)
+
 
 <h1>Click on the link to view the site live </h2>
 <a href="https://slotmac.netlify.app/">Slot Machine</a>
-<img src="images/SLOTTT.png>
+
 
 This project is a simple slot machine with 5 images, and 3 reels, and there should be a min or max with a total update as well. I decided to make buttons for amount's of money instead of min, max, with a balance that will provide the user with an update. 
 
