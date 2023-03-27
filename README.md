@@ -21,6 +21,6 @@ At first I apporached this project through a very simple way of 'Oh I'm just mak
 I learned how to put images in javascript and how to effectively call on them as well when programming. 
 
 <h2>Examples:</h2>
-Here is a link to my portfolio as well as a picture of what it looks like. I've also included a couple of links to my work that are in my profile as well: <br>
+Here is the link to my project with a picture included:<br>
 King of Games: https://kingofgames.netlify.app/ <br>
 <img width="1440" alt="Screenshot 2023-03-27 at 12 40 19 PM" src="https://user-images.githubusercontent.com/124817011/228007743-7994d0a9-0c37-4ea8-8cdf-57dc8e8cc04a.png">
