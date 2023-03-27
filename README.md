@@ -18,7 +18,6 @@
 
 <p>Overall, I am proud of this project because most of the brain power on this one was mine (with a touch of help from a dear friend).  JavaScript,  and well, functions as a whole, really, are not my strong suits, so the fact I actually figured this one out was impressive.  Go me.</p>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>I completed the challenge: 5</li>
+  <li>I feel good about my code: 4</li>
 </ul>
