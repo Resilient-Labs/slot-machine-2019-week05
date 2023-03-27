@@ -49,7 +49,7 @@ h1{
   color: red;
 }
 h2{
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
 }
 .total-container{
@@ -96,7 +96,7 @@ h2{
 }
 .button-container{
   text-align: center;
-  margin-top: 90px;
+  margin-top: 80px;
 }
 body{
   background-image: url('../img/background.webp');
@@ -187,21 +187,34 @@ p{
     width: 55%;
   }
 }
+@media(max-width: 767px){
+  h2{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 600px){
+  .winLose{
+    font-size: 2rem;
+  }
+  .button-container{
+    margin-top: 47px;
+  }
+}
 @media (max-width: 526px){
   .lucky{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .reels{
     width: 90%;
   }
-  .winLose{
+  /* .winLose{
     font-size: 3rem;
-  }
+  } */
 }
 @media (max-width: 390px){
-  .lucky{
+  /* .lucky{
     font-size: 4rem;
-  }
+  } */
   .container{
     margin-top: 40px;
   }
@@ -225,4 +238,19 @@ p{
     margin-top: 48px;
   }
 }
-
+@media(max-width: 375px){
+  .container{
+    margin-top: 14px;
+  }
+  .reels{
+    margin-bottom: 10px;
+  }
+  .button-container{
+    margin-top: 13px;
+  }
+.minBet, .maxBet, .resetButton{
+  height: 49px;
+  width: 104px;
+  font-size: 2.5rem;
+}
+}
