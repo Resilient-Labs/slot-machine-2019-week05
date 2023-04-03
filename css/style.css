@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 62.5%;
+}
+body{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+
+}
+div.top{
+    align-self: flex-start;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+}
+tr{
+    text-align: center;
+}
+th:last-child, td:last-child{
+    padding-left: 40px;
+    text-align: left;
+}
+table{
+    width: 30%;
+    font-size: 12rem;
+    margin: 0px;
+    display: inline-block;
+}
+h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 4rem;
+    margin: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+tr{
+    padding-top: 30px;
+}
+section.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+div.allSlots{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div.slot{
+    width: 33%;
+    float: left;
+    object-fit: cover;
+    border-radius: 10px;
+    border: double rgba(255, 255, 255, 0.72) 10px;
+    margin: 10px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    object-fit: cover;
+}
+div.buttons{
+    width: 20%;
+    margin-top: 20px;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+
+}
+button{
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    border: rgb(255, 0, 0) dotted 2px;
+    background: rgba(0, 0, 0, 0.364);
+    margin: 10px;
+    padding: 20px;
+    line-height: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+}
+button:hover{
+    background: rgba(255, 0, 0, 0.479);
+}
+span{
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+span:hover{
+    color: white;
+}
+
+@media screen and (max-width: 1085px) {
+    section.main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.buttons{
+        width: 60%;
+        flex-direction: row;
+    }
+}
+@media screen and (max-device-width: 1085px) {
+    section.main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.buttons{
+        flex-direction: row;
+    }
+
+}
+@media screen and (max-width: 800px){
+    div.allSlots{
+        width: 100%;
+    }
+}
+@media screen and (max-device-width: 800px){
+    div.allSlots{
+        width: 100%;
+    }
+}

@@ -1,24 +1,16 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Spooky Slots
+Play a virtual slot machine game. Players are given a balance to begin playing with and can place a low bet to double their wager or a high bet to multiply it by 100. A message displays when there's been a win, and an alert is shown when players are low on funds. 
 
-### Goal: Build a Simple Slot Machine
+[Check it out here :sparkles:](https://spookyslots.netlify.app)
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+<a href="https://spookyslots.netlify.app" target="_blank">
+    <img src="https://github.com/randicrews/slot-machine/blob/answer/SpookySlots.gif"/>
+</a>
 
-### How to submit your code for review:
+## USING
+- HTML
+- CSS
+- JS
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## TAKEAWAY
+By using DOM methods and properties, I was able to dynamically update the contents of the web page based on user input and game outcomes. This project helped solidify my understanding of the DOM and how to use JavaScript to create interactive web applications.
