@@ -1,4 +1,7 @@
 # 🎰 Week05 Bootcamp2019 Project: Slot Machine
+![slotmachine](https://user-images.githubusercontent.com/116925420/234143712-e2fcf76b-2bda-40ee-88c6-0f4f674ba97c.png)
+Visit: https://lavender-slotmachine.netlify.app
+
 
 ### Goal: Build a Simple Slot Machine
 
