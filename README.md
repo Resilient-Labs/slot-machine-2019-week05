@@ -1,6 +1,8 @@
 # Slot Machine
 A simple slot machine with 5 numbers per reel and 3 reels. Users are able to bet min ($1) or max ($5) and have their total update accordingly.
 
+Link to project: https://menahassan-slot-machine.netlify.app/
+
 # How It's Made:
 Tech used: HTML, CSS, JavaScript
 
