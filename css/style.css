@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.atsuko{
+    background-image: url(../images/atsuko.jpg);
+}
+
+.canary{
+    background-image: url(../images/Canary.jpg);
+}
+
+.michiko{
+    background-image: url(../images/michiko.jpg);
+}
+
+.miyuki{
+    background-image: url(../images/miyuki.jpg);
+}
+
+.yoruichi{
+    background-image: url(../images/Yoruichi.jpg);
+}
