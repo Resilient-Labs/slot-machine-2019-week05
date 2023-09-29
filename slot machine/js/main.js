@@ -5,6 +5,7 @@
 // run function to generate random numbers 
 // if bet is equal to random numbers add amount to users bet 
 // if less than randum number  deduct from user number
+// ro the goat
 let userTotal = Number(document.querySelector('#userInput').value)
 
 document.querySelector('#lockIn').addEventListener('click',displayInput)
