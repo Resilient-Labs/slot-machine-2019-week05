@@ -1,0 +1,84 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.scoreboard {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+.slot1,
+.slot2,
+.slot3 {
+  background-color: #ffd700;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer; 
+  font-size: 16px;
+}
+
+#amount {
+  font-size: 3rem;
+ color: green;
+}
+
+#status {
+  color: #333;
+  margin-top: 20px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden{
+  display:none;
+}
+.hidden2{
+  display:none;
+}
