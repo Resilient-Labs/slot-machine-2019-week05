@@ -18,7 +18,4 @@ Build a simple slot machine with minimum 5 items per reel and 3 reels - user sho
 
 Example:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-it was challengig but i manage to finish on time i was having a hard time on pushing everythng in and also i got help from my classmates joyce, baki, patricia, tenzin, jess
-```
+

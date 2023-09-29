@@ -1,187 +1,97 @@
-  * {
-      box-sizing: border-box;
-  }
-
-
-  body {
-      width: 100vw;
-      height: 100vh;
-      margin: 0;
-      border: 0;
-      padding: 0;
-      background-color: #c4f1b9;
-
-    
-
-  }
-
-  h1 {
-    align-self: center;
-    margin: 1% 2% 1% 39%;
-    color:white;
-    font-family: monospace;
-    font-size: 40px;
-  }
-
-  .Bigbox {
-      width: 100%;
-      height: 100%;
-      border: 1px solid black;
-
-  }
-
-
-
-  #app {
-      width: 60%;
-      height: 600px;
-
-      background: #caecd4;
-      display: flex;
-      flex-direction: column;
-     border:8px dashed white;
-
-      margin: 2% 0% 0% 17%;
-      transition: border 1s ease-in-out;
-       }
-
-       #app:hover {
-        border: 8px solid white;
-      }
-
-  .doors {
-      display: flex;
-      align-self: center;
-     
-    margin: 8% 0% 3% 0%;
-  }
-
-  #doorone {
-      background: #a4f196;
-      box-shadow: 0 0 3px 2px rgb(133, 184, 143) inset;
-
-      width: 100px;
-      height: 150px;
-      overflow: hidden;
-      animation: jump 4s infinite;
-      border-radius: 1px;
-      margin: 1%;
-      padding: 19% 2% 1% 13%;
-    font-size: 44px;
-    color: white;
-    text-shadow: 0 0 10px rgb(24, 24, 24);
-
-  }
-
-  #doortwo {
-    background: #a4f196;
-    box-shadow: 0 0 3px 2px rgb(133, 184, 143) inset;
-
-    width: 100px;
-    height: 150px;
-    overflow: hidden;
-animation: jump 4s infinite;
-    border-radius: 1px;
-    margin: 1%;
-    padding: 19% 2% 1% 13%;
-    font-size: 44px;
-    color: white;
-    text-shadow: 0 0 10px rgb(24, 24, 24);
+body{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/273/915/non_2x/ocean-background-vector.jpg');
+  background-size: cover; /* This will cover the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+#slot-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+h2{
+  color: ghostwhite;
+    text-shadow: 2px 3px rgb(53, 117, 255);
+    font-size: 38px;
 }
 
-#doorthree {
-    background: #a4f196;
-      box-shadow: 0 0 3px 2px rgb(133, 184, 143) inset;
-    width: 100px;
-    height: 150px;
-    overflow: hidden;
-    text-shadow: 0 0 10px rgb(24, 24, 24);
-    
-    animation: jump 4s infinite;
-    border-radius: 1px;
-    margin: 1%;
-    padding: 19% 2% 1% 13%;
-    font-size: 44px;
-    color: white;
+
+.door {
+  width: 124px;
+  height: 183px;
+  border: 3px dashed rgb(254, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  background-color: #BDEDFF;
+}
+
+.door img {
+  max-width: 100%;
+  max-height: 100%;
+  animation: jump 4s infinite;
+
 }
 @keyframes jump {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
 }  
 
 
 
 
-  .boxes {
-      transition: transform 4s ease-in-out;
-  }
 
-  .box {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      font-size: 3px;
-  }
-
-  .buttons {
-      margin: 1px;
-      align-self: center;
-      
-  }
-  #spinner {
-    border-radius: 100%;
-    width: 64%;
-    height: 82%;
-    font-family: monospace;
-    color: white;
+.buttonsCenter{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
 }
-#spinnerTwo {
-    border-radius:100%;
-    width: 64%;
-    height: 82%;
-    font-family: monospace;
-    color: white;
+button {
+  font-size: 100%; /* Responsive font size based on viewport width */
+  padding: 2% 4%; /* Responsive padding */
+  margin: 9%; /* Responsive margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: dodgerblue;
+  color: antiquewhite;
+  text-shadow: 2px 2px black;
+  border: none;
+  border-radius: 5% 5% 44% 8%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
-
-
-  button {
-    cursor: pointer;
-    font-size: 20px;
-    background-color: rgb(121, 234, 108);
-    margin: 2% 1% 2% 10%;
+button:hover {
+  background-color: royalblue;
+  transform: scale(1.05);
 }
+#status {
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(254, 255, 255);
+  text-shadow:2px 2px  #333;
+}
+
+ p, #moneyAmount {
+  font-size: 28px;
+  color:rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(120, 185, 255);
   
+}
 
-  .info {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      text-align: center;
-  }
-
-  .froggg{
-    width: 29px;
-    height:50px;
-  }
-
-
-  p {
-    margin: 12% 2% -1% 30%;
-    display: flex;
-    font-size: 40px;
-    color: black;
-    color: #2d6d46;
-  }
-
-  span{
-    color:#006c12;
-  }
+p{
+  font-size: 27px;
+}
