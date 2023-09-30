@@ -21,10 +21,12 @@ h1 {
 
 h2 {
     font-size: 5rem;
+    margin: 15px 0%;
 }
 
 h3 {
     font-size: 4rem;
+    margin: 9px 0%;
 }
 
 p{
@@ -40,7 +42,7 @@ p{
 
 button {
     width: 10%;
-    font-size: 3.7rem;
+    font-size: 2.5rem;
     background-color: rgb(89, 146, 96);
     color: rgb(240, 240, 240);
     font-weight: 600;
