@@ -1,46 +1,100 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+html {
+    font-size: 62.5%;
+}
+
+body {
     text-align: center;
+    background: rgb(235, 196, 181);
+    background: radial-gradient(circle, rgba(235, 196, 181, 1) 0%, rgba(186, 198, 161, 1) 65%, rgba(130, 200, 138, 1) 100%);
+    color: white;
+    font-family: 'Cute Font', Arial, Helvetica, sans-serif;
 }
 
-#slot-machine{
+h1 {
+    font-size: 10rem;
+    margin: 15px 0%;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+p{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.slot-buttons {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+button {
+    width: 10%;
+    font-size: 3.7rem;
+    background-color: rgb(89, 146, 96);
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+    font-family: 'Cute Font', Arial, Helvetica, sans-serif;
+    border-radius: 9px 9%;
+}
+
+
+
+#slot-machine {
     width: 50%;
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center;
-    justify-content: space-around
-
-}
-
-#slotone, #slottwo, #slotthree{
-    width: 33.3333%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 25%;
+    ;
+
 }
 
-#slotone img, #slottwo img, #slotthree img{
+#slot-machine div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#slotone,
+#slottwo,
+#slotthree {
+    width: 33.3333%;
+    height: 473px;
+}
+
+#slotone img,
+#slottwo img,
+#slotthree img {
     width: 100%;
 }
 
 
-.atsuko{
+.atsuko {
     background-image: url(../images/atsuko.jpg);
 }
 
-.canary{
+.canary {
     background-image: url(../images/Canary.jpg);
 }
 
-.michiko{
+.michiko {
     background-image: url(../images/michiko.jpg);
 }
 
-.miyuki{
+.miyuki {
     background-image: url(../images/miyuki.jpg);
 }
 
-.yoruichi{
+.yoruichi {
     background-image: url(../images/Yoruichi.jpg);
 }
