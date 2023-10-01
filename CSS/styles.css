@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.slotContainer {
+    display: flex;
+}
+
+.reels {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 30%;
+    margin: 1rem;
+}
+
+img {
+    width: 80%;
+    padding: 2rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
