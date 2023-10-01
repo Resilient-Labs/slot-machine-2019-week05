@@ -1,24 +1,49 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot Machine Game
 
-### Goal: Build a Simple Slot Machine
+A fun and interactive slot machine game built using HTML, CSS, and JavaScript.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![Slot Machine Preview](/img/preview.png)
 
-### How to submit your code for review:
+## Features
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- **Three spinning reels** with a variety of emojis.
+- **Dynamic balance display** that updates after each spin.
+- **Player betting**: Players can place minimum and maximum bets.
+- **Win/Lose animations**: Feedback is provided based on the outcome of the spin.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## How to Play
+
+1. **Place a Bet**:
+   - Click on the **Minimum Bet** button to bet $5.
+   - Click on the **Maximum Bet** button to bet $50.
+2. **Spin the Reels**:
+
+   - After placing your bet, click on the **Spin** button.
+   - If all three emojis match, you win! Your balance will increase.
+   - If they don't match, you'll lose the bet amount.
+
+3. **Track Your Balance**:
+   - Your current balance is displayed below the controls.
+   - If your balance is below the bet amounts, the respective bet buttons will disappear.
+
+## Tech Stack
+
+- **HTML**: Used for the structure of the game.
+- **CSS**: Provides the styling and animations.
+- **JavaScript**: Powers the game logic and interactivity.
+
+## Setup and Run
+
+1. **Clone the repository**:
+2. **Open the game**:
+
+- Simply open `index.html` in your preferred web browser ||
+  Use the repository description where you'll find this repo hosted using github pages.
+
+1. **Enjoy**!
+
+## Future Enhancements
+
+- Add more emojis and varied reel outcomes.
+- Implement bonus rounds or a jackpot feature.
+- Introduce user account functionalities with saved balances.
