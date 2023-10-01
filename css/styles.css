@@ -1,0 +1,227 @@
+html {
+	font-size: 62.5%;
+}
+
+.fixed {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: auto;
+	/* display: none; */
+}
+
+/* compiled CSS from https://codepen.io/josfabre/pen/abReBvP */
+
+.debug {
+	position: fixed;
+	top: 4px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 4px;
+	background: white;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	font-family: monospace;
+	font-size: 1.6rem;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(45deg, rgb(222, 188, 188) 0%, lightgray 100%);
+	overflow: hidden;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slots {
+	position: relative;
+	width: 276.5px;
+	height: 237px;
+	display: flex;
+	justify-content: space-between;
+	padding: 23.7px;
+	background: linear-gradient(45deg, grey 0%, lightgray 100%);
+	border-top: 1px solid rgba(255, 255, 255, 0.6);
+	border-right: 1px solid rgba(255, 255, 255, 0.6);
+	border-left: 1px solid rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+}
+.slots::before,
+.slots::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	width: 10px;
+	height: 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.slots::before {
+	left: 0;
+	transform: translate(-200%, -50%);
+}
+.slots::after {
+	right: 0;
+	transform: translate(200%, -50%);
+}
+@-webkit-keyframes win1 {
+	0% {
+		background: linear-gradient(45deg, orange 0%, yellow 100%);
+		box-shadow: 0 0 80px orange;
+	}
+	100% {
+		background: linear-gradient(45deg, grey 0%, lightgrey 100%);
+		box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.3);
+	}
+}
+@keyframes win1 {
+	0% {
+		background: linear-gradient(45deg, orange 0%, yellow 100%);
+		box-shadow: 0 0 80px orange;
+	}
+	100% {
+		background: linear-gradient(45deg, grey 0%, lightgrey 100%);
+		box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.3);
+	}
+}
+@-webkit-keyframes win2 {
+	0% {
+		background: linear-gradient(45deg, lightblue 0%, lightgreen 100%);
+		box-shadow: 0 0 80px lightgreen;
+	}
+	100% {
+		background: linear-gradient(45deg, grey 0%, lightgrey 100%);
+		box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.3);
+	}
+}
+@keyframes win2 {
+	0% {
+		background: linear-gradient(45deg, lightblue 0%, lightgreen 100%);
+		box-shadow: 0 0 80px lightgreen;
+	}
+	100% {
+		background: linear-gradient(45deg, grey 0%, lightgrey 100%);
+		box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.3);
+	}
+}
+.slots.win1 {
+	-webkit-animation: win1 200ms steps(2, end) infinite;
+	animation: win1 200ms steps(2, end) infinite;
+}
+.slots.win2 {
+	-webkit-animation: win2 200ms steps(2, end) infinite;
+	animation: win2 200ms steps(2, end) infinite;
+}
+.slots .reel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 7rem;
+}
+.slots .reel::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.4) 0%,
+		transparent 30%,
+		transparent 70%,
+		rgba(0, 0, 0, 0.4) 100%
+	);
+	box-shadow: inset 0 0 6px 2px rgba(0, 0, 0, 0.3);
+}
+.slots p {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, calc(100% + 30px));
+	text-align: center;
+	font-size: 0.8rem;
+	color: #444;
+}
+.slots p a {
+	color: red;
+	font-weight: 700;
+}
+
+/*  my css */
+
+.controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	gap: 1rem;
+}
+
+.bet-btn,
+.spin-btn {
+	padding: 1rem 2rem;
+	font-size: 1.6rem;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	border: none;
+	transition: background-color 0.3s ease;
+	outline: none;
+}
+
+.bet-btn.min-bet {
+	background-color: #3498db;
+	color: white;
+}
+
+.bet-btn.min-bet:hover {
+	background-color: #2980b9;
+}
+
+.bet-btn.max-bet {
+	background-color: #e74c3c;
+	color: white;
+}
+
+.bet-btn.max-bet:hover {
+	background-color: #c0392b;
+}
+
+.spin-btn {
+	background-color: #2ecc71;
+	color: white;
+	padding: 1rem 3rem;
+}
+
+.spin-btn:hover {
+	background-color: #27ae60;
+}
+
+.balance {
+	text-align: center;
+	font-size: 2.4rem;
+	margin-top: 2rem;
+}
+
+h1,
+h2 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+#instructions {
+	font-size: 3rem;
+}
