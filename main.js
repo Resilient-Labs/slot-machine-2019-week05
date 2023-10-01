@@ -59,7 +59,19 @@ function betFun50() {
 
     resultMin(randImageOne, randImageTwo, randImageThree)
 
+    function zeroMoney() {
+        if (total < 0) {
+            alert('You are out of Money! Game Over! Please refresh page.')
 
+        }
+        else {
+            console.log('no debt')
+        }
+
+
+    }
+
+    zeroMoney()
 
 }
 
@@ -102,11 +114,20 @@ function betFun200() {
 
     resultMax(randImageOne, randImageTwo, randImageThree)
 
+    function zeroMoney() {
+        if (total < 0) {
+            alert('You are out of Money! Game over! Please refresh page.')
+
+        }
+        else {
+            console.log('no debt')
+        }
 
 
+    }
+
+    zeroMoney()
 }
-
-
 
 
 

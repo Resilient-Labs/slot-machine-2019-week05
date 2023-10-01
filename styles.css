@@ -14,11 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(imgs/chipsanddice.avif);
+    /* background-repeat: no-repeat; */
+    background-size: 50%;
 }
 
 section img {
     width: 50%;
     height: 20rem;
+    /* background-color: white; */
 }
 
 #slotcolumn1,
@@ -51,4 +55,9 @@ form {
     display: flex;
     flex-direction: row;
     align-content: center;
+}
+
+h1,
+h2 {
+    color: white;
 }
