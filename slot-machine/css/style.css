@@ -1,0 +1,114 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  border: 1rem solid black;
+  margin: 0 auto;
+  border-radius: 5rem;
+  padding: 5rem;
+  background: white;
+}
+
+.container > div {
+  margin: 2rem 0;
+}
+
+.heading h1 {
+  font-size: 6rem;
+  text-decoration: underline;
+}
+
+.kittySlots {
+  display: flex;
+  justify-content: center;
+}
+
+.kittySlots > div {
+  height: 16.8rem;
+  width: 16.8rem;
+  margin: 0 1rem;
+  background-size: contain;
+}
+
+.betBtns {
+  display: block;
+}
+
+.betBtns button {
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: black;
+  border: 0.3rem solid black;
+  border-radius: 5rem;
+  font-weight: 700;
+  box-shadow: 0 0.9rem #999;
+}
+
+.betBtns button:hover {
+  background: black;
+  color: white;
+}
+
+.betBtns button:active {
+  background: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.outcomes {
+  font-size: 2.5rem;
+  height: 2.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* store pictures in different classes */
+
+.platano {
+  background-image: url('../img/platano.png');
+}
+
+.nestor {
+  background-image: url('../img/nestor.png');
+}
+
+.chicken {
+  background-image: url('../img/chicken.png');
+}
+
+.villanelle {
+  background-image: url('../img/villanelle.png');
+}
+
+.wednesday {
+  background-image: url('../img/wednesday.png');
+}
