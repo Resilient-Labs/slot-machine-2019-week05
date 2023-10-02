@@ -1,6 +1,6 @@
 # ✅ Week05 Project: Avatar the Last Airbender Slot Machine
 
-# Simple To-do List
+# Slot Machine
 This is my Avatar the Last Airbender theme Slot Machine. Since Aang is the avatar, if you spin and all 3 reels show him, you win big!
 
 Will you be lucky enough to spin 3 Avatars?
