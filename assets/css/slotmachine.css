@@ -67,7 +67,7 @@ h1{
 
 
 body{
-    background-image: url(imgs/wallpaper.jpeg);
+    background-image: url(../imgs/wallpaper.jpeg);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     padding-left: 35rem;

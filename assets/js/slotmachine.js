@@ -8,7 +8,7 @@ document.querySelector('#fifty').addEventListener('click', subtract50)
 document.querySelector('.reset').addEventListener('click', reset)
 
 // Make a variable that stores an array to store the image path for each picture in the reel
-let imageArray = ["imgs/aang.png" , "imgs/katara.png" , "imgs/sokka.png" , "imgs/toph.png" , "imgs/zuko.png"]
+let imageArray = ["assets/imgs/aang.png" , "assets/imgs/katara.png" , "assets/imgs/sokka.png" , "assets/imgs/toph.png" , "assets/imgs/zuko.png"]
 
 
 //declare variables to hold the total amount of money on the table and the user's winning. User starts w/ 100 min
