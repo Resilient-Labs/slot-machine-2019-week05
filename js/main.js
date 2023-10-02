@@ -10,7 +10,7 @@ let thailand = document.querySelector(".thailand");
 let cappodocia = document.querySelector(".cappodocia");
 
 // // create total amount, min bet amount , and starting total
-// let total = 1000
+let startingTotal = 1000
 // let bet10 = 10;
 // let bet50 = 50;
 
@@ -47,12 +47,12 @@ function bet10Func() {
     reelTwo.innerHTML = images[Math.floor(Math.random() * 5)]
     reelThree.innerHTML = images[Math.floor(Math.random() * 5)]
 
-    if (reelOne === reelTwo && reelTwo === reelThree) {
-        totalDisplay.innerText = Number(totalDisplay += 10)
-        document.querySelector('#resultText').innerText = "WHERE'S MY SUPER SUIT!?! Congrats winner!"
+    if (reelOne.innerHTML === reelTwo.innerHTML && reelTwo.innerHTML === reelThree.innerHTML) {
+        totalDisplay.innerText = Number(startingTotal += 10)
+        document.querySelector('#resultText').innerText = "Where's My Super Suit!?! Congrats winner!"
     } else {
-        totalDisplay.innerText = Number(totalDisplay -= 10)
-        document.querySelector('#resultText').innerText = "Look's Like Staycation's Only For You"
+        totalDisplay.innerText = Number(startingTotal -= 10)
+        document.querySelector('#resultText').innerText = "You don't like fun?"
     }
 }
     function bet50Func () {
@@ -60,12 +60,12 @@ function bet10Func() {
         reelTwo.innerHTML = images[Math.floor(Math.random() * 5)]
         reelThree.innerHTML = images[Math.floor(Math.random() * 5)]
     
-        if (reelOne === reelTwo && reelTwo === reelThree) {
-            totalDisplay.innerText = Number(totalDisplay + 50)
-            document.querySelector('#resultText').innerText = "WHERE'S MY SUPER SUIT!?! Congrats winner!"
+        if (reelOne.innerHTML === reelTwo.innerHTML && reelTwo.innerHTML === reelThree.innerHTML) {
+            totalDisplay.innerText = Number(startingTotal += 50)
+            document.querySelector('#resultText').innerText = "Where's My Super Suit!?! Congrats winner!"
         } else {
-            totalDisplay.innerText = Number(totalDisplay - 50)
-            document.querySelector('#resultText').innerText = "You don't like fun?"
+            totalDisplay.innerText = Number(startingTotal -= 50)
+            document.querySelector('#resultText').innerText = "Look's Like Staycation's Only For You"
         }
     // document.querySelector('#updatedTotal').innerText = total
 
@@ -73,58 +73,3 @@ function bet10Func() {
     //     document.querySelector('#resultText').innerText = "Looks Like Vacation Will Have To Wait Until Next Year. You Lost!"
     // }
 }
-
-
-// // we want to click on a button, makes 1 of 5, 1 of 5 , and 1 of 5 images appear, if images === to each other you win, if images do not === you lose
-// // 
-
-// // create function to display results, use text content instead of inner text because it will grab elements 
-// function updateDisplay(result) {
-//   resultDisplay.textContent = result;
-//   betDisplay.textContent = bet;
-// }
-
-// // Step 5: Function to handle spinning
-// function spin() {
-//   if (bet > totalAmount) {
-//     alert("You don't have enough balance!");
-//     return;
-//   }
-  
-//   totalAmount -= bet; // Deduct the bet from total amount
-  
-//   // Generate random image indices for each reel
-//   const indices = [];
-//   for (let i = 0; i < 3; i++) {
-//     indices.push(RandomIndex());
-//   }
-
-//   // Set the src attribute of images based on the random indices
-//   for (let i = 0; i < reels.length; i++) {
-//     reels[i].children[0].children[0].src = `image${indices[i] + 1}.jpg`;
-//   }
-
-//   // Determine the result
-//   const uniqueIndices = new Set(indices);
-//   const result = uniqueIndices.size === 1 ? "Jackpot! You Win!" : "Try Again!";
-  
-//   // Update the total amount and display
-//   totalAmount += (uniqueIndices.size === 1) ? bet * 10 : 0; // If it's a jackpot, add 10 times the bet amount
-//   updateDisplay(result);
-// }
-
-// // Step 6: Add event listeners for buttons
-// spinButton.addEventListener('click', spin);
-
-// minBetButton.addEventListener('click', function() {
-//   bet = 10;
-//   updateDisplay('');
-// });
-
-// maxBetButton.addEventListener('click', function() {
-//   bet = 300;
-//   updateDisplay('');
-// });
-
-// // Step 7: Initial display update
-// updateDisplay('');

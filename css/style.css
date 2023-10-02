@@ -11,20 +11,24 @@
 
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
-  font-family: 'Rechtman', Arial, Helvetica, sans-serif;
+  font-family: 'Rechtman', 'Kaushan Script', Arial, Helvetica, sans-serif;
   font-size: 62.5% /* =10px so that 1 rem = 10px*/
 }
 
-img{
+@font-face {
+  font-family: 'Rechtman';
+  src: url(RECHTMAN.TTF);
+}
+img {
   width: 35rem;
   height: 24rem;
   box-shadow: 1rem 2rem rgba(0, 0, 0, 0.4); 
   border-radius: 2.5rem; 
 }
 
-h1{
+h1 {
   font-size: 11rem;
   margin: 3rem 1rem 0 1rem;
   text-align: center;
@@ -32,16 +36,12 @@ h1{
   color: white;
 }
 
-h2, p{
+h2 {
   font-size: 3.5rem;
   text-align: center;
   font-style: italic;
   color: white;
   margin: 0 1rem;
-}
-
-p{
-  font-size: 2.3rem;
 }
 
 /* make the background vacation loop gif and fix the size so that it covers the back*/
@@ -80,15 +80,20 @@ body {
   padding: 2rem;
 }
 
-.bet10, .bet50{
+.bet10, .bet50 {
   box-shadow: .5rem 1rem rgba(0, 0, 0, 0.4); 
   border-radius: 2.5rem;
 }
 
-#resultText, #updatedTotal{
+#resultText, #updatedTotal {
   text-align: center;
   font-size: 6rem;
   color: rgb(212, 201, 181);
+}
+
+#resultText{
+  padding-bottom: -4rem;
+  margin-bottom: -4rem;
 }
 /* column styling so the list inside looks like a slot reel */
 .reels {
@@ -104,7 +109,7 @@ body {
   border-radius: 2.5rem; 
 }
 
-.reel1, .reel2, .reel3{
+.reel1, .reel2, .reel3 {
   border: 1px solid #000;
   box-shadow: 1rem 2rem rgba(0, 0, 0, 0.4); 
   border-radius: 2.5rem; 
