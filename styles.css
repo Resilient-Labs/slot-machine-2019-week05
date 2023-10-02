@@ -22,7 +22,9 @@ body {
 section img {
     width: 50%;
     height: 20rem;
-    /* background-color: white; */
+    background-color: white;
+    border: 1px solid black;
+    padding: 2rem;
 }
 
 #slotcolumn1,
