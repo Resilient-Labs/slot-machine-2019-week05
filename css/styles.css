@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+body {
+    background-image: url('https://cdn.wikimg.net/en/strategywiki/images/9/9f/Pokemon_FRLG_CeruleanCity.png');
+}
+main{
+    display: flex;
+}
 img{
     height: 70px;
     width: 70px;
@@ -8,4 +14,36 @@ img{
 #reels{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.339);
+}
+p{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 25px;
+}
+h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.500);
+    border-radius: 25px;
+}
+#bets{
+    text-align: center;
+}
+#results{
+    text-align: center;
+}
+#balance{
+    text-align: center;
 }
