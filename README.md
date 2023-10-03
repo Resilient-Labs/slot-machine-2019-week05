@@ -19,4 +19,4 @@ This slot machine starts you off with a bank of $1000. You can min bet ($5) or m
 This was my first project working with so many JS functions at a time. It taught me that I must pseudocode so I know what's going on when. Something I forgot to do while I was coding was to make sure that there is a different winning multiplier depending on whether the user min betted or max betted. At first, I had the score calculating the same regardless of whether the user min or max bet. I was so deep into my code at that point and didn't know how to fix it without breaking my code so I duplicated my original turnReels function and made 2 of them so I could change the multiplier for the bets.
 
 ## Examples:
-Take a look at similar projects! Simple To-Do List: https://todo-list-rc.netlify.app/
+Take a look at similar projects! Simple To-Do List: https://github.com/JacinthaDev/Todo-list
