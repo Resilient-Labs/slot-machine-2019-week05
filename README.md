@@ -1,10 +1,14 @@
-# ✅ Week05 Project: Avatar the Last Airbender Slot Machine
+# Avatar the Last Airbender Slot Machine
+
+<img width="1440" alt="Avatar-slot-machine" src="https://github.com/JacinthaDev/Slot-Machine/assets/129231721/3356e351-ee8a-4d82-90e0-1cef1603c75c">
+
 
 # Slot Machine
 This is my Avatar the Last Airbender theme Slot Machine. Since Aang is the avatar, if you spin and all 3 reels show him, you win big!
 
 Will you be lucky enough to spin 3 Avatars?
-https://slot-machine-aang.netlify.app
+
+Link to project: https://slot-machine-aang.netlify.app
 
 ## How It's Made:
 Tech used: HTML, CSS, JavaScript
