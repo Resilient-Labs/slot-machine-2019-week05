@@ -1,5 +1,6 @@
-
 # 🎰 Slot Machine!
+
+https://slot-machine-fjh.netlify.app/
 
 ### What I did to build this app:
 
