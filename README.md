@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🎰 Slot Machine!
 
 ### What I did to build this app:
