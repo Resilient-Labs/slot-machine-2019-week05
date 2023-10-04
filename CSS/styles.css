@@ -3,6 +3,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-image: url("../Images/catpaws.jpg");
+}
+
 .slotContainer {
     display: flex;
 }
@@ -13,6 +17,7 @@
     border: 1px solid black;
     border-radius: 30%;
     margin: 1rem;
+    background: white;
 }
 
 img {
@@ -25,3 +30,30 @@ div {
     justify-content: center;
 }
 
+h1,
+h2,
+h3,
+span {
+    font-size: 5rem;
+    color: rgb(53, 168, 53);
+    text-shadow: 3px 4px 3px rgb(5, 34, 87);
+    font-family: 'Titan One', sans-serif;
+    letter-spacing: .2rem;
+}
+
+h2,
+h3 {
+    font-size: 1.5rem;
+}
+
+span {
+    color: yellow;
+    font-size: 3rem;
+}
+
+button {
+    background: lightgreen;
+    padding: 1rem;
+    border-radius: 30%;
+    font-family: 'Titan One', sans-serif;
+}
