@@ -1,6 +1,9 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Week05 Project: Slot Machine
 
 This is a slot machine with 5 items. If the user gets 3 matching items, they will win money. If not, they can continue betting.
+
+Check out the live project: https://kittenmachine.netlify.app/
+
 
 ## How it's made
 
