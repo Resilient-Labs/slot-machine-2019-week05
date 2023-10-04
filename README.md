@@ -12,3 +12,5 @@ For my slot machine I wanted to focus hiding already present images in my HTML f
 - I had some trouble trying to write one general function for all of my code. I found that writing separate functions helped organize my code and my own mental processing of my code.
 - I had the general idea of hiding images that were already present in my HTML code but I found, later with a different project, that creating elements in javascript might have been a more concise and efficient solution.
 -This project really helped me visualize and absorb the concept of variable scope within JS and JS functions. It also helped me grasp the power of for loops and their versitility within JS.
+
+![image](https://github.com/fjh321/slot-machine-2019-week05/assets/64885403/52719245-751c-437e-9a76-542a6c13b271)
