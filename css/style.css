@@ -34,14 +34,22 @@ h1 {
   text-align: center;
   font-weight: lighter;
   color: white;
+  text-shadow: .3rem .3rem rgba(0, 0, 0, 0.4);
 }
 
-h2 {
+h2, p {
   font-size: 3.5rem;
   text-align: center;
-  font-style: italic;
   color: white;
   margin: 0 1rem;
+  text-shadow: .2rem .2rem rgba(0, 0, 0, 0.4);
+}
+
+p{
+  font-size: 3.4rem;
+  font-style: italic;
+  color: rgb(212, 201, 181);
+  margin-top: -1.5rem;
 }
 
 /* make the background vacation loop gif and fix the size so that it covers the back*/
@@ -89,11 +97,12 @@ body {
   text-align: center;
   font-size: 6rem;
   color: rgb(212, 201, 181);
+  text-shadow: .2rem .2rem rgba(0, 0, 0, 0.7);
 }
 
 #resultText{
   padding-bottom: -4rem;
-  margin-bottom: -4rem;
+  margin: 0 0 -6rem 0;
 }
 /* column styling so the list inside looks like a slot reel */
 .reels {

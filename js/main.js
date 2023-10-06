@@ -10,7 +10,7 @@ let thailand = document.querySelector(".thailand");
 let cappodocia = document.querySelector(".cappodocia");
 
 // // create total amount, min bet amount , and starting total
-let startingTotal = 1000
+let startingTotal = 5000
 // let bet10 = 10;
 // let bet50 = 50;
 
@@ -48,10 +48,10 @@ function bet10Func() {
     reelThree.innerHTML = images[Math.floor(Math.random() * 5)]
 
     if (reelOne.innerHTML === reelTwo.innerHTML && reelTwo.innerHTML === reelThree.innerHTML) {
-        totalDisplay.innerText = Number(startingTotal += 10)
-        document.querySelector('#resultText').innerText = "Where's My Super Suit!?! Congrats winner!"
+        totalDisplay.innerText = 'Bank: ' + (Number(startingTotal += 100))
+        document.querySelector('#resultText').innerText = "Where's My Super Suit!?! +100 Congrats winner!"
     } else {
-        totalDisplay.innerText = Number(startingTotal -= 10)
+        totalDisplay.innerText = 'Bank: ' + (Number(startingTotal -= 10))
         document.querySelector('#resultText').innerText = "You don't like fun?"
     }
 }
@@ -61,10 +61,10 @@ function bet10Func() {
         reelThree.innerHTML = images[Math.floor(Math.random() * 5)]
     
         if (reelOne.innerHTML === reelTwo.innerHTML && reelTwo.innerHTML === reelThree.innerHTML) {
-            totalDisplay.innerText = Number(startingTotal += 50)
-            document.querySelector('#resultText').innerText = "Where's My Super Suit!?! Congrats winner!"
+            totalDisplay.innerText = 'Bank: ' + (Number(startingTotal += 3000))
+            document.querySelector('#resultText').innerText = "Where's My Super Suit!?! +$3000 Congrats winner!"
         } else {
-            totalDisplay.innerText = Number(startingTotal -= 50)
+            totalDisplay.innerText = 'Bank: ' + (Number(startingTotal -= 300))
             document.querySelector('#resultText').innerText = "Look's Like Staycation's Only For You"
         }
     // document.querySelector('#updatedTotal').innerText = total
