@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function userLoses() {
         winLose.innerText = 'You Lose';
+        winLose.style.color = "red"
         userBalance -= currentBet;
         updateBalance();
     }
@@ -80,11 +81,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         return results;
     }
-
+    
     function checkWin(results) {
+        console.log(results)
+        // console.log(results[0])
         const firstSymbol = results[0];
         const isWin = results.every(symbol => symbol === firstSymbol);
-
+        //every method is like a for( Loop ) goes through every element 
         return isWin;
     }
 
@@ -108,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             if (checkWin(results)) {
                 winLose.innerText = 'You Win';
-                // winLose.style.color = "green";  It works but stays green after wins & loss's
+                winLose.style.color = "green";
                 userBalance += currentBet * 2;
             } else {
                 userLoses();            //Else user has lost
