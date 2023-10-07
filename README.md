@@ -18,3 +18,4 @@ I learned alot about formula's for creating a random chance to win & lose.
 The slot machine also taught me alot to breakthings down step by step even breaking a single step into multiple steps.
 
 
+# slotmachine
