@@ -23,6 +23,6 @@ Take a look at similar projects!
 
 Tic-Tac-Toe: https://github.com/JacinthaDev/Tic-Tac-Toe/tree/answer
 
-NASA Picture of the Day Selector: https://github.com/JacinthaDev/NASA
+NASA Picture of the Day Selector: https://github.com/JacinthaDev/simple-nasa-api
 
 Simple To-Do List: https://github.com/JacinthaDev/Todo-list/tree/answer
