@@ -1,24 +1,12 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot Machine
+A simple slot machine with 5 numbers per reel and 3 reels. Users are able to bet min ($1) or max ($5) and have their total update accordingly.
 
-### Goal: Build a Simple Slot Machine
+Link to project: https://menahassan-slot-machine.netlify.app/
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+# How It's Made:
+Tech used: HTML, CSS, JavaScript
 
-### How to submit your code for review:
+# Lessons Learned
+I was able to use Math.ceil() for the first time here. I combinded it with the Math.random() method to generate a different random number between 1-5 for each reel of the slot machine.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+<img src="slot-machine-project-screenshot.JPG">
