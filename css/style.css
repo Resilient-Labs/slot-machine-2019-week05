@@ -1,0 +1,97 @@
+body{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/273/915/non_2x/ocean-background-vector.jpg');
+  background-size: cover; /* This will cover the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+#slot-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+h2{
+  color: ghostwhite;
+    text-shadow: 2px 3px rgb(53, 117, 255);
+    font-size: 38px;
+}
+
+
+.door {
+  width: 124px;
+  height: 183px;
+  border: 3px dashed rgb(254, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  background-color: #BDEDFF;
+}
+
+.door img {
+  max-width: 100%;
+  max-height: 100%;
+  animation: jump 4s infinite;
+
+}
+@keyframes jump {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}  
+
+
+
+
+
+.buttonsCenter{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+button {
+  font-size: 100%; /* Responsive font size based on viewport width */
+  padding: 2% 4%; /* Responsive padding */
+  margin: 9%; /* Responsive margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: dodgerblue;
+  color: antiquewhite;
+  text-shadow: 2px 2px black;
+  border: none;
+  border-radius: 5% 5% 44% 8%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: royalblue;
+  transform: scale(1.05);
+}
+#status {
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(254, 255, 255);
+  text-shadow:2px 2px  #333;
+}
+
+ p, #moneyAmount {
+  font-size: 28px;
+  color:rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(120, 185, 255);
+  
+}
+
+p{
+  font-size: 27px;
+}
