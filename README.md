@@ -1,4 +1,8 @@
 # 🎰 Week05 Bootcamp2019 Project: Slot Machine
+![slotmachine](https://user-images.githubusercontent.com/116925420/234143712-e2fcf76b-2bda-40ee-88c6-0f4f674ba97c.png)
+Visit: https://lavender-slotmachine.netlify.app
+
+A fun game where you place a "bet" of either $5 or $10, to see if you win!
 
 ### Goal: Build a Simple Slot Machine
 
