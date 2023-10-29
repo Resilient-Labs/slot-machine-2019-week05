@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawrence Casino</title>
+    <link rel="stylesheet" href="slotMachine.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Lucky Lawrence Slot Machine</h1>
+        <h4 class="small">Min Bet Winnings: 2 matches = $2 ..... 3 matches = $10</h4>
+        <h4 class="small">Bet 20 Winnings:  2 matches = $10 ..... 3 matches = $40</h4>
+        <h4 class="small">Max Bet Winnings: 2 matches = $50 ..... 3 matches = JACKPOT($500)</h4> 
+
+        <form>
+            <label for="money">Enter the amount of money you wish to bet</label>
+            <input id="money" type="text">
+        </form>
+
+        <button id="minBet">Min Bet $5</button>
+        <button id="betTwenty">Bet $20</button>
+        <button id="maxBet">Max Bet $100</button>
+        <!-- <button onclick="spinMe()">Spin</button>
+        <button onclick="stopMe()">Stop</button> -->
+
+        <section>
+            <span id="firstRow">0</span>
+            <span id="secondRow">0</span>
+            <span id="thirdRow">0</span>
+            <p id="message"></p>
+            <p id="winnings"></p>
+        </section>
+    </div>    
+    
+
+<script src="slotMachine.js"></script>    
+</body>
+</html>

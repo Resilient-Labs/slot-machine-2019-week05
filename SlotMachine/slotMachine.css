@@ -1,0 +1,36 @@
+*{
+    font-size: 62.5%;
+}
+body{
+    background-color: #1d3557;
+}
+.box{
+    background-color: #457b9d;
+    width: 80%;
+    height:850px;
+    margin:5% auto;
+    text-align: center;
+    font-size:10rem;
+}
+
+h1, form{
+    padding:2%;
+}
+button{
+    background-color: #8adadc;
+    margin-bottom: 5%;
+    padding:1%;
+}
+
+span{
+    font-size: 12rem;
+    padding:1%;
+    border:3px solid black;
+}
+h4{
+    font-size: 2rem;
+    margin: 0;
+}
+h1{
+    margin-bottom: -1%;
+}
