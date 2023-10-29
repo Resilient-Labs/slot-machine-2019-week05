@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+
+}
+
+.box1{
+
+    margin: 3rem auto;
+    background: rgba(255, 255, 255, 0.724);
+    border-radius: 3rem;
+    border: 10px solid white;
+
+}
+
+.buttons-container{
+    text-align:center;
+} 
+
+button{
+    margin: 2rem 1rem;
+    border: none;
+    padding: 1.5rem;
+    background-color: rgb(103, 167, 164);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Lilita One', cursive;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+img{
+    margin: 0 1rem;
+}
+
+
+p, h2, h4{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 3rem;
+    color: rgb(203, 92, 71);
+    margin: 0;
+    font-family: 'Lilita One', cursive;
+}
+
+h2, h4{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(203, 92, 71);
+    margin:1rem 0 0 0;
+
+}
+
+
+body{
+    background-image: url(../imgs/wallpaper.jpeg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35rem;
+    padding-right: 35rem;
+
+}
+
