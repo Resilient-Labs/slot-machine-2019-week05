@@ -1,24 +1,14 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+How It's Made:
+Tech used: HTML, CSS, JavaScript, Framework of choice
 
-### Goal: Build a Simple Slot Machine
+I was able to create this simple slot machine by creating 2 functions for each bet allowed.
+This slot machine allows you to bet on a minimum and maximum number to receive either a gain or loss of the bets chosen.
+There are 3 reels with 5 items each, 5 possibilites of vacation destinations: Colombia, Italy, Japan, Thailand, and Turkey
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+Site: https://alejandralondev.github.io/slot-machine/ 
 
-### How to submit your code for review:
+![slot-machine-screenshot](https://github.com/alejandralondev/slot-machine/assets/145242183/b8ef9d32-744d-42de-8685-e08786b57180)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Lessons Learned:
+Don't spend too much time focusing on images, add the extra at the end to make sure app runs and functions
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```

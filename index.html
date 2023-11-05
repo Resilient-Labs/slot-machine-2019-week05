@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Simple slot machine with 3 reels">
+    	<meta name="keywords" content="slot machine, bet">
+
+		<title>Vacation Slot Machine</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!-- Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update -->
+		<!-- 5 vacation spots - colombia, italy, japan, thailand, new zealand -->
+		<h1>Vacation Slot Machine</h1>
+		<p>Colombia, Italy, Japan, Thailand, or Turkey?</p>
+		<h2>Bank starts at $5000.  Minimum bet of $10  Maximum bet of $300</h2>
+		<!-- <p>Test your luck to fly off to Colombia, Italy, Japan, Thailand, or Turkey</p> -->
+
+		<!-- create 5 items = 5 different vacation images, and put them in a list  -->
+		<section class="flexContainer">
+			<div class="reel1">
+				<ul class="reels">
+					<li><img class="colombia" src="img/penol.jpeg" alt="Colombia"></li>
+					<li><img class="italy" src="img/amalficoast.jpeg" alt="Italy"></li>
+					<li><img class="japan" src="img/mtkilajapan.webp" alt="Japan"></li>
+					<li><img class="thailand" src="img/Pulau-Phi-Phi3.jpg" alt="Thailand"></li>
+					<li><img class="cappodocia" src="img/capodoccia.avif" alt="Cappodocia, Turkey"></li>
+				</ul>
+			</div>
+			<div class="reel2">
+				<ul class="reels">
+					<li><img class="colombia" src="img/penol.jpeg" alt="Colombia"></li>
+					<li><img class="italy" src="img/amalficoast.jpeg" alt="Italy"></li>
+					<li><img class="japan" src="img/mtkilajapan.webp" alt="Japan"></li>
+					<li><img class="thailand" src="img/Pulau-Phi-Phi3.jpg" alt="Thailand"></li>
+					<li><img class="cappodocia" src="img/capodoccia.avif" alt="Cappodocia, Turkey"></li>
+				</ul>
+			</div>
+			<div class="reel3">
+				<ul class="reels">
+					<li><img class="colombia" src="img/penol.jpeg" alt="Colombia"></li>
+					<li><img class="italy" src="img/amalficoast.jpeg" alt="Italy"></li>
+					<li><img class="japan" src="img/mtkilajapan.webp" alt="Japan"></li>
+					<li><img class="thailand" src="img/Pulau-Phi-Phi3.jpg" alt="Thailand"></li>
+					<li><img class="cappodocia" src="img/capodoccia.avif" alt="Cappodocia, Turkey"></li>
+				</ul>
+			</div>
+		</section>
+			<div class="betButtons">
+				<button class="bet10" type="button">Bet 10 dollars</button>
+				<button class="bet50" type="button">Bet 300 dollars</button>
+			</div>	
+			<h3 id="resultText"></h3>
+			<h3 id="updatedTotal"></h3>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
